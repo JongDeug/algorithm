@@ -6,5 +6,5 @@ Javascript를 사용하여 공부하고 있습니다.
 
 ## 복습 큐 
 
-[//]: # (- [minSubArrayLen]&#40;challenge/minSubArrayLen.js&#41;)
-[//]: # (- [sameFrequency]&#40;challenge/sameFrequency.js&#41;)
+- [minSubArrayLen](challenge/minSubArrayLen.js)
+- [sameFrequency](challenge/sameFrequency.js)
