@@ -19,38 +19,37 @@
 // 0으로 반환하면 되잖아.
 
 // [문제 세분화하기]
-function minSubArrayLen(list, num) {
-    if (list.length === 0) return 0
+function minSubArrayLen(list, sum) {
+    let total = 0;
+    let start = 0;
+    let end = 0;
+    let minLen = Infinity;
 
-    // 정렬을 해 O(n)
-    // 1,4,5,7,8,9,10,16,22 | 39
-    let sortedList = list.sort((a, b) => a - b);
-    let sum = 0;
-    let result = [];
-
-    // (어차피 정렬을 하고 큰 요소들의 합이 최소 길이)
-    // 큰 인덱스부터 0까지 반복해서 sum 변수, 어떤 리스트에 넣어
-    for (let i = list.length - 1; i >= 0; i--) {
-        sum += sortedList[i];
-        result.push(sortedList[i]);
-
-        // sum 변수가 39보다 크거나 같으면 루프 탈출해서 리스트 길이 반환
-        if (sum >= num) return result.length;
+    while (start < list.length) {
+        // 만약 현재 창의 합이 주어진 합계(sum)에 미치지 못하면 창을 이동
+        if (total < sum && end < list.length) {
+            total += list[end];
+            end++;
+        }
+        // 현재 창의 합이 최소한 주어진 합계를 넘어서면 축소(shrink)해야함.
+        else if (total >= sum) {
+            minLen = Math.min(minLen, end - start);
+            total -= list[start];
+            start++;
+        }
+        // total < sum 인데, end가 list.length를 넘어섬
+        else {
+            break;
+        }
     }
-
-    return 0
+    return minLen === Infinity ? 0 : minLen;
 }
-
-// 이게 맞긴한데 정렬하는게 아닌듯?
-// 배열 그대로 써야하나봐
-
-
 
 
 // console.log(minSubArrayLen([2,3,1,2,4,3], 7))
 // console.log(minSubArrayLen([2,1,6,5,4], 9))
-// console.log(minSubArrayLen([3,1,7,11,2,9,8,21,62,33,19], 52))
+console.log(minSubArrayLen([3,1,7,11,2,9,8,21,62,33,19], 52))
 // console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10],39))
 // console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10],55))
-console.log(minSubArrayLen([4, 3, 3, 8, 1, 2, 3], 11))
+// console.log(minSubArrayLen([4, 3, 3, 8, 1, 2, 3], 11));
 // console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10],95))

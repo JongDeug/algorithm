@@ -6,5 +6,5 @@ Javascript를 사용하여 공부하고 있습니다.
 
 ## 복습 큐 
 
-- [minSubArrayLen](challenge/minSubArrayLen.js)
-- [sameFrequency](challenge/sameFrequency.js)
+- [minSubArrayLen](challenge/minSubArrayLen/minSubArrayLen.js)
+- [sameFrequency](challenge/findLongestSubstring/findLongestSubstring.js)

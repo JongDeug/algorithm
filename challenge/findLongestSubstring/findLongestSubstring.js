@@ -21,30 +21,23 @@
 // [문제 세분화]
 // str 받아서 알파벳이 단 한번만 존재해야하는 가장 긴 문자열의 길이 반환하는 함수 구현
 function findLongestSubstring(str) {
-    // 필요한 변수 3가지
     let longest = 0;
     let seen = {};
     let start = 0;
 
     for (let i = 0; i < str.length; i++) {
-        // character 받기
-        let chr = str[i];
-
-        // 본 것 중에 있는거면 start 이동
-        if (seen[chr] >= 0) {
-            // start = Math.max(start, seen[chr] + 1); // max를 하는 이유가?
-            start = seen[chr] + 1;
+        let char = str[i];
+        if (seen[char]) {
+            start = Math.max(start, seen[char]);
         }
-
-        // longest 할당
-        longest = Math.max(longest, i - start + 1); // 길이니까 + 1 추가
-
-        // 본 것에 추가
-        seen[chr] = i;
+        // index - beginning of substring + 1 (to include current in count)
+        longest = Math.max(longest, i - start + 1);
+        // store the index of the next char so as to not double count
+        seen[char] = i + 1;
     }
     return longest;
 }
 
-console.log(findLongestSubstring('rithmschool'));
-console.log(findLongestSubstring('bbbbbb'));
-console.log(findLongestSubstring('thisisawesome'));
+    console.log(findLongestSubstring('rithmschool'));
+    console.log(findLongestSubstring('bbbbbb'));
+    console.log(findLongestSubstring('thisisawesome'));
