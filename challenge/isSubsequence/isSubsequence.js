@@ -45,8 +45,6 @@ function isSubsequence(str1, str2) {
     return str1Index === str1.length;
 }
 
-// [문제 되돌아보기]
-
 
 console.log(isSubsequence('hello', 'hello world')); // true
 console.log(isSubsequence('sing', 'sting')); // true
