@@ -1,4 +1,4 @@
-// 첫 번째 방식(j=i)
+// 첫 번째 방식(j=i) => 이렇게 구현하면 요소를 모조리 다 돈단말야.
 function insertionSort(arr) {
     // outer loop : 배열의 크기 - 1 만큼 시작하지 않을까? (배열의 크기 - 1) 횟수면 좀 괜찮네? // i는 1 to arr.length
     for (let i = 1; i < arr.length; i++) {
@@ -13,19 +13,6 @@ function insertionSort(arr) {
                 console.log(arr);
             }
         }
-    }
-    return arr;
-}
-
-// 두 번째 방식(j = i-1)
-function insertionSort(arr) {
-    for (let i = 1; i < arr.length; i++) {
-        let element = arr[i];
-        let j;
-
-        // 오호 이렇게도 되는구만,,
-        for (j = i - 1; j >= 0 && element < arr[j]; j--) arr[j + 1] = arr[j];
-        arr[j+1] = element;
     }
     return arr;
 }

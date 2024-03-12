@@ -1,6 +1,6 @@
 // 최적화한다!
 
-let count = 0; // 최적화 됐는지 확인하는 count변수임.
+let count = 0; // 최적화 됐는지 확인하는 count변수임. 
 
 function bubbleSort(arr) {
 
