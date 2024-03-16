@@ -25,7 +25,7 @@ class Stack {
         return removed.val;
     }
 
-    // push (단일 연결리스트 push)
+    // push (단일 연결리스트 unshift)
     push(value) {
         let node = new Node(value);
 
