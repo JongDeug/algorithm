@@ -6,7 +6,7 @@ class Node {
 }
 
 // 최소 힙!
-class PriorityQueue {
+export default class PriorityQueue {
     constructor() {
         this.values = [];
     }
@@ -100,19 +100,19 @@ class PriorityQueue {
         }
     }
 }
-
-let priority = new PriorityQueue();
-
-priority.enqueue('common cold', 5);
-priority.enqueue('gunshot wound', 1);
-priority.enqueue('high fever', 4);
-priority.enqueue('test fever', 4);
-priority.enqueue('broken arm', 2);
-priority.enqueue('glass in foot', 3);
-
-console.log(priority.dequeue());
-console.log(priority.dequeue());
-console.log(priority.dequeue());
-console.log(priority.dequeue());
-console.log(priority.dequeue());
-console.log(priority.dequeue());
+//
+// let priority = new PriorityQueue();
+//
+// priority.enqueue('common cold', 5);
+// priority.enqueue('gunshot wound', 1);
+// priority.enqueue('high fever', 4);
+// priority.enqueue('test fever', 4);
+// priority.enqueue('broken arm', 2);
+// priority.enqueue('glass in foot', 3);
+//
+// console.log(priority.dequeue());
+// console.log(priority.dequeue());
+// console.log(priority.dequeue());
+// console.log(priority.dequeue());
+// console.log(priority.dequeue());
+// console.log(priority.dequeue());
