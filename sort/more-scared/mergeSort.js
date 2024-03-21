@@ -43,5 +43,5 @@ function merge(arr1, arr2) {
     return newArr;
 }
 
-console.log(mergeSort([3, 5, 6, 1, 2, 4]));
+console.log(mergeSort([5,1,6,3,4]));
 
