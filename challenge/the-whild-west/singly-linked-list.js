@@ -76,10 +76,10 @@ class SinglyLinkedList {
         return removed;
     }
 
-    set(idx, value) {
+    set(idx, val) {
         let node = this.get(idx);
         if (node) {
-            node.val = value;
+            node.val = val;
             return true;
         }
         return false;
@@ -152,4 +152,55 @@ class SinglyLinkedList {
             return true;
         }
     }
+
+    // [문제 이해하기]
+    // 단일 연결리스트 rotate 함수 구현하기
+    // 입력 : int, 출력 : x
+    // 핵심 : head, tail을 잘 다뤄야 함, -1은 어떻게 처리할지?
+    // [구체적인 예시]
+    // singlyLinkedList.rotate(1000);
+    // singlyLinkedList.head.val; // 5
+    // singlyLinkedList.rotate(3);
+    // singlyLinkedList.head.val; // 20
+    // singlyLinkedList.rotate(-1);
+    // singlyLinkedList.head.val; // 25
+    // [문제 세분화하기]
+    rotate(n) {
+        // 단일 연결 리스트에 값이 없다면
+        if (!this.head) return;
+
+        // 단일 연결 리스트에 길이가 1이라면?
+        if (this.length === 1) return;
+        // 모두 아니라면,
+        else {
+            // 원형으로 만들기, tail.next <-- head
+            this.tail.next = this.head;
+            // n으로 루프 // 마이너스는 (this.length - 1)의 절댓값만큼 돌아야 함.
+            if (Math.sign(n) === -1) n = Math.abs(this.length + n);
+
+            for (let i = 0; i < n; i++) {
+                this.head = this.head.next;
+                this.tail = this.tail.next;
+            }
+            // 루프가 끝나면 tail.next <-- null
+            this.tail.next = null;
+        }
+    }
+
+    print() {
+        let current = this.head;
+        let result = [];
+        while (current) {
+            result.push(current.val);
+            current = current.next;
+        }
+        return result;
+    }
 }
+
+let singlyLinkedList = new SinglyLinkedList();
+singlyLinkedList.push(5).push(10).push(15).push(20).push(25);
+
+singlyLinkedList.rotate(-1);
+console.log(singlyLinkedList.print());
+
