@@ -187,6 +187,38 @@ class SinglyLinkedList {
         }
     }
 
+    shift() {
+        if (!this.head) return undefined;
+        let node = this.head;
+        this.head = this.head.next;
+        this.length--;
+        return node;
+    }
+
+    // [문제 이해하기]
+    // 단일 연결 리스트 remove 구현
+    // 입력 : index(int), 출력 : node or undefined
+    // [문제 세분화하기[
+    remove(idx) {
+        if (idx < 0 || idx > this.length) return undefined;
+
+        // 처음: shift, 끝: pop
+        if (idx === 0) return this.shift();
+        else if (idx === this.length) return this.pop();
+        // 나머지
+        else {
+            // prev <-- get (idx - 1)
+            let prev = this.get(idx - 1);
+            // removed <-- prev.next
+            let removed = prev.next;
+            // prev.next <-- removed.next
+            prev.next = removed.next;
+            // length 줄이기
+            this.length--;
+            return removed;
+        }
+    }
+
     print() {
         let current = this.head;
         let result = [];
