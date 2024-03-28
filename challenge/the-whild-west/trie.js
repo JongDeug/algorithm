@@ -18,29 +18,22 @@ class Trie {
         return this;
     }
 
-    // 으아!!!!!!!!!!!!!!!!!!! 아파
+    // 이게 젤 어려웠음.
     removeWord(word, index = 0) {
-        if (index === word.length) {
-            // If we have reached the end of the word
-            // Mark the current node as not representing a word
+        if(index === word.length) {
             this.isWord = false;
-        } else if (index < word.length) {
-            var char = word[index];
-            // Check if the character exists in the trie
-            if (this.characters[char]) {
-                // Recursively call removeWord on the next character
-                var subTrie = this.characters[char];
-                subTrie.removeWord(word, index + 1);
+        }else if(index < word.length) {
+            const char = word[index];
+            let subTrie = this.characters[char]
+            subTrie.removeWord(word, index + 1);
 
-                // If the child trie does not represent any word anymore,
-                // we can remove it from the current node's characters list.
-                if (!subTrie.isWord && Object.keys(subTrie.characters).length === 0) {
-                    delete this.characters[char];
-                }
+            // 여기가 제일 중요
+            // 끝까지 파고 드니까 마지막은 length가 0일 수 밖에 없음.
+            if(!subTrie.isWord && Object.keys(subTrie.characters).length === 0) {
+                delete this.characters[char];
             }
         }
     }
-
 
     //
     // findWord(word, index = 0) {
