@@ -169,10 +169,83 @@ class BinarySearchTree {
         }
         return previous ? previous.value : previous;
     }
+
+    // [문제 이해하기]
+    // BST remove 함수 구현하기
+    // 입력 : int, 출력 : x
+    // 핵심 :
+    // 1) 삭제할 노드가 단말 노드인 경우
+    // 2) 삭제할 노드가 하나의 자식을 갖는 경우
+    // 3) 삭제할 노드가 2개 자식을 모두 갖는 경우 => 적절한 후계자 ? 왼쪽 서브트리의 가장 큰값 or 오른쪽 서브트리의 가장 작은 값
+    // 3) => search-min-bst() 함수 구현 해야함.
+    // 재귀로 구현 할거임.
+    // [문제 세분화하기]
+    remove(key) {
+        const searchMinBST = this.searchMinBST;
+        // 헬퍼 함수 (key, node)를 인자로
+        (function helper(key, current) {
+            // Base Case 공백이면 return;
+            if (!current) return null;
+
+            // key를 찾는거니깐 left, right, 찾기
+            if (key === current.value) {
+                // Case 1, Case(오른쪽 자식만 있는 경우) : 단말 노드인 경우, 자식이 하나인 경우
+                if (!current.left) return current.right;
+                // Case 2(왼쪽 자식만 있는 경우) : 자식이 하나인 노드인 경우
+                if (!current.right) return current.left;
+                // Case 3 : 자식이 두 개인 노드(서브트리 오른쪽 선택할거임)
+                // searchMinBST 사용
+                let successor = searchMinBST(current.right);
+                current.value = successor.value;
+                current.right = helper(successor.value, current.right);
+            } else if (key < current.value) {
+                current.left = helper(key, current.left);
+            } else if (key > current.value) {
+                current.right = helper(key, current.right);
+            }
+
+            return current;
+        })(key, this.root);
+        // return 은 없음.
+    }
+
+    searchMinBST(current) {
+        while (current.left) {
+            current = current.left;
+        }
+        return current;
+    }
+
+    // [문제 이해하기]
+    // BST 에서 균형 트리를 유지하고 있는지 확인하는 함수 구현
+    // 입력 : x, 출력 : boolean
+    // 핵심 : 모든 leaf 노드 또는 단일 자식이 있는 노드의 깊이가 하나 이하인 경우만 true 반환
+    // 핵심 : AVL 트리를 말하는 건지 잘 모르겠음. AVL 트리는 왼쪽 오른쪽 높이 차가 1이 넘으면 안되는 거거든. 즉 1이하 여야 함.
+    // [문제 세분화하기]
+    // calculateHeightDiff
+    // calculateHeight 이 두 함수 구현
+    isBalanced() {
+        let diff = this.calculateHeightDiff(this.root);
+        return diff <= 1;
+    }
+
+    calculateHeightDiff(root) {
+        if (!root) return 0;
+        return Math.abs(this.calculateHeight(root.left) - this.calculateHeight(root.right));
+    }
+
+    calculateHeight(current) {
+        // Base case
+        if(!current) return 0;
+        return this.calculateHeight(current.left) + this.calculateHeight(current.right) + 1;
+    }
 }
 
-let b = new BinarySearchTree();
-b.insert(10);
-b.insert(20);
-b.insert(30);
-console.log(b.find(20).right);
+var binarySearchTree2 = new BinarySearchTree();
+binarySearchTree2.insert(10);
+binarySearchTree2.insert(5);
+binarySearchTree2.insert(20);
+binarySearchTree2.insert(3);
+binarySearchTree2.insert(7);
+binarySearchTree2.insert(2);
+console.log(binarySearchTree2.isBalanced());

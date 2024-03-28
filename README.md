@@ -12,3 +12,5 @@ Javascript를 사용하여 공부하고 있습니다.
 - [radix-digitCount](challenge/the-whild-west/radix-sort/radixSort.js) (중)
 - [coinChange](challenge/the-whild-west/coin-change.js) (상)
 - [findPair](challenge/the-whild-west/findPair.js) (중)
+- [binary-search-tree-remove 함수](challenge/the-whild-west/binary-search-tree.js)
+- [trie](challenge/the-whild-west/trie.js) (상)
