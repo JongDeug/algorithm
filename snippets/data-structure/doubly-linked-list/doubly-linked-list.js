@@ -1,4 +1,10 @@
-import Node from './node.js';
+export class Node {
+    constructor(value) {
+        this.value = value;
+        this.next = null;
+        this.prev = null;
+    }
+}
 
 class DoublyLinkedList {
     constructor() {
@@ -8,8 +14,17 @@ class DoublyLinkedList {
     }
 
     // push
-    push(val) {
-        let node = new Node(val);
+    // pop
+    // unshift
+    // shift
+    // get
+    // set
+    // insert
+    // remove
+    // print
+
+    push(value) {
+        let node = new Node(value);
         if (!this.head) {
             this.head = node;
             this.tail = node;
@@ -22,7 +37,6 @@ class DoublyLinkedList {
         return this;
     }
 
-    // pop
     pop() {
         if (!this.head) return undefined;
 
@@ -40,7 +54,21 @@ class DoublyLinkedList {
         return removed;
     }
 
-    // shift
+    unshift(value) {
+        let node = new Node(value);
+
+        if (this.length === 0) {
+            this.head = node;
+            this.tail = node;
+        } else {
+            this.head.prev = node;
+            node.next = this.head;
+            this.head = node;
+        }
+        this.length++;
+        return this;
+    }
+
     shift() {
         if (!this.head) return undefined;
         let oldHead = this.head;
@@ -58,30 +86,12 @@ class DoublyLinkedList {
         return oldHead;
     }
 
-    // unshift
-    unshift(val) {
-        let node = new Node(val);
-
-        if (this.length === 0) {
-            this.head = node;
-            this.tail = node;
-        } else {
-            this.head.prev = node;
-            node.next = this.head;
-            this.head = node;
-        }
-        this.length++;
-        return this;
-    }
-
-    // get
     get(idx) {
         if (idx < 0 || idx >= this.length) return null;
 
-        let current = null;
+        let current, count;
         let mid = Math.floor(this.length / 2);
-        let count = null;
-
+        
         // idx에 따라 적절한 위치에서 루프를 돌기위함.
         // 시간 복잡도 줄이기
         if (idx > mid) {
@@ -105,17 +115,15 @@ class DoublyLinkedList {
         }
     }
 
-    // set
     set(idx, value) {
         let node = this.get(idx);
         if (node) {
-            node.val = value;
+            node.value = value;
             return true;
         }
         return false;
     }
 
-    // insert
     insert(idx, value) {
         // index 범위를 한 번더 제한 하는 이유는 get(idx-1)을 할거기 때문에
         if (idx < 0 || idx > this.length) return false;
@@ -135,7 +143,6 @@ class DoublyLinkedList {
         }
     }
 
-    // remove
     remove(idx) {
         if (idx < 0 || idx >= this.length) return undefined;
 
@@ -154,7 +161,6 @@ class DoublyLinkedList {
         }
     }
 
-    // print
     print(isForward = true) {
         let current = null;
         if (isForward) current = this.head;
@@ -162,12 +168,10 @@ class DoublyLinkedList {
 
         let arr = [];
         while (current) {
-            arr.push(current.val);
+            arr.push(current.value);
             if (isForward) current = current.next;
             else current = current.prev;
         }
         return arr;
     }
 }
-
-
