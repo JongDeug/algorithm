@@ -1,8 +1,8 @@
 import { swap } from '../../../utility/swap.js';
 
 function selectionSort(arr) {
-    // Outer loop : 배열의 크기만큼
-    for (let i = 0; i < arr.length; i++) {
+    // Outer loop : 배열의 크기 - 1 만큼
+    for (let i = 0; i < arr.length - 1; i++) {
         let minIndex = i;
         // Inner loop : 정렬된 요소를 제외한 배열에서 minIndex를 찾는다.
         for (let j = i + 1; j < arr.length; j++) {
