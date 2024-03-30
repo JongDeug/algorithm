@@ -1,4 +1,4 @@
-function bfs(tree) {
+function BFS(tree) {
     let q = []; // queue
     let visited = []; // array
     q.push(tree.root); // queue 초기화

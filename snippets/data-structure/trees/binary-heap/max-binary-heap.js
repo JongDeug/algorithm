@@ -1,53 +1,52 @@
+import {swap} from '../../../utility/swap.js';
+
 class MaxBinaryHeap {
     constructor() {
         this.values = [];
     }
 
-    // insert
-    insert(val) {
-        this.values.push(val);
+    // insert(bubbleUp)
+    // extractMax(bubbleDown)
+
+    insert(value) {
+        this.values.push(value);
         return this.bubbleUp();
     }
 
-    // bubble up
     bubbleUp() {
         if (this.values.length === 1) return this.values;
-
-        let childIndex = this.values.length - 1;
-        let parentIndex = Math.floor((childIndex - 1) / 2);
+        let currentIndex = this.values.length - 1;
 
         while (true) {
-            let child = this.values[childIndex];
+            let parentIndex = Math.floor((currentIndex - 1) / 2);
+            let current = this.values[currentIndex];
             let parent = this.values[parentIndex];
 
-            if (child > parent) {
-                swap(this.values, childIndex, parentIndex); // swap
-                childIndex = parentIndex;
-                parentIndex = Math.floor((childIndex - 1) / 2);
+            if (current > parent) {
+                swap(this.values, currentIndex, parentIndex); // swap
+                currentIndex = parentIndex;
             } else break; // 같거나 작으면 그냥 두면 된다.
         }
         return this.values;
     }
 
-    // extract max, remove
     extractMax() {
-        if (this.values.length === 0) return null; // 더 이상 못빼게
+        if (this.values.length === 0) return null;
         swap(this.values, 0, this.values.length - 1);
         let removed = this.values.pop();
         this.bubbleDown();
         return removed;
     }
 
-    // bubble down
     bubbleDown() {
         if (this.values.length === 0) return null; // 1개 남았을 때 뺐음.
-        let parentIndex = 0;
+        let currentIndex = 0;
 
         while (true) {
-            let leftChildIndex = parentIndex * 2 + 1;
-            let rightChildIndex = parentIndex * 2 + 2;
+            let leftChildIndex = currentIndex * 2 + 1;
+            let rightChildIndex = currentIndex * 2 + 2;
 
-            let parent = this.values[parentIndex];
+            let current = this.values[currentIndex];
             let leftChild;
             let rightChild;
             let swapIndex = null; // maxChild
@@ -55,31 +54,25 @@ class MaxBinaryHeap {
             // swapIndex 정하기, 중요한 건 left, right가 undefined이 나오지 않게 만들어야 함.
             if (leftChildIndex < this.values.length) {
                 leftChild = this.values[leftChildIndex];
-                if (leftChild > parent) {
+                if (leftChild > current) {
                     swapIndex = leftChildIndex;
                 }
             }
 
             if (rightChildIndex < this.values.length) {
                 rightChild = this.values[rightChildIndex];
-                if ((swapIndex === null && parent < rightChild) || (swapIndex !== null && rightChild > leftChild)) {
+                // swapIdx가 있을 경우, 없을 경우로 나눠서 조건을 탐색해야함.
+                if ((swapIndex === null && current < rightChild) || (swapIndex !== null && rightChild > leftChild)) {
                     swapIndex = rightChildIndex;
                 }
-                // if (swapIndex && this.values[swapIndex] < rightChild && parent < rightChild) {
-                //     swapIndex = rightChildIndex;
-                // }
             }
 
             // swap이 null이면 break
             if (!swapIndex) break;
-            swap(this.values, parentIndex, swapIndex);
-            parentIndex = swapIndex;
+            swap(this.values, currentIndex, swapIndex);
+            currentIndex = swapIndex;
         }
     }
-}
-
-function swap(arr, i, j) {
-    [arr[i], arr[j]] = [arr[j], arr[i]];
 }
 
 let max = new MaxBinaryHeap();
@@ -101,4 +94,3 @@ console.log(max.extractMax());
 console.log(max.extractMax());
 
 console.log(max);
-

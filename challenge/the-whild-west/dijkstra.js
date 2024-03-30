@@ -68,7 +68,7 @@ WeightedGraph.prototype.Dijkstra = function(start, end) {
 };
 
 /***
- *** Use the following as a PriorityQueue (it's a min heap)!
+ *** Use the following as a PriorityQueueHeap (it's a min heap)!
  ***
  ***/
 class PriorityQueue {

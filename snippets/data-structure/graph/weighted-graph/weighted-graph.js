@@ -1,7 +1,10 @@
-export default class WeightedGraph {
+export class WeightedGraph {
     constructor() {
         this.adjacencyList = {};
     }
+
+    // addVertex
+    // addEdge
 
     addVertex(v) {
         if (!this.adjacencyList[v]) this.adjacencyList[v] = [];
@@ -11,7 +14,6 @@ export default class WeightedGraph {
         this.adjacencyList[v1].push({ node: v2, weight });
         this.adjacencyList[v2].push({ node: v1, weight });
     }
-
 }
 
 // let g = new WeightedGraph();
