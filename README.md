@@ -14,4 +14,8 @@ Javascript를 사용하여 공부하고 있습니다.
 - [findPair](challenge/the-whild-west/findPair.js) (중)
 - [binary-search-tree-remove 함수](challenge/the-whild-west/binary-search-tree.js)
 - [trie](challenge/the-whild-west/trie.js) (상)
-- [둘만의 암호](challenge/programmers/둘만의%20암호.js) (..)
+
+## 문제 복습 큐
+
+- [둘만의 암호](challenge/programmers/둘만의%20암호.js) (흠)
+- [뉴스 클러스터링](challenge/programmers/%5B1차%5D%20뉴스%20클러스터링.js) (흠)
