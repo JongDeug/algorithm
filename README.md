@@ -6,6 +6,21 @@
 
 Javascript를 사용하여 공부하고 있습니다.
 
+## 시간 복잡도, 시간 제한 
+
+시간 복잡도와 시간 제한을 고려하며 문제를 푸는 중이었는데, 잘못 알고 있었던 것 같아 정리해봅니다.
+
+- 일반적인 CPU 기반의 PC는 1초에 실행할 수 있는 최대 연산 횟수는 약 100,000,000번
+
+| 시간 복잡도 | 최대 연산 횟수 |
+|--------|---------|
+| O(n)   | 약 1억번   |
+| O(n^2) | 약 1만번   |
+| O(n^3) | 약 500번  |
+| O(2^n) | 약 20번   |
+| O(n!)  | 10번     |
+
+
 ## 복습 큐
 
 - [minSubArrayLen](challenge/problem-solving-pattern/minSubArrayLen/minSubArrayLen.js) (상)
@@ -24,3 +39,5 @@ Javascript를 사용하여 공부하고 있습니다.
 - [디펜스 게임](challenge/programmers/디펜스%20게임.js) (이분탐색, 우선순위 큐)
 - [광물 캐기](challenge/programmers/광물%20캐기.js) (정렬, 구현)
 - [하노이 탑](challenge/programmers/recursion/하노이%20탑.js) (재귀인데 풀지도 못함ㅠㅠ)
+- [빛의 경로 사이클](challenge/programmers/빛의%20경로%20사이클.js) (브루투포스 + DFS)
+- 
