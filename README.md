@@ -41,4 +41,4 @@ Javascript를 사용하여 공부하고 있습니다.
 - [하노이 탑](challenge/programmers/recursion/하노이%20탑.js) (재귀인데 풀지도 못함ㅠㅠ)
 - [빛의 경로 사이클](challenge/programmers/DFS/빛의%20경로%20사이클.js) (브루투포스 + DFS)
 - [방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)
-- [조이스틱](challenge/programmers/greedy/조이스틱.js) (뭔소린지 모르겠음 다시 이해해야)
+- [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)

@@ -53,3 +53,1661 @@ com.intellij.diagnostic.PluginException: Migrate ชὉ to ProjectActivity [Plug
 2024-04-12 15:11:20,561 [ 480599]   WARN - #c.i.u.x.Binding - No accessors for org.jetbrains.security.package.Package. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
 2024-04-13 14:27:23,558 [84243596]   WARN - #c.i.u.x.Binding - No accessors for com.intellij.toolWindow.ToolWindowLayoutStorageManagerState. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
 2024-04-13 14:45:25,153 [85325191]   WARN - #git4idea.annotate.GitAnnotationProvider - Git annotations are empty for file /home/jongdeug/Documents/Code/WebstormProjects/algorithm/challenge/programmers/조이스틱.js in revision ef69747d46c3c294e222167622bef70402a59de5
+2024-04-13 15:24:44,114 [87684152]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:24:44.96856 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:24:44,337 [87684375]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:24:44.336929 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:24:44,741 [87684779]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:24:44.741897 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:24:44,907 [87684945]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:24:44.906960 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:52,358 [87752396]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:52.358280 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:52,451 [87752489]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:52.451526 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:52,843 [87752881]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:52.843222 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:53,054 [87753092]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:53.54639 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:53,636 [87753674]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:53.636182 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:53,910 [87753948]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:53.910749 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:25:54,245 [87754283]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:25:54.245539 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:27:17,060 [87837098]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:27:17.60458 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:27:51,326 [87871364]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:27:51.326112 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:27:51,536 [87871574]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:27:51.536335 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:28,324 [87908362]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:28.324891 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:28,673 [87908711]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:28.673903 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:29,137 [87909175]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:29.137479 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:29,505 [87909543]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:29.505552 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:29,678 [87909716]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:29.678461 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:30,194 [87910232]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:30.194917 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:30,573 [87910611]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:28:30.573662 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:28:38,226 [87918264]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit$HTMLFactory$BodyBlockView.setParent(HTMLEditorKit.java:1476)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.create(DefaultStyledDocument.java:160)
+	at java.desktop/javax.swing.text.html.HTMLDocument.create(HTMLDocument.java:472)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4033)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flush(HTMLDocument.java:2742)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:265)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 15:30:35,618 [88035656]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:30:35.618005 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:30:47,242 [88047280]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:30:47.242294 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:34:34,551 [88274589] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-13 15:34:34,551 [88274589] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-13 15:34:55,166 [88295204] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-13 15:34:55,167 [88295205] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-13 15:35:20,748 [88320786] SEVERE - #io.plugin.tsnode.action.DebugTsAction - `ActionUpdateThread.OLD_EDT` is deprecated and going to be removed soon. 'io.plugin.tsnode.action.DebugTsAction' must override `getActionUpdateThread` and chose EDT or BGT. See ActionUpdateThread javadoc. [Plugin: io.plugin.tsnode]
+com.intellij.diagnostic.PluginException: `ActionUpdateThread.OLD_EDT` is deprecated and going to be removed soon. 'io.plugin.tsnode.action.DebugTsAction' must override `getActionUpdateThread` and chose EDT or BGT. See ActionUpdateThread javadoc. [Plugin: io.plugin.tsnode]
+	at com.intellij.diagnostic.PluginProblemReporterImpl.createPluginExceptionByClass(PluginProblemReporterImpl.java:23)
+	at com.intellij.diagnostic.PluginException.createByClass(PluginException.java:90)
+	at com.intellij.diagnostic.PluginException.reportDeprecatedUsage(PluginException.java:125)
+	at com.intellij.openapi.actionSystem.ActionUpdateThreadAware.getActionUpdateThread(ActionUpdateThreadAware.java:21)
+	at com.intellij.openapi.actionSystem.AnAction.getActionUpdateThread(AnAction.java:199)
+2024-04-13 15:35:20,780 [88320818] SEVERE - #io.plugin.tsnode.action.DebugTsAction - WebStorm 2024.1  Build #WS-241.14494.235
+2024-04-13 15:35:20,780 [88320818] SEVERE - #io.plugin.tsnode.action.DebugTsAction - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-04-13 15:35:20,781 [88320819] SEVERE - #io.plugin.tsnode.action.DebugTsAction - OS: Linux
+2024-04-13 15:35:20,781 [88320819] SEVERE - #io.plugin.tsnode.action.DebugTsAction - Plugin to blame: Run Configuration for TypeScript version: 2022.11.14-1
+2024-04-13 15:38:58,501 [88538539]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:38:58.501288 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:40:18,371 [88618409]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:40:18.371214 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:42:19,409 [88739447]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:42:19.408979 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:42:39,027 [88759065]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit$HTMLFactory$BodyBlockView.setParent(HTMLEditorKit.java:1476)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.create(DefaultStyledDocument.java:160)
+	at java.desktop/javax.swing.text.html.HTMLDocument.create(HTMLDocument.java:472)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4033)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3972)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3937)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.handleText(HTMLDocument.java:2797)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.handleText(DocumentParser.java:271)
+	at java.desktop/javax.swing.text.html.parser.Parser.handleText(Parser.java:409)
+	at java.desktop/javax.swing.text.html.parser.Parser.endTag(Parser.java:524)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseTag(Parser.java:1934)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseContent(Parser.java:2195)
+	at java.desktop/javax.swing.text.html.parser.Parser.parse(Parser.java:2372)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.parse(DocumentParser.java:135)
+	at java.desktop/javax.swing.text.html.parser.ParserDelegator.parse(ParserDelegator.java:114)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:264)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 15:42:42,473 [88762511]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:42:42.473225 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:42:50,434 [88770472]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:42:50.434211 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:42:50,622 [88770660]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:42:50.622618 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:32,142 [88872180]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:32.142847 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:32,975 [88873013]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:32.975513 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:33,597 [88873635]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:33.597062 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:34,908 [88874946]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:34.908731 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:35,110 [88875148]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:35.110396 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:44:39,027 [88879065]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:44:39.27844 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:45:00,825 [88900863]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:45:00.825771 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:45:01,014 [88901052]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:45:01.14377 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:45:01,789 [88901827]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:45:01.789221 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:45:02,463 [88902501]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:45:02.463186 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:46:02,023 [88962061]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:46:02.23692 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:46:46,254 [89006292]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:46:46.253983 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:46:53,763 [89013801]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.text.View.forwardUpdateToView(View.java:1236)
+	at java.desktop/javax.swing.text.View.forwardUpdate(View.java:1171)
+	at java.desktop/javax.swing.text.BoxView.forwardUpdate(BoxView.java:241)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.insert(DefaultStyledDocument.java:223)
+	at java.desktop/javax.swing.text.html.HTMLDocument.insert(HTMLDocument.java:434)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4035)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flush(HTMLDocument.java:2742)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:265)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 15:47:04,240 [89024278]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:47:04.240632 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:47:08,218 [89028256]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:47:08.217966 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:47:19,117 [89039155]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:47:19.117778 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:47:30,756 [89050794]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:47:30.756009 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:47:33,991 [89054029]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:47:33.991647 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:47:47,842 [89067880]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit$HTMLFactory$BodyBlockView.setParent(HTMLEditorKit.java:1476)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.create(DefaultStyledDocument.java:160)
+	at java.desktop/javax.swing.text.html.HTMLDocument.create(HTMLDocument.java:472)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4033)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3972)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3937)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.handleText(HTMLDocument.java:2797)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.handleText(DocumentParser.java:271)
+	at java.desktop/javax.swing.text.html.parser.Parser.handleText(Parser.java:409)
+	at java.desktop/javax.swing.text.html.parser.Parser.startTag(Parser.java:480)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseTag(Parser.java:2054)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseContent(Parser.java:2195)
+	at java.desktop/javax.swing.text.html.parser.Parser.parse(Parser.java:2372)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.parse(DocumentParser.java:135)
+	at java.desktop/javax.swing.text.html.parser.ParserDelegator.parse(ParserDelegator.java:114)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:264)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 15:51:41,064 [89301102]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:51:41.64829 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:52,966 [89493004]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:52.965990 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:53,392 [89493430]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:53.392568 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:53,624 [89493662]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:53.624301 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:53,970 [89494008]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:53.970144 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:54,277 [89494315]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:54.277137 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:55,512 [89495550]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:55.511938 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:55,768 [89495806]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:55.768657 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:54:56,043 [89496081]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:54:56.43424 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:55:41,340 [89541378]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:55:41.340485 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:59:03,818 [89743856]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:59:03.818445 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:59:05,477 [89745515]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:59:05.476917 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 15:59:09,493 [89749531]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 06:59:09.493410 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:03:22,564 [90002602] SEVERE - #c.i.c.d.i.PassExecutorService - java.lang.IllegalArgumentException: Argument for @NotNull parameter 'evicted' of com/intellij/codeInsight/daemon/impl/HighlightInfoUpdater.removeEvicted must not be null
+java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: Argument for @NotNull parameter 'evicted' of com/intellij/codeInsight/daemon/impl/HighlightInfoUpdater.removeEvicted must not be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:562)
+	at java.base/java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:591)
+	at java.base/java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:689)
+	at com.intellij.concurrency.JobLauncherImpl.procInOrderAsync(JobLauncherImpl.java:548)
+	at com.intellij.codeInsight.daemon.impl.AnnotatorRunner.runAnnotatorsAsync(AnnotatorRunner.java:76)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.collectHighlights(GeneralHighlightingPass.java:329)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.collectInformationWithProgress(GeneralHighlightingPass.java:239)
+	at com.intellij.codeInsight.daemon.impl.ProgressableTextEditorHighlightingPass.doCollectInformation(ProgressableTextEditorHighlightingPass.java:80)
+	at com.intellij.codeHighlighting.TextEditorHighlightingPass.collectInformation(TextEditorHighlightingPass.java:55)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$2(PassExecutorService.java:418)
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceKt.runWithSpanIgnoreThrows(trace.kt:109)
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceUtil.runWithSpanThrows(TraceUtil.java:34)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$3(PassExecutorService.java:413)
+	at com.intellij.openapi.application.impl.RwLockHolder.tryRunReadAction(RwLockHolder.kt:310)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:958)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$4(PassExecutorService.java:404)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:660)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:735)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:691)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:659)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:79)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.doRun(PassExecutorService.java:403)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$run$0(PassExecutorService.java:379)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.cacheFileTypesInside(FileTypeManagerImpl.java:795)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$run$1(PassExecutorService.java:379)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.executeByImpatientReader(ReadMostlyRWLock.java:199)
+	at com.intellij.openapi.application.impl.RwLockHolder.executeByImpatientReader(RwLockHolder.kt:491)
+	at com.intellij.openapi.application.impl.ApplicationImpl.executeByImpatientReader(ApplicationImpl.java:182)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.run(PassExecutorService.java:377)
+	at com.intellij.concurrency.JobLauncherImpl$VoidForkJoinTask$1.exec(JobLauncherImpl.java:190)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Argument for @NotNull parameter 'evicted' of com/intellij/codeInsight/daemon/impl/HighlightInfoUpdater.removeEvicted must not be null
+	at com.intellij.codeInsight.daemon.impl.HighlightInfoUpdater.$$$reportNull$$$0(HighlightInfoUpdater.java)
+	at com.intellij.codeInsight.daemon.impl.HighlightInfoUpdater.removeEvicted(HighlightInfoUpdater.java)
+	at com.intellij.codeInsight.daemon.impl.HighlightInfoUpdater$ToolHighlights.lambda$new$0(HighlightInfoUpdater.java:59)
+	at com.intellij.util.containers.ConcurrentRefHashMap.processQueue(ConcurrentRefHashMap.java:69)
+	at com.intellij.util.containers.ConcurrentRefHashMap.remove(ConcurrentRefHashMap.java:184)
+	at com.intellij.codeInsight.daemon.impl.HighlightInfoUpdater.putInfosForVisitedPsi(HighlightInfoUpdater.java:269)
+	at com.intellij.codeInsight.daemon.impl.HighlightInfoUpdater.psiElementVisited(HighlightInfoUpdater.java:314)
+	at com.intellij.codeInsight.daemon.impl.AnnotatorRunner.runAnnotator(AnnotatorRunner.java:185)
+	at com.intellij.codeInsight.daemon.impl.AnnotatorRunner.lambda$runAnnotatorsAsync$0(AnnotatorRunner.java:74)
+	at com.intellij.openapi.application.impl.RwLockHolder.tryRunReadAction(RwLockHolder.kt:310)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:958)
+	at com.intellij.codeInsight.daemon.impl.AnnotatorRunner.lambda$runAnnotatorsAsync$1(AnnotatorRunner.java:74)
+	at com.intellij.concurrency.JobLauncherImpl$2MyProcessQueueTask.lambda$call$0(JobLauncherImpl.java:492)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:660)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:735)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:691)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:659)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:79)
+	at com.intellij.concurrency.JobLauncherImpl$2MyProcessQueueTask.call(JobLauncherImpl.java:481)
+	at com.intellij.concurrency.JobLauncherImpl$2MyProcessQueueTask.call(JobLauncherImpl.java:469)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1428)
+	... 5 more
+2024-04-13 16:03:22,565 [90002603] SEVERE - #c.i.c.d.i.PassExecutorService - WebStorm 2024.1  Build #WS-241.14494.235
+2024-04-13 16:03:22,566 [90002604] SEVERE - #c.i.c.d.i.PassExecutorService - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-04-13 16:03:22,566 [90002604] SEVERE - #c.i.c.d.i.PassExecutorService - OS: Linux
+2024-04-13 16:03:22,566 [90002604] SEVERE - #c.i.c.d.i.PassExecutorService - Last Action: EditorEnter
+2024-04-13 16:04:24,066 [90064104]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:04:24.66939 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:04:24,601 [90064639]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:04:24.601904 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:04:25,126 [90065164]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:04:25.126590 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:04:25,545 [90065583]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:04:25.545601 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:04:37,998 [90078036]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:04:37.998394 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:06:36,686 [90196724]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:06:36.686557 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:06:37,104 [90197142]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:06:37.104315 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:06:38,244 [90198282]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:06:38.244283 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:06:38,666 [90198704]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:06:38.666860 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:41,559 [90321597]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:41.559615 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:41,954 [90321992]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:41.954860 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:42,353 [90322391]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:42.353011 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:42,524 [90322562]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:42.524381 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:42,860 [90322898]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:42.859920 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:43,121 [90323159]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:43.121923 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:08:43,546 [90323584]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:08:43.546893 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:27,830 [90427868]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:27.830697 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:28,371 [90428409]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:28.371617 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:28,916 [90428954]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:28.916834 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:30,279 [90430317]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:30.279626 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:30,331 [90430369]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:30.331568 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:31,138 [90431176]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:31.138459 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:31,642 [90431680]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:31.641916 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:31,836 [90431874]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:31.836421 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:32,054 [90432092]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:32.54770 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:34,170 [90434208]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:34.170632 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:42,786 [90442824]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:42.786799 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:43,221 [90443259]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:43.221313 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:43,443 [90443481]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:43.443258 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:44,443 [90444481]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:44.443072 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:44,755 [90444793]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:44.755045 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:10:45,157 [90445195]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:10:45.157892 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:11:08,411 [90468449]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:11:08.411402 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:11:45,774 [90505812]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:11:45.774670 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:22:33,724 [91153762]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:22:33.724803 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:22:34,145 [91154183]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:22:34.145131 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:22:41,747 [91161785]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:22:41.747785 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:22:43,228 [91163266]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:22:43.228047 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:23:55,643 [91235681]   WARN - #c.i.i.n.ide - Data rule [navigationBarItem] returned invalid context item of type [class com.intellij.lang.javascript.psi.ecma6.impl.TypeScriptFunctionImpl]
+2024-04-13 16:23:58,045 [91238083]   WARN - #c.i.i.n.ide - Data rule [navigationBarItem] returned invalid context item of type [class com.intellij.lang.javascript.psi.ecma6.impl.TypeScriptFunctionImpl]
+2024-04-13 16:24:25,960 [91265998]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.text.html.TableView.insertUpdate(TableView.java:853)
+	at java.desktop/javax.swing.text.View.forwardUpdateToView(View.java:1236)
+	at java.desktop/javax.swing.text.View.forwardUpdate(View.java:1171)
+	at java.desktop/javax.swing.text.BoxView.forwardUpdate(BoxView.java:241)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:714)
+	at java.desktop/javax.swing.text.View.forwardUpdateToView(View.java:1236)
+	at java.desktop/javax.swing.text.View.forwardUpdate(View.java:1171)
+	at java.desktop/javax.swing.text.BoxView.forwardUpdate(BoxView.java:241)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.insert(DefaultStyledDocument.java:223)
+	at java.desktop/javax.swing.text.html.HTMLDocument.insert(HTMLDocument.java:434)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4035)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flush(HTMLDocument.java:2742)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:265)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$emit$1.invokeSuspend(Merge.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 16:24:35,697 [91275735]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:24:35.696836 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:26:27,816 [91387854]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:26:27.816174 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:26:46,081 [91406119]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:26:46.81261 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:26:47,905 [91407943]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:26:47.905756 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:26:48,510 [91408548]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:26:48.510592 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:25,148 [91505186]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:25.148548 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:25,561 [91505599]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:25.561399 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:42,171 [91522209]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:42.171557 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:42,380 [91522418]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:42.380442 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:42,975 [91523013]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:42.975581 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:28:43,242 [91523280]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:28:43.242751 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:29:20,033 [91560071]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:29:20.33019 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:33:10,601 [91790639]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:33:10.600919 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:33:10,876 [91790914]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:33:10.876161 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:33:11,726 [91791764]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:33:11.725950 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:33:56,802 [91836840]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.text.html.TableView.insertUpdate(TableView.java:853)
+	at java.desktop/javax.swing.text.View.forwardUpdateToView(View.java:1236)
+	at java.desktop/javax.swing.text.View.forwardUpdate(View.java:1171)
+	at java.desktop/javax.swing.text.BoxView.forwardUpdate(BoxView.java:241)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:714)
+	at java.desktop/javax.swing.text.View.forwardUpdateToView(View.java:1236)
+	at java.desktop/javax.swing.text.View.forwardUpdate(View.java:1171)
+	at java.desktop/javax.swing.text.BoxView.forwardUpdate(BoxView.java:241)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.insert(DefaultStyledDocument.java:223)
+	at java.desktop/javax.swing.text.html.HTMLDocument.insert(HTMLDocument.java:434)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4035)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flush(HTMLDocument.java:2742)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:265)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 16:34:25,662 [91865700]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:25.662262 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:26,258 [91866296]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:26.258628 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:27,415 [91867453]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:27.415863 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:27,606 [91867644]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:27.606602 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:28,261 [91868299]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:28.261852 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:29,263 [91869301]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:29.263860 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:30,244 [91870282]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:30.244038 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:30,808 [91870846]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:30.808534 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:34:31,039 [91871077]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:34:31.39009 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:04,461 [92384499]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:04.461703 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:04,859 [92384897]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:04.859082 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:17,255 [92397293]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:17.254944 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:29,904 [92409942]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:29.904111 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:31,096 [92411134]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:31.96586 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:31,244 [92411282]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:31.244915 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:43:31,437 [92411475]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:43:31.437190 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:44:29,339 [92469377]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:44:29.339857 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:15,659 [92515697]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:15.658892 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:16,016 [92516054]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:16.16719 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:17,030 [92517068]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:17.30638 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:17,410 [92517448]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:17.410509 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:17,522 [92517560]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:17.522178 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:18,080 [92518118]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:18.80573 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:18,293 [92518331]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:18.293646 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:45:18,510 [92518548]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:45:18.510351 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:16,625 [92576663]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:16.625419 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:17,389 [92577427]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:17.389514 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:17,594 [92577632]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:17.594485 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:18,204 [92578242]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:18.204420 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:18,663 [92578701]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:18.663748 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:19,306 [92579344]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:19.306544 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 16:46:19,973 [92580011]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 07:46:19.973056 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:15:14,477 [94314515]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:15:14.477289 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:15:14,734 [94314772]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:15:14.734421 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:15:15,596 [94315634]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:15:15.596337 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:32,287 [94452325]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:32.287092 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:32,601 [94452639]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:32.601080 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:32,876 [94452914]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:32.876844 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:33,118 [94453156]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:33.118629 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:33,649 [94453687]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:33.649030 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:33,889 [94453927]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:33.889578 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:34,434 [94454472]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:34.434589 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:35,436 [94455474]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:35.436764 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:35,657 [94455695]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:35.657260 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:36,626 [94456664]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:36.626415 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:36,761 [94456799]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:36.761845 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:37,298 [94457336]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:37.298685 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:37,785 [94457823]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:37.784973 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:38,049 [94458087]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:38.49109 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:17:38,469 [94458507]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:17:38.469913 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:08,384 [94548422]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:08.384770 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:08,715 [94548753]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:08.715864 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:09,372 [94549410]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:09.372848 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:09,559 [94549597]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:09.559255 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:10,043 [94550081]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:10.43117 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:10,279 [94550317]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:10.279926 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:10,541 [94550579]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:10.541068 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:35,603 [94575641]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:35.603399 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:43,079 [94583117]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:43.79285 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:43,301 [94583339]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:43.301073 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:43,601 [94583639]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:43.601010 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:44,838 [94584876]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:44.838738 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:45,218 [94585256]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:45.218380 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:19:45,858 [94585896]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:19:45.858115 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:11,579 [94611617]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:11.579820 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:11,878 [94611916]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:11.878429 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:12,781 [94612819]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:12.781359 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:12,942 [94612980]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:12.942656 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:13,514 [94613552]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:13.514616 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:13,977 [94614015]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:13.977807 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:20:14,808 [94614846]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:20:14.808736 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:28:34,950 [95114988]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.usages.UsageNodePresentation <clinit> requests com.intellij.usageView.UsageTreeColorsScheme instance. Class initialization must not depend on services. Consider using instance of the service on-demand instead.
+2024-04-13 17:28:56,971 [95137009]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:28:56.971017 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:17,153 [95397191]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:17.153415 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:31,337 [95411375]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:31.337453 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:31,646 [95411684]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:31.646941 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:31,943 [95411981]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:31.943306 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:33,360 [95413398]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:33.360734 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:58,542 [95438580]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:58.542553 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:58,837 [95438875]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:58.837876 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:33:59,346 [95439384]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:33:59.346117 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:00,018 [95440056]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:00.18048 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:01,218 [95441256]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:01.217901 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:02,056 [95442094]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:02.56789 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:02,244 [95442282]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:02.244107 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:02,460 [95442498]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:02.460056 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:02,814 [95442852]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:02.814383 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:03,714 [95443752]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:03.714427 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:03,892 [95443930]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:03.891978 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:04,580 [95444618]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:04.580113 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:05,496 [95445534]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:05.496394 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:05,690 [95445728]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:05.690010 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:06,405 [95446443]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:06.405271 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:06,575 [95446613]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:06.575604 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:43,950 [95483988]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:43.950425 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:59,478 [95499516]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:59.478203 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:34:59,906 [95499944]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:34:59.906599 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:42,086 [95782124]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:42.86396 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:42,841 [95782879]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:42.841248 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:43,045 [95783083]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:43.44465 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:43,804 [95783842]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:43.804917 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:44,403 [95784441]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:44.403331 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:45,238 [95785276]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:45.238184 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:45,609 [95785647]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:45.609482 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:45,980 [95786018]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:45.980398 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:46,725 [95786763]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:46.725747 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:47,300 [95787338]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:47.300148 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 17:39:47,608 [95787646]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 08:39:47.608740 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:30:05,928 [98805966]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:30:05.928926 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:30:16,695 [98816733]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:30:16.695178 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:30:18,690 [98818728]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:30:18.690510 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:31:50,726 [98910764]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:31:50.726444 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:31:50,920 [98910958]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:31:50.920603 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 18:39:04,285 [99344323]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-13 09:39:04.285685 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-13 19:21:24,058 [101884096]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:21:24,058 [101884096]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:21:24,058 [101884096]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:21:24,058 [101884096]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:21:24,058 [101884096]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:21:24,192 [101884230]   WARN - #c.i.j.d.c.j.JCEFConsoleHtmlPanel - Failed to load http://localhost:63342/a03365f2-eea1-451a-ad19-6dae9187a990/frontend/console.html?internal=false
+Err ERR_ABORTED: ERR_ABORTED
+2024-04-13 19:21:30,796 [101890834]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:21:30,796 [101890834]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:21:30,796 [101890834]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:21:30,796 [101890834]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:21:30,796 [101890834]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:21:35,485 [101895523]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:21:35,485 [101895523]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:21:35,485 [101895523]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:21:35,485 [101895523]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:21:35,485 [101895523]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:21:55,257 [101915295]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:21:55,257 [101915295]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:21:55,257 [101915295]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:21:55,257 [101915295]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:21:55,258 [101915296]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:22:24,916 [101944954]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:22:24,916 [101944954]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:22:24,916 [101944954]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:22:24,916 [101944954]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:22:24,916 [101944954]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:23:11,239 [101991277]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:23:11,239 [101991277]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:23:11,239 [101991277]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:23:11,239 [101991277]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:23:11,239 [101991277]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:23:16,262 [101996300]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:23:16,262 [101996300]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:23:16,262 [101996300]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:23:16,262 [101996300]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:23:16,262 [101996300]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:23:21,366 [102001404]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:23:21,367 [102001405]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:23:21,367 [102001405]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:23:21,367 [102001405]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:23:21,367 [102001405]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:23:23,181 [102003219]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:23:23,181 [102003219]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:23:23,181 [102003219]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:23:23,181 [102003219]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:23:23,181 [102003219]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 19:28:29,952 [102309990]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-13 19:28:29,952 [102309990]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-13 19:28:29,952 [102309990]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-13 19:28:29,952 [102309990]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-13 19:28:29,952 [102309990]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-13 20:02:35,131 [104355169]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit$HTMLFactory$BodyBlockView.setParent(HTMLEditorKit.java:1476)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.create(DefaultStyledDocument.java:160)
+	at java.desktop/javax.swing.text.html.HTMLDocument.create(HTMLDocument.java:472)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4033)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3972)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.blockClose(HTMLDocument.java:3903)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction.end(HTMLDocument.java:3029)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.handleEndTag(HTMLDocument.java:2909)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.handleEndTag(DocumentParser.java:253)
+	at java.desktop/javax.swing.text.html.parser.Parser.endTag(Parser.java:533)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseTag(Parser.java:1934)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseContent(Parser.java:2195)
+	at java.desktop/javax.swing.text.html.parser.Parser.parse(Parser.java:2372)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.parse(DocumentParser.java:135)
+	at java.desktop/javax.swing.text.html.parser.ParserDelegator.parse(ParserDelegator.java:114)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:264)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 20:11:44,026 [104904064] SEVERE - #c.i.o.a.i.FlushQueue - null
+java.lang.IllegalStateException
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1609)
+	at com.intellij.util.containers.ContainerUtil$11.remove(ContainerUtil.java:1724)
+	at com.intellij.util.containers.ContainerUtil$12.remove(ContainerUtil.java:1771)
+	at com.jetbrains.liveEdit.FileBasedSynchronizer.containsErrors(FileBasedSynchronizer.java:128)
+	at com.jetbrains.liveEdit.FileBasedSynchronizer.scheduleFile(FileBasedSynchronizer.java:175)
+	at com.jetbrains.liveEdit.LiveEditManager.schedule(LiveEditManager.java:317)
+	at com.jetbrains.liveEdit.LiveEditBulkFileListener.lambda$after$0(LiveEditBulkFileListener.java:76)
+	at com.intellij.psi.impl.PsiDocumentManagerBase.performWhenAllCommitted(PsiDocumentManagerBase.java:602)
+	at com.intellij.psi.impl.PsiDocumentManagerBase.performWhenAllCommitted(PsiDocumentManagerBase.java:592)
+	at com.jetbrains.liveEdit.LiveEditBulkFileListener.lambda$after$1(LiveEditBulkFileListener.java:76)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 20:11:44,028 [104904066] SEVERE - #c.i.o.a.i.FlushQueue - WebStorm 2024.1  Build #WS-241.14494.235
+2024-04-13 20:11:44,028 [104904066] SEVERE - #c.i.o.a.i.FlushQueue - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-04-13 20:11:44,028 [104904066] SEVERE - #c.i.o.a.i.FlushQueue - OS: Linux
+2024-04-13 20:11:44,029 [104904067] SEVERE - #c.i.o.a.i.FlushQueue - Last Action: ReformatCode
+2024-04-13 20:14:37,641 [105077679] SEVERE - #c.i.o.a.i.FlushQueue - null
+java.lang.IllegalStateException
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1609)
+	at com.intellij.util.containers.ContainerUtil$11.remove(ContainerUtil.java:1724)
+	at com.intellij.util.containers.ContainerUtil$12.remove(ContainerUtil.java:1771)
+	at com.jetbrains.liveEdit.FileBasedSynchronizer.containsErrors(FileBasedSynchronizer.java:128)
+	at com.jetbrains.liveEdit.FileBasedSynchronizer.scheduleFile(FileBasedSynchronizer.java:175)
+	at com.jetbrains.liveEdit.LiveEditManager.schedule(LiveEditManager.java:317)
+	at com.jetbrains.liveEdit.LiveEditBulkFileListener.lambda$after$0(LiveEditBulkFileListener.java:76)
+	at com.intellij.psi.impl.PsiDocumentManagerBase.performWhenAllCommitted(PsiDocumentManagerBase.java:602)
+	at com.intellij.psi.impl.PsiDocumentManagerBase.performWhenAllCommitted(PsiDocumentManagerBase.java:592)
+	at com.jetbrains.liveEdit.LiveEditBulkFileListener.lambda$after$1(LiveEditBulkFileListener.java:76)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-13 20:14:37,647 [105077685] SEVERE - #c.i.o.a.i.FlushQueue - WebStorm 2024.1  Build #WS-241.14494.235
+2024-04-13 20:14:37,648 [105077686] SEVERE - #c.i.o.a.i.FlushQueue - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-04-13 20:14:37,648 [105077686] SEVERE - #c.i.o.a.i.FlushQueue - OS: Linux
+2024-04-13 20:14:37,649 [105077687] SEVERE - #c.i.o.a.i.FlushQueue - Last Action: SaveAll
