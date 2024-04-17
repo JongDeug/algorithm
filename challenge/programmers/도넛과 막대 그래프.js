@@ -9,7 +9,6 @@
 // edges의 길이가 1,000,000 임. for 안에 DFS는 무조건 O(n^2) 근처가 될 거고 이러면 시간에서 탈락임.
 
 // 2. 두 번째 방법을 강구해야 했는데 생각나지 않았다.
-// ==> 구글을 보고 해결했는데 8자는 나가는거 두개 1개 이상임. 주의하기!
 
 function solution(edges) {
     // M. 그래프 인접 리스트, 도넛 길이, 막대 길이, 8자 길이를 담는 변수
@@ -25,6 +24,7 @@ function solution(edges) {
         graph[from] ? graph[from].to.push(to) : graph[from] = {from: [], to: [to], val: from};
         graph[to] ? graph[to].from.push(from) : graph[to] = {from: [from], to: [], val:to};
     }
+    console.log(graph)
 
     // I. check
     for (const node of graph) {
@@ -38,8 +38,7 @@ function solution(edges) {
             // 생성 정점, 8자 그래프
             else if(toLength >= 2) {
                 // 8자인데 생성 정점까지 포함되어 있으므로
-                // 이거 주의하자! *******************************************************************
-                if(fromLength > 0) ppal++;
+                if(fromLength >= 2) ppal++;
                 else startNode = node;
             }
         }
