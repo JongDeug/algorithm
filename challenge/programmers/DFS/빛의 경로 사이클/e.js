@@ -59,9 +59,10 @@ function solution(grid) {
             }
         }
     }
-    return answer.sort((a,b) => a-b);
+    return answer.sort((a, b) => a - b);
 }
 
+console.log(solution(['R', 'R']));
 // console.log(solution(['SL', 'LR']));
 // console.log(solution(['S']));
 
