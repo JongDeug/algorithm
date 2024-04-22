@@ -39,6 +39,8 @@ Javascript를 사용하여 공부하고 있습니다.
 - [디펜스 게임](challenge/programmers/디펜스%20게임.js) (이분탐색, 우선순위 큐)
 - [광물 캐기](challenge/programmers/광물%20캐기.js) (정렬, 구현)
 - [하노이 탑](challenge/programmers/recursion/하노이%20탑.js) (재귀인데 풀지도 못함ㅠㅠ)
-- [빛의 경로 사이클](challenge/programmers/DFS/빛의%20경로%20사이클.js) (브루투포스 + DFS)
-- [방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)
+- [빛의 경로 사이클](challenge/programmers/brute-force/빛의%20경로%20사이클/빛의%20경로%20사이클%202회차.js) (브루투포스)
+- ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
 - [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)
+- [전화번호 목록](challenge/programmers/전화번호%20목록.js) (문자열 다루기)
+- 
