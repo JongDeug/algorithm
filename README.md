@@ -43,4 +43,4 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
 - [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)
 - [전화번호 목록](challenge/programmers/전화번호%20목록.js) (문자열 다루기)
-- 
+- [미로 탈출](challenge/programmers/BFS/미로%20탈출.js) (BFS)
