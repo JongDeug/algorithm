@@ -4297,3 +4297,189 @@ java.lang.IllegalStateException: No current suspend context
 
 2024-04-23 19:44:36,103 [967276141]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-23 10:44:36.103894 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
 
+2024-04-23 19:45:29,859 [967329897] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 9 >= 9
+2024-04-23 19:45:29,859 [967329897] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 9 >= 9
+2024-04-25 14:44:59,474 [1122099512]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:44:59.474260 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:45:24,598 [1122124636]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:45:24.598293 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:45:24,913 [1122124951]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:45:24.913123 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:45:38,428 [1122138466]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:45:38.428265 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:49:58,219 [1122398257]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:49:58.219240 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:04,924 [1122404962]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:04.924322 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:20,091 [1122420129]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:20.91864 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:20,691 [1122420729]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:20.691151 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:21,462 [1122421500]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:21.462607 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:21,656 [1122421694]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:21.656298 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:21,912 [1122421950]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:21.912763 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:22,243 [1122422281]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:22.243300 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:22,388 [1122422426]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:22.388530 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:23,075 [1122423113]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:23.75217 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:23,263 [1122423301]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:23.263662 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:50:23,424 [1122423462]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:50:23.424923 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 14:57:21,100 [1122841138]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 05:57:21.100104 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:24:10,387 [1124450425]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:24:10.386975 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:06,478 [1124506516]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:06.478186 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:06,783 [1124506821]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:06.783558 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:07,073 [1124507111]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:07.73418 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:07,351 [1124507389]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:07.351317 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:08,110 [1124508148]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:08.110340 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:08,522 [1124508560]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:08.522513 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:08,701 [1124508739]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:08.701815 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:09,455 [1124509493]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:09.455190 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:09,652 [1124509690]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:09.652314 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:10,447 [1124510485]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:10.447293 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:10,984 [1124511022]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:10.984928 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:11,150 [1124511188]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:11.150899 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:11,329 [1124511367]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:11.329792 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:12,136 [1124512174]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:12.136846 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:12,678 [1124512716]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:12.678027 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:13,262 [1124513300]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:13.262714 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:25:13,505 [1124513543]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:25:13.505677 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:28:26,187 [1124706225]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:28:26.187752 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:54,883 [1126354921]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:54.883052 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:55,403 [1126355441]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:55.403169 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:55,580 [1126355618]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:55.580574 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:56,179 [1126356217]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:56.179237 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:56,479 [1126356517]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:56.479049 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:55:56,791 [1126356829]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:55:56.791476 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:56:03,579 [1126363617]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:56:03.579042 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:56:16,396 [1126376434]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:56:16.395968 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:56:16,705 [1126376743]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:56:16.705298 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:56:17,380 [1126377418]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:56:17.380891 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:56:48,254 [1126408292]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:56:48.254428 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:57:36,537 [1126456575]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:57:36.537274 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:57:42,000 [1126462038]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:57:42.483 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:57:42,281 [1126462319]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:57:42.281283 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:57:43,050 [1126463088]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:57:43.50910 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:57:43,423 [1126463461]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:57:43.423609 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:20,669 [1126560707]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:20.669236 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:25,014 [1126565052]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:25.14133 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:25,971 [1126566009]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:25.971575 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:26,845 [1126566883]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:26.845506 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:27,035 [1126567073]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:27.35578 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:27,688 [1126567726]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:27.688206 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:27,890 [1126567928]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:27.889983 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:28,267 [1126568305]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:28.267674 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:29,370 [1126569408]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:29.370001 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:29,758 [1126569796]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:29.758841 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:29,954 [1126569992]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:29.954881 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:30,185 [1126570223]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:30.185010 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:30,878 [1126570916]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:30.878417 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:31,180 [1126571218]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:31.180616 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:31,640 [1126571678]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:31.640228 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:32,033 [1126572071]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:32.33005 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 15:59:32,231 [1126572269]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 06:59:32.231509 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 16:00:05,088 [1126605126]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 07:00:05.88289 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 16:00:05,453 [1126605491]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-25 07:00:05.453901 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-25 16:12:54,610 [1127374648] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-25 16:12:54,611 [1127374649] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-25 17:23:24,408 [1131604446]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate Зӌ to ProjectActivity [Plugin: izhangzhihao.rainbow.brackets]
+com.intellij.diagnostic.PluginException: Migrate Зӌ to ProjectActivity [Plugin: izhangzhihao.rainbow.brackets]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:275)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:68)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:191)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:190)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:270)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-25 17:23:24,412 [1131604450]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate ชὉ to ProjectActivity [Plugin: izhangzhihao.rainbow.brackets]
+com.intellij.diagnostic.PluginException: Migrate ชὉ to ProjectActivity [Plugin: izhangzhihao.rainbow.brackets]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:275)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:68)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:191)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:190)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:270)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)

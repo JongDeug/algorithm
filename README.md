@@ -44,3 +44,4 @@ Javascript를 사용하여 공부하고 있습니다.
 - [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)
 - [전화번호 목록](challenge/programmers/전화번호%20목록.js) (문자열 다루기)
 - [미로 탈출](challenge/programmers/BFS/미로%20탈출.js) (BFS)
+- [카펫](challenge/programmers/카펫.js) (단순 구현, 이런게 문제야 ,, ㅠㅠㅠ, 알아갑니다~) 
