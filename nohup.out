@@ -4483,3 +4483,622 @@ com.intellij.diagnostic.PluginException: Migrate ชὉ to ProjectActivity [Plug
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-26 13:45:42,713 [1204942751]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:45:42.712954 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:45:42,968 [1204943006]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:45:42.968794 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:45:59,999 [1204960037]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:45:59,999 [1204960037]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:45:59,999 [1204960037]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:45:59,999 [1204960037]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:46:00,000 [1204960038]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:47:12,701 [1205032739]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:47:12,701 [1205032739]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:47:12,701 [1205032739]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:47:12,701 [1205032739]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:47:12,701 [1205032739]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:48:30,103 [1205110141]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:48:30.103829 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:48:30,336 [1205110374]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:48:30.336838 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:49:14,280 [1205154318]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:49:14,280 [1205154318]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:49:14,280 [1205154318]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:49:14,280 [1205154318]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:49:14,280 [1205154318]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:52:46,030 [1205366068]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:52:46,030 [1205366068]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:52:46,030 [1205366068]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:52:46,030 [1205366068]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:52:46,030 [1205366068]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:53:10,121 [1205390159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:53:10,121 [1205390159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:53:10,121 [1205390159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:53:10,121 [1205390159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:53:10,121 [1205390159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:53:36,001 [1205416039]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:53:36,001 [1205416039]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:53:36,001 [1205416039]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:53:36,001 [1205416039]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:53:36,002 [1205416040]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:54:25,121 [1205465159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:54:25,121 [1205465159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:54:25,121 [1205465159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:54:25,121 [1205465159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:54:25,121 [1205465159]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 13:55:35,728 [1205535766]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:35.727896 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:36,008 [1205536046]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:36.8658 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:36,185 [1205536223]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:36.185116 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:36,468 [1205536506]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:36.468584 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:37,199 [1205537237]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:37.199072 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:37,893 [1205537931]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 04:55:37.893459 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 13:55:56,554 [1205556592]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 13:55:56,554 [1205556592]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 13:55:56,554 [1205556592]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 13:55:56,554 [1205556592]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 13:55:56,554 [1205556592]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 14:02:32,546 [1205952584]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:32.546897 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:32,840 [1205952878]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:32.840892 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:33,774 [1205953812]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:33.773980 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:34,523 [1205954561]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:34.523262 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:35,262 [1205955300]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:35.262004 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:35,418 [1205955456]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:35.418780 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:35,929 [1205955967]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:35.929246 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:36,093 [1205956131]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:36.93896 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:46,912 [1205966950]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:46.912604 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:48,715 [1205968753]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:48.715634 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:52,684 [1205972722]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:52.684231 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:52,923 [1205972961]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:52.923395 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:02:53,415 [1205973453]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:02:53.415456 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:03:15,137 [1205995175]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 14:03:15,137 [1205995175]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 14:03:15,137 [1205995175]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 14:03:15,137 [1205995175]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 14:03:15,137 [1205995175]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 14:04:12,747 [1206052785]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:04:12.747724 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:04:13,017 [1206053055]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:04:13.17606 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:04:13,324 [1206053362]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:04:13.324342 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:04:13,658 [1206053696]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:04:13.658433 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:04:14,127 [1206054165]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:04:14.127410 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:05:07,334 [1206107372]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 14:05:07,334 [1206107372]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 14:05:07,335 [1206107373]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 14:05:07,335 [1206107373]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 14:05:07,335 [1206107373]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 14:05:18,468 [1206118506]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 14:05:18,468 [1206118506]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 14:05:18,468 [1206118506]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 14:05:18,468 [1206118506]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 14:05:18,469 [1206118507]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 14:08:58,092 [1206338130]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/search-algorithms/binarySearch.js
+2024-04-26 14:08:58,092 [1206338130]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/radix-sort/radixSort.js
+2024-04-26 14:08:58,092 [1206338130]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
+2024-04-26 14:08:58,092 [1206338130]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
+2024-04-26 14:08:58,092 [1206338130]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-26 14:23:57,196 [1207237234]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:57.196648 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:57,367 [1207237405]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:57.367635 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:57,636 [1207237674]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:57.636800 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:57,818 [1207237856]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:57.818242 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:58,127 [1207238165]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:58.127564 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:58,295 [1207238333]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:58.295195 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:23:58,615 [1207238653]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:23:58.615029 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:25:33,788 [1207333826]   WARN - #c.i.u.i.CachedImageIcon - Cannot get reflective icon (path=JavaScriptPsiIcons.FileTypes.TypeScriptFile)
+java.lang.ClassNotFoundException: icons.JavaScriptPsiIcons$FileTypes
+	at com.intellij.util.lang.UrlClassLoader.findClass(UrlClassLoader.java:248)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.intellij.ui.icons.ImageDataByPathLoaderKt.getReflectiveIcon(ImageDataByPathLoader.kt:170)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation(IconLoader.kt:369)
+	at com.intellij.openapi.util.IconLoaderKt.findIconUsingDeprecatedImplementation$default(IconLoader.kt:354)
+	at com.intellij.openapi.util.IconLoader.findIcon(IconLoader.kt:147)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.getIcon(ExtendableHTMLViewFactory.kt:181)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:172)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory$Extensions$IconsExtension.invoke(ExtendableHTMLViewFactory.kt:165)
+	at com.intellij.util.ui.ExtendableHTMLViewFactory.create(ExtendableHTMLViewFactory.kt:41)
+	at java.desktop/javax.swing.text.html.TableView.create(TableView.java:942)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:112)
+	at java.desktop/javax.swing.text.FlowView$LogicalView.loadChildren(FlowView.java:731)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.loadChildren(FlowView.java:147)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.FlowView.setParent(FlowView.java:306)
+	at java.desktop/javax.swing.text.html.ParagraphView.setParent(ParagraphView.java:75)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView$RowView.replace(TableView.java:1474)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.html.TableView.replace(TableView.java:913)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.TableView.setParent(TableView.java:817)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.CompositeView.loadChildren(CompositeView.java:114)
+	at java.desktop/javax.swing.text.CompositeView.setParent(CompositeView.java:139)
+	at java.desktop/javax.swing.text.html.BlockView.setParent(BlockView.java:72)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit$HTMLFactory$BodyBlockView.setParent(HTMLEditorKit.java:1476)
+	at java.desktop/javax.swing.text.CompositeView.replace(CompositeView.java:219)
+	at java.desktop/javax.swing.text.BoxView.replace(BoxView.java:182)
+	at java.desktop/javax.swing.text.View.updateChildren(View.java:1129)
+	at java.desktop/javax.swing.text.View.insertUpdate(View.java:708)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$RootView.insertUpdate(BasicTextUI.java:1714)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI$UpdateHandler.insertUpdate(BasicTextUI.java:1996)
+	at java.desktop/javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226)
+	at java.desktop/javax.swing.text.DefaultStyledDocument.create(DefaultStyledDocument.java:160)
+	at java.desktop/javax.swing.text.html.HTMLDocument.create(HTMLDocument.java:472)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.flushBuffer(HTMLDocument.java:4033)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3972)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.addContent(HTMLDocument.java:3937)
+	at java.desktop/javax.swing.text.html.HTMLDocument$HTMLReader.handleText(HTMLDocument.java:2797)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.handleText(DocumentParser.java:271)
+	at java.desktop/javax.swing.text.html.parser.Parser.handleText(Parser.java:409)
+	at java.desktop/javax.swing.text.html.parser.Parser.startTag(Parser.java:480)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseTag(Parser.java:2054)
+	at java.desktop/javax.swing.text.html.parser.Parser.parseContent(Parser.java:2195)
+	at java.desktop/javax.swing.text.html.parser.Parser.parse(Parser.java:2372)
+	at java.desktop/javax.swing.text.html.parser.DocumentParser.parse(DocumentParser.java:135)
+	at java.desktop/javax.swing.text.html.parser.ParserDelegator.parse(ParserDelegator.java:114)
+	at java.desktop/javax.swing.text.html.HTMLEditorKit.read(HTMLEditorKit.java:264)
+	at java.desktop/javax.swing.JEditorPane.setText(JEditorPane.java:1484)
+	at com.intellij.codeInsight.documentation.DocumentationEditorPane.setText(DocumentationEditorPane.java:127)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.updateContent(DocumentationUI.kt:264)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:225)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.handleContent(DocumentationUI.kt:215)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI.access$handleContent(DocumentationUI.kt:52)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invokeSuspend(DocumentationUI.kt:189)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at com.intellij.lang.documentation.ide.ui.DocumentationUI$handlePage$2.invoke(DocumentationUI.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invokeSuspend(Merge.kt:217)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invokeSuspend(Merge.kt:34)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1.emit(Merge.kt:33)
+	at kotlinx.coroutines.flow.StateFlowImpl.collect(StateFlow.kt:396)
+	at kotlinx.coroutines.flow.ReadonlySharedFlow.collect(Share.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invokeSuspend(Merge.kt:27)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3.invoke(Merge.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest.flowCollect(Merge.kt:25)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo$suspendImpl(ChannelFlow.kt:157)
+	at kotlinx.coroutines.flow.internal.ChannelFlowOperator.collectTo(ChannelFlow.kt)
+	at kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1.invokeSuspend(ChannelFlow.kt:60)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:204)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:419)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithEnabledImplicitRead(RwLockHolder.kt:138)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithImplicitRead(RwLockHolder.kt:129)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1152)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:81)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:123)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:698)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$12(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.RwLockHolder.runWithoutImplicitRead(RwLockHolder.kt:105)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:77)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:362)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:361)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:361)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1021)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1021)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:356)
+	at com.intellij.openapi.application.impl.RwLockHolder.runIntendedWriteActionOnCurrentThread(RwLockHolder.kt:209)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:830)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:398)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-04-26 14:32:38,487 [1207758525]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:32:38.486904 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:35:36,316 [1207936354] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:35:36,316 [1207936354] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,027 [1207962065] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,027 [1207962065] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,047 [1207962085] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,195 [1207962233] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,296 [1207962334] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,549 [1207962587] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,568 [1207962606] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,629 [1207962667] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,726 [1207962764] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,734 [1207962772] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,754 [1207962792] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,794 [1207962832] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,834 [1207962872] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,898 [1207962936] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:02,978 [1207963016] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,466 [1207996504] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,467 [1207996505] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,515 [1207996553] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,516 [1207996554] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,535 [1207996573] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,536 [1207996574] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,576 [1207996614] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,576 [1207996614] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,656 [1207996694] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,656 [1207996694] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,771 [1207996809] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:36,863 [1207996901] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:37,151 [1207997189] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:37,601 [1207997639] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:37,661 [1207997699] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:37,681 [1207997719] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:36:37,701 [1207997739] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:39:21,063 [1208161101] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+Opening in existing browser session.
+2024-04-26 14:54:55,973 [1209096011] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 14:57:58,036 [1209278074]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:57:58.36681 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:57:58,219 [1209278257]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:57:58.219895 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:57:59,134 [1209279172]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:57:59.134223 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 14:57:59,315 [1209279353]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 05:57:59.315501 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:01:48,500 [1209508538]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:01:48.500351 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:01:49,741 [1209509779]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:01:49.741175 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:01:53,419 [1209513457] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:01:53,439 [1209513477] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:02:25,193 [1209545231] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:02:25,193 [1209545231] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:02:54,057 [1209574095] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:02:54,057 [1209574095] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:04:55,769 [1209695807]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:04:55.769911 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:04:56,131 [1209696169]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:04:56.131603 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:04:56,295 [1209696333]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:04:56.295396 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:04:56,515 [1209696553]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:04:56.515821 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:05:17,694 [1209717732]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:05:17.694779 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:29,109 [1209909147]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:08:29.109306 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:29,623 [1209909661]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:08:29.622988 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:30,182 [1209910220]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:08:30.182158 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:30,686 [1209910724]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:08:30.686896 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:30,995 [1209911033]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:08:30.995849 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:08:32,296 [1209912334] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:08:57,758 [1209937796] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:08:57,758 [1209937796] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:08:57,818 [1209937856] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:08:57,878 [1209937916] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:09:17,985 [1209958023] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,002 [1210006040] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,003 [1210006041] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,555 [1210006593] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,655 [1210006693] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,676 [1210006714] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,844 [1210006882] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,884 [1210006922] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:06,925 [1210006963] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,069 [1210007107] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,149 [1210007187] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,189 [1210007227] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,232 [1210007270] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,276 [1210007314] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,353 [1210007391] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:10:07,373 [1210007411] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:14:39,296 [1210279334] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:14:39,778 [1210279816] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:34,481 [1210454519] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:34,482 [1210454520] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:34,561 [1210454599] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:34,582 [1210454620] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:34,992 [1210455030] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:35,066 [1210455104] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:17:35,267 [1210455305] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:20:05,437 [1210605475]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:20:05.437081 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:21:26,511 [1210686549] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:21:26,511 [1210686549] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:21:26,571 [1210686609] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:21:34,651 [1210694689] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:21:34,652 [1210694690] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:21:34,720 [1210694758] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:29,033 [1210749071]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:22:29.33278 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:22:29,450 [1210749488]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:22:29.450885 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:22:30,484 [1210750522]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:22:30.484784 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:22:31,610 [1210751648] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:31,610 [1210751648] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:31,940 [1210751978] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:31,980 [1210752018] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,000 [1210752038] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,040 [1210752078] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,111 [1210752149] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,130 [1210752168] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,150 [1210752188] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,190 [1210752228] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,281 [1210752319] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,401 [1210752439] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,441 [1210752479] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,628 [1210752666] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,668 [1210752706] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:22:32,840 [1210752878] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:55,588 [1210955626] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:55,589 [1210955627] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:55,769 [1210955807] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:55,789 [1210955827] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:55,955 [1210955993] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,016 [1210956054] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,056 [1210956094] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,252 [1210956290] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,333 [1210956371] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,413 [1210956451] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:25:56,493 [1210956531] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 15:26:42,219 [1211002257]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:26:42.219508 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:51:46,551 [1212506589]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:51:46.551824 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:51:47,033 [1212507071]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:51:47.33782 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:51:47,498 [1212507536]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:51:47.498653 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:51:47,774 [1212507812]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:51:47.774867 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:58:13,319 [1212893357]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:58:13.318962 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:58:13,895 [1212893933]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:58:13.895042 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:59:42,085 [1212982123]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:59:42.85098 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 15:59:42,618 [1212982656]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 06:59:42.618355 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:11,935 [1213071973]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:11.935844 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:12,527 [1213072565]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:12.527332 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:13,494 [1213073532]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:13.494473 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:14,211 [1213074249]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:14.211725 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:15,346 [1213075384]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:15.346788 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:16,347 [1213076385]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:16.347261 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:17,489 [1213077527]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:17.489106 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:17,994 [1213078032]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:17.994550 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:18,394 [1213078432]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:18.393928 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:01:19,439 [1213079477]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:01:19.439138 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:02:39,546 [1213159584]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:02:39.546011 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:03:06,881 [1213186919] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:03:06,981 [1213187019] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:07:14,103 [1213434141]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:07:14.103028 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:07:14,439 [1213434477]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:07:14.439495 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:07:15,890 [1213435928]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:07:15.890153 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:21,035 [1213621073]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:21.35481 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:21,359 [1213621397]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:21.359657 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:22,184 [1213622222]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:22.184756 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:22,629 [1213622667]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:22.629933 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:23,115 [1213623153]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:23.115058 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:23,530 [1213623568]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:23.530885 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:24,066 [1213624104]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:24.66029 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:10:24,262 [1213624300]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:10:24.262427 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:15,709 [1213675747]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:15.709172 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:52,275 [1213712313]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:52.275350 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:53,152 [1213713190]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:53.152819 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:54,012 [1213714050]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:54.12862 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:54,396 [1213714434]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:54.396166 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:55,070 [1213715108]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:55.70311 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:55,387 [1213715425]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:55.387295 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:55,662 [1213715700]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:55.662388 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:55,872 [1213715910]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:55.872196 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:11:56,246 [1213716284]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:11:56.246230 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:07,172 [1213727210]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:07.172551 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:07,823 [1213727861]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:07.823176 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:08,104 [1213728142]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:08.103990 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:08,252 [1213728290]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:08.252587 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:09,444 [1213729482]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:09.444604 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:11,357 [1213731395]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:11.357310 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:15,760 [1213735798]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:15.760840 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:24,072 [1213744110]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:24.72344 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:12:25,403 [1213745441] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-26 16:12:25,404 [1213745442] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-26 16:12:39,845 [1213759883]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:12:39.845577 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:18:08,015 [1214088053]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:18:08.15543 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:18:08,695 [1214088733]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:18:08.695735 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:49,601 [1214369639]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:49.601209 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:50,082 [1214370120]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:50.81944 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:50,298 [1214370336]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:50.298617 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:50,546 [1214370584]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:50.546534 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:51,056 [1214371094]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:51.55993 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:51,317 [1214371355]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:22:51.317357 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:22:52,567 [1214372605] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,568 [1214372606] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,588 [1214372626] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,588 [1214372626] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,608 [1214372646] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,608 [1214372646] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,663 [1214372701] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,663 [1214372701] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,729 [1214372767] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,730 [1214372768] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,769 [1214372807] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,770 [1214372808] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,810 [1214372848] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,810 [1214372848] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,830 [1214372868] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,830 [1214372868] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,899 [1214372937] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,899 [1214372937] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,998 [1214373036] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:52,999 [1214373037] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:53,052 [1214373090] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:53,052 [1214373090] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:22:58,084 [1214378122] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:23:43,973 [1214424011]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:43.973625 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:44,347 [1214424385]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:44.347734 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:44,518 [1214424556]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:44.518549 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:44,717 [1214424755]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:44.717604 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:45,554 [1214425592]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:45.554855 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:46,133 [1214426171]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:46.133387 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:46,679 [1214426717]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:46.679545 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:47,215 [1214427253]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:47.215494 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:54,787 [1214434825]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:54.787101 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:23:54,975 [1214435013]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:23:54.975412 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:24:58,041 [1214498079] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:24:58,041 [1214498079] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 7 >= 7
+2024-04-26 16:28:03,317 [1214683355]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:03.317892 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:03,929 [1214683967]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:03.929928 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:04,156 [1214684194]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:04.156491 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:04,457 [1214684495]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:04.456970 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:04,855 [1214684893]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:04.855507 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:05,831 [1214685869]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:05.831503 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:06,141 [1214686179]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:06.141075 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:06,528 [1214686566]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:06.528542 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:06,821 [1214686859]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:06.821389 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:07,148 [1214687186]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:07.148171 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:07,641 [1214687679]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:07.641679 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:08,090 [1214688128]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:08.90559 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:08,283 [1214688321]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:08.283049 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:09,169 [1214689207]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:09.169101 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:09,584 [1214689622]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:09.584454 [onnx_native_service.cpp:103:init_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
+2024-04-26 16:28:19,267 [1214699305]   WARN - #o.j.c.f.l.l.LocalGeneratorsCache - 2024-04-26 07:28:19.267403 [onnx_native_service.cpp:124:get_log_probs] got an exception 'llama_decode failed, error code: 1' during execution
+
