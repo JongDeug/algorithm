@@ -34,23 +34,23 @@ function solution(relation) {
     // M. 조합 결과를 담는 배열
     let combinations = [];
     // M. 조합구하는 함수 (n개 중 r개)
-    const combination = (start, depth, r, temp) => {
+    const combination = (start, r, temp) => {
         // I. Base Case
-        if (depth === r) {
+        if (temp.length === r) {
             combinations.push([...temp]);
             return;
         }
 
         for (let i = start; i < indexArr.length; i++) {
             temp.push(indexArr[i]);
-            combination(i + 1, depth + 1, r, temp);
+            combination(i + 1, r, temp);
             temp.pop();
         }
     };
 
     // I. 유일성을 만족하는 후보키 찾기
     for (let i = 1; i <= indexArr.length; i++) {
-        combination(0, 0, i, []);
+        combination(0, i, []);
 
         // I. indexArr 가지고 조합을 얻어낸다. => 조합을 통해 중복확인을 한다.
         for (const com of combinations) {
@@ -78,7 +78,7 @@ function solution(relation) {
                         }
                         if (isAllIn) break;
                     }
-                    if(!isAllIn) candidateKeys.push(com);
+                    if (!isAllIn) candidateKeys.push(com);
                 }
             }
         }
@@ -173,4 +173,4 @@ function solution(relation) {
 //     ["c", "1", "aaa", "d", "ng"],
 //     ["d", "2", "bbb", "d", "ng"]]));
 // console.log(solution([['a','1','aaa','c','ng'],['b','1','bbb','c','g'],['c','1','aaa','d','ng'],['d','2','bbb','d','ng']]));
-console.log(solution([['a', 'aa'], ['aa', 'a'], ['a', 'a']]));
+console.log(solution([["a", "aa"], ["aa", "a"], ["a", "a"]]));
