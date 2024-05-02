@@ -35,9 +35,10 @@ Javascript를 사용하여 공부하고 있습니다.
 
 - [둘만의 암호](challenge/programmers/둘만의%20암호.js) (흠)
 - [뉴스 클러스터링](challenge/programmers/%5B1차%5D%20뉴스%20클러스터링.js) (흠)
-- [디펜스 게임](challenge/programmers/디펜스%20게임.js) (이분탐색, 우선순위 큐)
+- [디펜스 게임](challenge/programmers/binary-search/디펜스%20게임/디펜스%20게임%202회차.js) (이분탐색)
+- [디펜스 게임](challenge/programmers/priority-queue/디펜스%20게임%202회차.js) (우선순위 큐)
 - [광물 캐기](challenge/programmers/광물%20캐기.js) (정렬, 구현)
-- [하노이 탑](challenge/programmers/recursion/하노이%20탑.js) (재귀인데 풀지도 못함ㅠㅠ)
+- ~~[하노이 탑](challenge/programmers/recursion/하노이%20탑/하노이%20탑%201회차.js) (재귀인데 풀지도 못함ㅠㅠ)~~
 - [빛의 경로 사이클](challenge/programmers/brute-force/빛의%20경로%20사이클/빛의%20경로%20사이클%202회차.js) (브루투포스)
 - ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
 - [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)

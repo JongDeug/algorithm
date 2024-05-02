@@ -6135,3 +6135,1458 @@ Caused by: java.lang.IllegalArgumentException: Argument for @NotNull parameter '
 2024-04-27 19:11:43,992 [1310904030]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/tree/binary-heap/priority-queue/priorityQueue.js
 2024-04-27 19:11:43,992 [1310904030]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/data-structure/graph/dijkstra/dijkstra.js
 2024-04-27 19:11:43,992 [1310904030]   WARN - #c.i.j.d.JavaScriptDebugProcess - Unable to set breakpoint with null position: file:///home/jongdeug/Documents/Code/WebstormProjects/algorithm/sort/more-scared/mergeSort.js
+2024-04-27 20:08:10,551 [1314290589]   WARN - #c.i.u.x.Binding - No accessors for git4idea.search.FilterState. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+Opening in existing browser session.
+2024-04-27 20:52:52,113 [1316972151] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 20:52:52,114 [1316972152] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 20:53:02,778 [1316982816] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 20:53:02,779 [1316982817] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:01:23,427 [1317483465] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:01:23,429 [1317483467] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:05:12,462 [1317712500] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:05:12,463 [1317712501] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:06:14,695 [1317774733] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:06:14,695 [1317774733] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:10:30,656 [1318030694] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:10:30,657 [1318030695] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 8 >= 8
+2024-04-27 21:11:07,179 [1318067217]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AsyncGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,179 [1318067217]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AsyncDiagnosticGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,179 [1318067217]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'LetsPlot.Charts.Toolbar.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,179 [1318067217]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Charts.Toolbar.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeTabActionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeMainMenuGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HostCWMManageLicenseGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeNavbarGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CWMCallSplitButtonActionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeMainGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeUsersGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HostCodeWithMeMainGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'UnattendedHostDropdownGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'TerminalShareGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,180 [1318067218]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeHeaderMenuGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,181 [1318067219]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ForwardPortAndNavigateInBrowser' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,181 [1318067219]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,182 [1318067220]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'NavigateInBrowser' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,183 [1318067221]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeHeaderMenuAdditionalGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,184 [1318067222]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HostCodeWithMeCallMainGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,184 [1318067222]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'UnattendedHostImportantActionsGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,185 [1318067223]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CWMTelephonyGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,185 [1318067223]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EnableVoiceCallAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,185 [1318067223]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'StopForwardingAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,185 [1318067223]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HostCodeWithMeSubMenuGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,185 [1318067223]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PortForwardingSuggestionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,186 [1318067224]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CodeWithMeToolbarGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,186 [1318067224]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PortForwardingPortGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,186 [1318067224]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ForwardPortAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,186 [1318067224]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CallLabelAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,187 [1318067225]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.EditMaximized.Record.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,187 [1318067225]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.InEditorTableResult.Horizontal.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,187 [1318067225]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.NavigationAndEditing.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,187 [1318067225]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Pagination.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,189 [1318067227]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.ScriptedExtractors.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,189 [1318067227]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Navigate.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,189 [1318067227]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.ChooseAggregators.ScriptedGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,189 [1318067227]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.BuiltInExtractor.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,189 [1318067227]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.EditMaximized.Aggregates.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Csv.PreviewPopupGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.EditMaximized.Chart.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.AggregateView.PopupGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Group.Common' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Csv.PreviewColumnHeaderPopup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.PopupGroup.CellActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in '<anonymous-group-2>' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in '<anonymous-group-3>' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in '<anonymous-group-4>' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.ColumnActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in '<anonymous-group-5>' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.EditMaximized.Value.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Inlay.Chart' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.Group.Secondary' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,190 [1318067228]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Console.TableResult.CsvExtractors.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,191 [1318067229]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Uml.NodeCellEditorPopup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,192 [1318067230]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Diagram.DefaultGraphToolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,192 [1318067230]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'UML.DefaultGraphPopup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,192 [1318067230]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Uml.PsiElement.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,192 [1318067230]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Docker.RemoteServersViewPopup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,192 [1318067230]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Docker.RemoteServersViewToolbar.Top' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,193 [1318067231]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Docker.RegistryViewToolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,194 [1318067232]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Docker.RemoteServers.ComposeUp' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,196 [1318067234]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EndpointsActions.FilterToolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,196 [1318067234]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EndpointsActions.Title' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,196 [1318067234]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EndpointsActions.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,197 [1318067235]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PublishGroup.Base' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,197 [1318067235]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'DeploymentGroup.Basic' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,197 [1318067235]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'RemoteHostViewPopupMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,199 [1318067237]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Experimental.Branch.Popup.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,202 [1318067240]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.BranchOperationGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,202 [1318067240]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.MainMenu.FileActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,203 [1318067241]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Stage.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,203 [1318067241]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Hosting.Copy.Link.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,204 [1318067242]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Log.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,204 [1318067242]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Stage.Local.File.Menu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,204 [1318067242]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.ChangesView.Conflicts' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,205 [1318067243]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Hosting.Open.In.Browser.Group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,205 [1318067243]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Branch' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,205 [1318067243]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitMainToolbarQuickActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,206 [1318067244]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitMergeRebaseWidgetGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,207 [1318067245]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.ToolbarWidget.CreateRepository' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,207 [1318067245]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.FileHistory.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,208 [1318067246]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Ongoing.Rebase.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,208 [1318067246]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitRepositoryActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,209 [1318067247]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Stash.ChangesBrowser.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,210 [1318067248]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Stage.Tree.Menu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,210 [1318067248]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Reword.ToolbarActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,211 [1318067249]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Branches.Popup.SpeedSearch' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,211 [1318067249]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Log.ContextMenu.CheckoutBrowse' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,212 [1318067250]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.LogContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,212 [1318067250]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.FileActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,212 [1318067250]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Log.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,212 [1318067250]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="GitBranchesTreePopupFilterSeparatorWithText" class="git4idea.ui.branch.popup.GitBranchesTreePopupFilterSeparatorWithText"
+2024-04-27 21:11:07,212 [1318067250]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitBranchesTreePopupFilterSeparatorWithText' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,213 [1318067251]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Stash.Operations.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,213 [1318067251]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.MainMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,214 [1318067252]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.Branches.List' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,215 [1318067253]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'MainToolbarQuickActions.VCS' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,216 [1318067254]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.PullRequest.ToolWindow.List.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,216 [1318067254]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.PullRequest.Changes.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,216 [1318067254]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.PullRequest.Details.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,217 [1318067255]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.PullRequest.Timeline.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,218 [1318067256]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.PullRequest.Changes.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,218 [1318067256]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Github.Pull.Request.Branch.Popup.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,220 [1318067258]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.Details.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,221 [1318067259]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.Changes.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,221 [1318067259]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.Timeline.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,221 [1318067259]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.Timeline.Error.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,221 [1318067259]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.List.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,221 [1318067259]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'GitLab.Merge.Request.Review.Editor.Branch.Popup.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,222 [1318067260]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HTTPClient.Toolbar.ProvidedActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,222 [1318067260]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'IdeaVim.ReloadVimRc.reload' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,222 [1318067260]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'IdeaVim.ReloadVimRc.group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,222 [1318067260]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.ThumbnailViewActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.ImageViewActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.EditorToolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.ThumbnailsPopupMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.ThumbnailsToolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Images.EditorPopupMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,223 [1318067261]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'JavaScriptDebugger.HideActionsGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,224 [1318067262]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ShowJsbtTasks' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,225 [1318067263]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'JSTestRunLineMarkersAdditionalActionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,225 [1318067263]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'JsTestFrameworkCodeGeneratorGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,225 [1318067263]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'HttpClient.LLM.Actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,226 [1318067264]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.StatusBar.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,226 [1318067264]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Chat.Message.User.ContextActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,226 [1318067264]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Chat.SecondaryGearActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,226 [1318067264]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Message.Toolbar.User' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,226 [1318067264]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Message.Toolbar.Assistant' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,227 [1318067265]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Chat.Input.PromptList' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,227 [1318067265]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Snippet.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,228 [1318067266]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Chat.Input.Left' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,228 [1318067266]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.List.ContextActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,228 [1318067266]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolWindow.Chat.TitleActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,228 [1318067266]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'AIAssistant.ToolsDropdown' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Markdown.TableActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Markdown.EditorContextMenuGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Markdown.InsertGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Markdown.TableColumnActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Markdown.TableRowActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,229 [1318067267]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Hg.MQ.Unapplied' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Mq.Patches.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Mq.Patches.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Hg.Log.ContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'v8.profiling' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SwEditorHoverActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,230 [1318067268]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'swagger.GutterGenerateActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PackageChecker.ProblemTab.ToolBar.ShowSafe' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PackageChecker.AnalyzeActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PackageChecker.ProblemTab.ToolBar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'PackageChecker.Toolwindow.Tree.Popup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'IndexingDiagnosticGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'StartProfileGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,231 [1318067269]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'DiagnosticGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,232 [1318067270]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Qodana.OpenQodanaCloudSettingsAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,232 [1318067270]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Qodana.ProblemsView.Link' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,232 [1318067270]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Qodana.OpenQodanaCloudReportAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,232 [1318067270]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Qodana.ProblemsView.Login' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,233 [1318067271]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Qodana.ProblemsView' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,233 [1318067271]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'com.jetbrains.gateway.RemoteDevelopmentActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,233 [1318067271]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'OpenRemoteDevelopment' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,234 [1318067272]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'RemoteExternalToolsGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,234 [1318067272]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SettingsSync' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,234 [1318067272]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SettingsSyncSeparator' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,235 [1318067273]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ShGenerateGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,235 [1318067273]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Svn.WorkingCopiesView.Toolbar' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,235 [1318067273]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SubversionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,235 [1318067273]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SubversionUpdateActionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,236 [1318067274]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'task.actions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,236 [1318067274]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'tasks.group' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,236 [1318067274]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'working.context' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,236 [1318067274]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Terminal.OutputContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,238 [1318067276]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'TerminalToolwindowActionGroup' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,238 [1318067276]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Terminal.PromptContextMenu' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,240 [1318067278]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Dev.PsiViewerActions' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,270 [1318067308]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'FileChooser.GotoModule' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,271 [1318067309]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ActivateUnitTestsToolWindow' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,271 [1318067309]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'IDEtalk.SearchUserHistory' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,272 [1318067310]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Compile' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,272 [1318067310]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'MethodOverloadSwitchDown' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,273 [1318067311]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ChangesView.GroupBy.Module' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,273 [1318067311]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ShowProjectStructureSettings' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,274 [1318067312]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ActivateNuGetToolWindow' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,274 [1318067312]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ActivateFavoritesToolWindow' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,277 [1318067315]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'InactiveStopActionPlaceholder' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,277 [1318067315]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'UnmarkTestSourceRoot' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,278 [1318067316]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'MethodOverloadSwitchUp' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,279 [1318067317]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CompileDirty' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,279 [1318067317]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ValidateXml' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,279 [1318067317]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'UML.ShowChanges' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,280 [1318067318]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ChangeTypeSignature' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,281 [1318067319]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Uml.ShowDiff' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,282 [1318067320]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EAPFeedbackToolbarAction' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,283 [1318067321]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'SwitchHeaderSource' template presentation. Showing its action-id instead
+2024-04-27 21:11:07,283 [1318067321]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'WebStormMigrationGuide' template presentation. Showing its action-id instead
+2024-04-27 21:13:14,738 [1318194776]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v2.js/META-INF/pluginIcon.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v2.js/META-INF/pluginIcon.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:252)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,738 [1318194776]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v2.js/META-INF/pluginIcon_dark.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v2.js/META-INF/pluginIcon_dark.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:253)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,739 [1318194777]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_common.js/META-INF/pluginIcon.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_common.js/META-INF/pluginIcon.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:252)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,740 [1318194778]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_common.js/META-INF/pluginIcon_dark.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_common.js/META-INF/pluginIcon_dark.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:253)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,741 [1318194779]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter.js/META-INF/pluginIcon.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter.js/META-INF/pluginIcon.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:252)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,742 [1318194780]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter.js/META-INF/pluginIcon_dark.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter.js/META-INF/pluginIcon_dark.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:253)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,745 [1318194783]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v3.js/META-INF/pluginIcon.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v3.js/META-INF/pluginIcon.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:252)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,746 [1318194784]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v3.js/META-INF/pluginIcon_dark.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v3.js/META-INF/pluginIcon_dark.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:253)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,747 [1318194785]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v7.js/META-INF/pluginIcon.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v7.js/META-INF/pluginIcon.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:252)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:14,747 [1318194785]   WARN - #c.i.i.p.n.PluginLogo - Cannot load plugin icon (file=/home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v7.js/META-INF/pluginIcon_dark.svg)
+java.nio.file.FileSystemException: /home/jongdeug/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-cucumber/lib/cucumberjs_formatter_v7.js/META-INF/pluginIcon_dark.svg: Not a directory
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadIcon(PluginLogo.kt:339)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.tryLoadDirIcons(PluginLogo.kt:253)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.loadPluginIconsFromFile(PluginLogo.kt:235)
+	at com.intellij.ide.plugins.newui.PluginLogoKt.access$loadPluginIconsFromFile(PluginLogo.kt:1)
+	at com.intellij.ide.plugins.newui.PluginLogoLoader$schedulePluginIconLoading$1$1.invokeSuspend(PluginLogo.kt:385)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-04-27 21:13:19,320 [1318199358]   WARN - #c.i.o.o.e.ConfigurableCardPanel - auto-dispose 'Plugins' id=preferences.pluginManager
+2024-04-27 21:13:21,121 [1318201159]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:13:21,122 [1318201160]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:13:21,145 [1318201183]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:13:21,145 [1318201183]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:13:22,265 [1318202303]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:13:22,266 [1318202304]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:13:22,327 [1318202365]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:14:52,152 [1318292190]   WARN - #c.i.o.o.e.ConfigurableCardPanel - auto-dispose 'Plugins' id=preferences.pluginManager
+2024-04-27 21:15:46,290 [1318346328]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:46,290 [1318346328]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:46,415 [1318346453]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '@'
+2024-04-27 21:15:46,417 [1318346455]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:46,630 [1318346668]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:46,630 [1318346668]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:46,641 [1318346679]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '@'
+2024-04-27 21:15:46,642 [1318346680]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,642 [1318346680]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,642 [1318346680]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,642 [1318346680]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,642 [1318346680]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,643 [1318346681]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,644 [1318346682]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,645 [1318346683]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,646 [1318346684]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '3'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,647 [1318346685]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,648 [1318346686]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,649 [1318346687]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,650 [1318346688]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,651 [1318346689]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,652 [1318346690]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,653 [1318346691]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '3'
+2024-04-27 21:15:46,654 [1318346692]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,655 [1318346693]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,656 [1318346694]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,657 [1318346695]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,658 [1318346696]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,659 [1318346697]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,660 [1318346698]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,661 [1318346699]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,662 [1318346700]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,663 [1318346701]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,664 [1318346702]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,665 [1318346703]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,666 [1318346704]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,667 [1318346705]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,668 [1318346706]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,669 [1318346707]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,670 [1318346708]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,671 [1318346709]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,672 [1318346710]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,673 [1318346711]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,674 [1318346712]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,675 [1318346713]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,676 [1318346714]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,677 [1318346715]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,678 [1318346716]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,679 [1318346717]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,680 [1318346718]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,681 [1318346719]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,682 [1318346720]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,683 [1318346721]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,684 [1318346722]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '1'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '3'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,685 [1318346723]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,686 [1318346724]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,687 [1318346725]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '6'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '0'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '5'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,688 [1318346726]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '4'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '9'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,689 [1318346727]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '+'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '7'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '8'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '2'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '/'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '"'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char ')'
+2024-04-27 21:15:46,690 [1318346728]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:46,771 [1318346809]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported rdf
+2024-04-27 21:15:47,301 [1318347339]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:47,302 [1318347340]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:47,720 [1318347758]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '@'
+2024-04-27 21:15:47,720 [1318347758]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:47,721 [1318347759]   WARN - com.github.weisj.jsvg.cF - Identifier starting with unexpected char '@'
+2024-04-27 21:15:47,721 [1318347759]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:47,951 [1318347989]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:47,953 [1318347991]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:48,199 [1318348237]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:48,199 [1318348237]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:48,254 [1318348292]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:48,254 [1318348292]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:48,269 [1318348307]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:48,308 [1318348346]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:48,477 [1318348515]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:48,665 [1318348703]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported xmpmeta
+2024-04-27 21:15:49,105 [1318349143]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:49,105 [1318349143]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported RDF
+2024-04-27 21:15:49,129 [1318349167]   WARN - #com.github.weisj.jsvg.parser.NodeMap - unsupported namedview
+2024-04-27 21:15:49,716 [1318349754]   WARN - com.github.weisj.jsvg.parser.css.impl.SimpleCssParser - Expected 'CURLY_OPEN' but got 'Token{type=EOF, data='null'}'
+2024-04-27 21:15:53,014 [1318353052]   WARN - #c.i.o.o.e.ConfigurableCardPanel - auto-dispose 'Plugins' id=preferences.pluginManager
