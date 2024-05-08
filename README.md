@@ -37,8 +37,8 @@ Javascript를 사용하여 공부하고 있습니다.
 2. ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
 3. ~~[둘만의 암호](challenge/programmers/둘만의%20암호%201회차.js) (흠)~~
 4. ~~[뉴스 클러스터링](challenge/programmers/%5B1차%5D%20뉴스%20클러스터링%201회차.js) (흠)~~
-5. [디펜스 게임](challenge/programmers/binary-search/디펜스%20게임/디펜스%20게임%202회차.js) (이분탐색)
-6. [디펜스 게임](challenge/programmers/priority-queue/디펜스%20게임%202회차.js) (우선순위 큐)
+5. ~~[디펜스 게임](challenge/programmers/binary-search/디펜스%20게임/디펜스%20게임%202회차.js) (이분탐색)~~
+6. ~~[디펜스 게임](challenge/programmers/priority-queue/디펜스%20게임%202회차.js) (우선순위 큐)~~
 8. [빛의 경로 사이클](challenge/programmers/brute-force/빛의%20경로%20사이클/빛의%20경로%20사이클%202회차.js) (브루투포스)
 9. [조이스틱](challenge/programmers/greedy/조이스틱.js) (그리디 알고리즘)
 10. [전화번호 목록](challenge/programmers/전화번호%20목록.js) (문자열 다루기)
