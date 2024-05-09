@@ -36,8 +36,7 @@ function solution(name) {
         let afterAIndex = i + 1;
 
         // I. 마지막 A 뒤에 오는 알파벳 인덱스 구하기
-        while (afterAIndex < name.length && name[afterAIndex] === 'A') afterAIndex++;
-
+        while (afterAIndex < name.length && name[afterAIndex] === "A") afterAIndex++;
         // I. 최소 커서 이동 구하기
         // (name.length - afterIndex) === 마지막 A뒤에 오는 알파벳 개수
         cursorCount = Math.min(
@@ -45,13 +44,16 @@ function solution(name) {
             (i * 2) + (name.length - afterAIndex), // 오른쪽 가다가 A 만나면 백
             i + 2 * (name.length - afterAIndex), // 처음부터 백
         );
+
+        console.log(v, alphabetCount, cursorCount, afterAIndex);
     });
 
     // I. 최소 커서 이동 + 알파벳 이동 => 최소
     return alphabetCount + cursorCount;
 }
 
-console.log(solution('MONAAAJOE'));
+// console.log(solution('MONAAAJOE'));
+console.log(solution("JAN"));
 
 // 참고 코드 1
 // function solution(name) {
