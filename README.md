@@ -40,13 +40,14 @@ Javascript를 사용하여 공부하고 있습니다.
 5. ~~[디펜스 게임](challenge/programmers/binary-search/디펜스%20게임/디펜스%20게임%202회차.js) (이분탐색)~~
 6. ~~[디펜스 게임](challenge/programmers/priority-queue/디펜스%20게임/디펜스%20게임%202회차.js) (우선순위 큐)~~
 7. ~~[전화번호 목록](challenge/programmers/sort/전화번호%20목록/전화번호%20목록%202회차.js) (문자열 다루기, 정렬)~~
-12. [카펫](challenge/programmers/단순 구현 /카펫/카펫 1회차.js) (단순 구현, 이런게 문제야 ,, ㅠㅠㅠ, 알아갑니다~)
 13. [양궁대회 2회차](challenge/programmers/순열/양궁%20대회/양궁%20대회%202회차.js) (순열을 2단계 끝내고 제대로 하자)
 14. [후보키](challenge/programmers/조합/후보키.js) (겁나 어렵네;;;;)
 15. [숫자 카드 나누기](challenge/programmers/숫자%20카드%20나누기.js) (유클리드 호제법, +소수 구하는 방법도 공부)
 16. [뉴스 클러스터링](challenge/programmers/%5B1차%5D%20뉴스%20클러스터링%202회차.js) (딱 한번만 더 하자)
 17. [광물 캐기](challenge/programmers/sort/광물%20캐기/광물%20캐기%202회차.js) (다시!! )
-18. [빛의 경로 사이클](challenge/programmers/brute-force/빛의%20경로%20사이클/빛의%20경로%20사이클%203회차.js), [이미지](images/빛의%20경로%20사이클.png) (브루투포스)
+18. [빛의 경로 사이클](challenge/programmers/brute-force/빛의%20경로%20사이클/빛의%20경로%20사이클%203회차.js), [이미지](images/빛의%20경로%20사이클.png) (
+    브루투포스)
 19. [조이스틱](challenge/programmers/greedy/조이스틱/조이스틱%202회차.js) (그리디 알고리즘, 어려웡 다시!)
 20. [미로 탈출](challenge/programmers/BFS/미로%20탈출%202회차.js) (다시 !! 최단 경로 공부를)
+12. [카펫](challenge/programmers/단순%20구현%20/카펫/카펫%202회차.js) (단순 구현, 이런게 문제야 ,, ㅠㅠㅠ, 알아갑니다~)
 
