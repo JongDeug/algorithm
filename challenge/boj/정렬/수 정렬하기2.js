@@ -10,8 +10,16 @@ const filePath = process.env.USERNAME !== "jongdeug" ? "/dev/stdin" : path.join(
 const input = fs.readFileSync(filePath).toString().trim().split("\n");
 
 function solution(n, arr) {
+    let answer = "";
     arr.sort((a, b) => Number(a) - Number(b));
-    arr.forEach(item => console.log(item));
+    arr.forEach((item, i) => {
+        if (i !== arr.length - 1) {
+            answer += `${item}\n`;
+        } else {
+            answer += item;
+        }
+    });
+    return answer;
 }
 
-solution(input[0], input.slice(1));
+console.log(solution(input[0], input.slice(1)));
