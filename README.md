@@ -31,7 +31,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [binary-search-tree-remove 함수](challenge/the-whild-west/binary-search-tree.js)
 - [trie](challenge/the-whild-west/trie.js) (상)
 
-## 코테 문제 복습 큐
+## 코테 문제 복습 큐(프로그래머스)
 
 1. ~~[하노이 탑](challenge/programmers/recursion/하노이%20탑/하노이%20탑%201회차.js) (재귀인데 풀지도 못함ㅠㅠ)~~
 2. ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
@@ -53,3 +53,8 @@ Javascript를 사용하여 공부하고 있습니다.
 13. [양궁대회](challenge/programmers/순열/양궁%20대회/양궁%20대회%203회차.js) (잘 풀었는데 한 번만 더 연습 ㄱ)
 14. [후보키](challenge/programmers/조합/후보키/후보키%202회차.js) (로직을 외워서 다른 곳에도 써먹자!)
 15. [숫자 카드 나누기](challenge/programmers/최대공배수,%20최대공약수/숫자%20카드%20나누기%202회차.js) (혹시 모르니까 한 번 더, +소수 구하는 법)
+
+## 코테 문제 복습 큐(백준)
+
+1. [괄호](challenge/boj/스택/괄호.js) (재귀 + 스택, => 재귀로 풀고 싶었는데 실패)
+2. [에디터](challenge/boj/스택/에디터.js) 
