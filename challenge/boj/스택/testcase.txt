@@ -1,13 +1,5 @@
-dmih
-11
-B
-B
+abcd
+3
 P x
 L
-B
-B
-B
 P y
-D
-D
-P z
