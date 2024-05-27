@@ -8,7 +8,7 @@
 // 1. 남은 병사의 수보다 현재 라운드의 적의 수가 더 많으면 게임 종료
 
 // 핵심
-// n번 돌면서 데이터를 정렬(nlogn) 하게 되면 최종적으로 n^2logn 복잡도를 가짐.
+// n번 돌면서 데이터를 sort(nlogn) 하게 되면 최종적으로 n^2logn 복잡도를 가짐.
 // enemy.length 가 최대 1,000,000 이기 때문에 시간 복잡도에서 Cut.
 
 // 효율적인 방법을 찾아야 함.
@@ -28,7 +28,7 @@ function solution(n, k, enemy) {
 
         // M. enemy window 를 생성하고 무적권을 빼고 내가 막아야할 병사 수
         let willDefendNum = enemy.slice(0, middle)
-            .sort((a, b) => b - a) // 내림 차순 정렬
+            .sort((a, b) => b - a) // 내림 차순 sort
             .reduce((acc, v) => {
                 if(card) {
                     card--;

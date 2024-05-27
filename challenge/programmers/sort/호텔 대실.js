@@ -4,14 +4,14 @@
 // 입력 : 2차원 배열 HH:MM 형태
 // 출력 : 최소 객실 수 int
 
-// 핵심 : 뒷 시간 기준으로 정렬, 차이가 가장 적은 방에 배치
+// 핵심 : 뒷 시간 기준으로 sort, 차이가 가장 적은 방에 배치
 
 // 리펙토링한 코드
 function solution(book_time) {
     let rooms = {};
     let answer = 1;
 
-    // I1. ['10:30', '12:30'] '12:30' => 뒷 시간으로 정렬
+    // I1. ['10:30', '12:30'] '12:30' => 뒷 시간으로 sort
     book_time = book_time.sort((a, b) => {
         if (a[1] < b[1]) {
             return -1;
@@ -82,7 +82,7 @@ function parseMinutes(time, isAlready) {
 //     let obj = {};
 //     let count = 1;
 //
-//     // I1. 뒷 시간으로 정렬
+//     // I1. 뒷 시간으로 sort
 //     book_time = book_time.sort((a, b) => {
 //         if(a[1] < b[1]) {
 //             return -1;

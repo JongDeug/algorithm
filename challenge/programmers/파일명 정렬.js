@@ -1,13 +1,13 @@
 // [문제 이해하기]
-// 파일명에 포함된 숫자를 반영할 정렬 기능을 구현해라
+// 파일명에 포함된 숫자를 반영할 sort 기능을 구현해라
 
 // 입력: files(array of strings)
 // 1. 대소문자, 숫자, 공백, 마침표, 빼기
 // 출력: sorted array(조건에 맞게 정렬된 배열)
 
 // 조건
-// 1. HEAD 사전순으로 정렬, 대소문자 구분 X
-// 2. HEAD가 같을 경우 NUMBER 기준으로 정렬
+// 1. HEAD 사전순으로 sort, 대소문자 구분 X
+// 2. HEAD가 같을 경우 NUMBER 기준으로 sort
 // 3. HEAD, NUMBER 가 같은 경우, 원래 입력에 주어진 순서를 유지
 
 // 핵심
@@ -26,8 +26,8 @@
 
 // 알게된 사실
 // 1. javascript 의 sort는 chrome 70 이후 부터 안정 정렬을 보장한다.
-// 2. 안정 정렬을 보장하는 알고리즘 : 버블, 삽입, 합병 정렬
-// 3. 보장하지 않는 알고리즘 : 선택, 퀵 정렬
+// 2. 안정 정렬을 보장하는 알고리즘 : 버블, 삽입, 합병 sort
+// 3. 보장하지 않는 알고리즘 : 선택, 퀵 sort
 // 4. 따라서 sort를 쓸 때 그냥 정렬해도 안정 정렬이 된다.
 
 
@@ -66,7 +66,7 @@ function solution(files) {
 
         if(c1 < n1) return -1;
         else if(c1 > n1) return 1;
-        else { // HEAD 같을 경우, NUMBER 로 정렬
+        else { // HEAD 같을 경우, NUMBER 로 sort
             if(c2 < n2) return -1;
             else if(c2 > n2) return 1;
         }
@@ -108,7 +108,7 @@ function solution(files) {
 //
 //         if(c1 < n1) return -1;
 //         else if(c1 > n1) return 1;
-//         else { // HEAD 같을 경우, NUMBER 로 정렬
+//         else { // HEAD 같을 경우, NUMBER 로 sort
 //             if(c2 < n2) return -1;
 //             else if(c2 > n2) return 1;
 //             else { // HEAD, NUMBER 같을 경우, 원래 순서로
@@ -167,10 +167,10 @@ function solution(files) {
 //
 //         if(c1 < n1) return -1;
 //         else if(c1 > n1) return 1;
-//         else { // HEAD 같을 경우, NUMBER 로 정렬
+//         else { // HEAD 같을 경우, NUMBER 로 sort
 //             if(c2 < n2) return -1;
 //             else if(c2 > n2) return 1;
-//             // else { // HEAD, NUMBER 같으면 index로 정렬
+//             // else { // HEAD, NUMBER 같으면 index로 sort
 //             //     if(c3 < n3) return -1;
 //             //     else if(c3 > n3) return 1;
 //             // }

@@ -6,7 +6,7 @@
 
 // 핵심1. mineral 길이가 50이하 이므로, 그냥 정렬로 해결(우선순위큐x, 이분탐색x), 곡갱이는 5개 연속으로 캘 수 있으므로 모든 광물을 5개로 나눠 집합으로 해결해야 함.
 // 핵심2. 테스트케이스 8번이 해결되지 않았는데, 만약 광물 집합이 3개 곡괭이가 2개라면, 뒤에 오는 캘 수 없는 광물을 우선순위에 의해 캐짐. 따라서
-// 집합보다 곡괭이의 개수가 더 클 경우 정렬 전 unshift로 빼야함.
+// 집합보다 곡괭이의 개수가 더 클 경우 sort 전 unshift로 빼야함.
 
 // 조건1. 곡괭이는 5개만 연속으로 캘 수 있음
 
@@ -20,7 +20,7 @@ function solution(picks, minerals) {
     let pirodoStore = [];
 
     while (minerals.length) {
-        // I1. 5개씩 끊고 정렬, 미네랄 계산
+        // I1. 5개씩 끊고 sort, 미네랄 계산
         pirodoStore.push(minerals
             .splice(0, 5)
             .reduce((acc, mineral) => {
@@ -41,14 +41,14 @@ function solution(picks, minerals) {
             }, { diamond: 0, iron: 0, stone: 0 }));
     }
 
-    // 집합이 곡갱이보다 더 클 경우, 정렬 전에 빼버려야 함.
+    // 집합이 곡갱이보다 더 클 경우, sort 전에 빼버려야 함.
     if (pirodoStore.length > (picks[0] + picks[1] + picks[2])) {
         for (let i = 0; i < pirodoStore.length - (picks[0] + picks[1] + picks[2]); i++) {
             pirodoStore.pop();
         }
     }
 
-    // stone을 기준으로 정렬
+    // stone을 기준으로 sort
     pirodoStore.sort((a, b) => a.stone - b.stone);
 
 
@@ -89,7 +89,7 @@ console.log(solution([0, 1, 0], ['diamond', 'diamond', 'diamond', 'diamond', 'di
 //         else return { x: x, value: 2 };
 //     });
 //
-//     // 오름차순 정렬
+//     // 오름차순 sort
 //     let newMinerals = minerals.sort((a, b) => a.value - b.value);
 //
 //     for (const [index, gok] of newPicks) {

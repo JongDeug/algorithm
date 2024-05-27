@@ -21,7 +21,7 @@ const input = fs.readFileSync(filePath).toString().trim().split("\n");
 
 // [문제 세분화]
 const n = Number(input[0]);
-// I. 정렬 필요
+// I. sort 필요
 const arr = input[1].split(" ").map(Number).sort((a, b) => b - a);
 
 function solution(n, arr) {

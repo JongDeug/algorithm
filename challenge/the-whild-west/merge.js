@@ -1,7 +1,7 @@
 // [문제 이해하기]
 // 합병 정렬에서 merge 하는 함수 구현하기
 // 입력 : arr, arr, comparator(없으면 오름차순) 출력 : sorted array
-// 핵심 : comparator가 없으면 오름차순으로 정렬, 있으면 알아서 정렬, 내장된 sort를 사용하지 말것. n번 비교할 것.
+// 핵심 : comparator가 없으면 오름차순으로 sort, 있으면 알아서 sort, 내장된 sort를 사용하지 말것. n번 비교할 것.
 export default function merge(arr1, arr2, comparator) {
     // 새로운 배열 variable, i, j
     let newArr = [];

@@ -1,7 +1,7 @@
 // [문제 이해하기]
-// 배열, comparator function을 인자로 받는 삽입 정렬 구현
+// 배열, comparator function을 인자로 받는 삽입 sort 구현
 // 입력 : array, first class function(없을 수 도 있음), 출력 : 정렬된 배열
-// 핵심 : 삽입 정렬 구현, function이 없으면 오름차순으로 정렬
+// 핵심 : 삽입 sort 구현, function이 없으면 오름차순으로 sort
 // [구체적인 예시]
 // insertionSort([4, 20, 12, 10, 7, 9]); // [4, 7, 9, 10, 12, 20]
 // insertionSort(kitties, strComp); // ["Blue", "Garfield", "Grumpy", "Heathcliff", "LilBub"]

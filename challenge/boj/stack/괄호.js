@@ -36,7 +36,7 @@ function solution(t, arr) {
 
         // I. ( 일 경우,
         if (str[0] === "(") stack.push(str[0]);
-        // I. ( 일 경우,
+        // I. ) 일 경우,
         else if (str[0] === ")") {
             if (!stack.length) return false; // stack에 뺄게 없는 경우 짝이 맞지 않는다는 뜻.
             stack.pop();

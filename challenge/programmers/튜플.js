@@ -22,7 +22,7 @@ function solution(s) {
         }
     }
 
-    // I5. 정렬
+    // I5. sort
     answer = answer.sort((a,b) => a.length - b.length);
 
     // I6. 이차원 배열 풀기

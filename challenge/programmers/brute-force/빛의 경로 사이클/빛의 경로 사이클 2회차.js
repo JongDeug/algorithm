@@ -64,7 +64,7 @@ function solution(grid) {
             }
         }
     }
-    // 오름차순으로 정렬 해야함.
+    // 오름차순으로 sort 해야함.
     return answer.sort((a, b) => a - b);
 }
 

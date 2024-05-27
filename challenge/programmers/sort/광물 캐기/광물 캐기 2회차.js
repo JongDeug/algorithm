@@ -15,7 +15,7 @@
 
 // [문제 세분화]
 // 1. 피로도 담기
-// 2. 5개씩 끊어서 2차원 배열 => stone 피로도로 정렬
+// 2. 5개씩 끊어서 2차원 배열 => stone 피로도로 sort
 // 3. 이걸 가지고 다 -> 철 -> 순으로 처리
 
 // [1회차 2회차 다른 점]
@@ -48,7 +48,7 @@ function solution(picks, minerals) {
     }
 
     const numOfPicks = picks[0] + picks[1] + picks[2];
-    // M. 미네랄 정렬(내림차순, stone으로 정렬 해야함.)
+    // M. 미네랄 sort(내림차순, stone으로 sort 해야함.)
     const sortedMinerals = makeNestedArray(minerals, 5)
         .slice(0, numOfPicks) // I. picks 가 [0,1,1] 인데 배열의 개수가 2개 이상인 경우? 없에야함.
         .sort((a, b) => {

@@ -10,31 +10,28 @@ const filePath = process.env.USERNAME !== "jongdeug" ? "/dev/stdin" : path.join(
 const input = fs.readFileSync(filePath).toString().trim().split("\n");
 
 // [문제 이해하기]
-// 좌표를 정렬해라. y좌표 기준으로 정렬. 같으면 x좌표 기준. 정렬은 오름차순
+// 회원들을 나이순으로 정렬하라. 나이가 같으면 주어진 순서대로 정렬하는 함수를 구현해라. (stable sort)
 
-// 입력: N(int), arr(x, y좌표 int)
-// 출력: 정렬된 좌표
+// 입력: N(int), arr([int, string])
+// 출력: 정렬된 arr
+
+// 핵심
+// 1. javascript sort는 stable sort로 알고 있음.
 
 // [문제 세분화]
 let n = input[0];
-let arr = input.slice(1).map(x => x.split(" ").map(Number));
+let arr = input.slice(1).map(x => x.split(" ").map((v, i) => i === 0 ? Number(v) : v));
 
 function solution(n, arr) {
     let answer = "";
-    // I. 정렬
-    arr.sort((a, b) => {
-        let [x1, y1] = [a[0], a[1]];
-        let [x2, y2] = [b[0], b[1]];
-
-        if (y1 !== y2) return y1 - y2;
-        else return x1 - x2;
-    });
+    // I. 나이순으로 sort, 오름차순
+    arr.sort((a, b) => a[0] - b[0]);
 
     for (const item of arr) {
         answer += `${item[0]} ${item[1]}\n`;
     }
 
-    return answer.slice(0, answer.length - 1);
+    return answer;
 }
 
 console.log(solution(n, arr));

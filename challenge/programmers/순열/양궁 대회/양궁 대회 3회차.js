@@ -43,7 +43,7 @@ function solution(n, info) {
         permutation(depth + 1, sum, lion);
     })(0, 0, new Array(11).fill(0));
 
-    // I. 마지막으로 점수차로 정렬 => 같으면 낮은 점수가 많은걸로 정렬
+    // I. 마지막으로 점수차로 sort => 같으면 낮은 점수가 많은걸로 sort
     answer.sort((a, b) => {
         if (a[11] > b[11]) {
             return -1;

@@ -50,7 +50,7 @@ function solution(n, info) {
     // I. 예외 조건
     if (!result.length) return [-1];
     else {
-        // I. 크기 순으로 정렬 (오름 차순)
+        // I. 크기 순으로 sort (오름 차순)
         result = result.sort((a, b) => a[11] - b[11]);
         // I. 가장 많이 차이나는 점수의 화살 개수 추출
         let maxDiff = result[result.length - 1][11];
@@ -121,7 +121,7 @@ console.log(solution(5, [2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]));
 //
 //     if (!result.length) return [-1];
 //     else {
-//         // I. 크기 순으로 정렬 (오름 차순)
+//         // I. 크기 순으로 sort (오름 차순)
 //         result = result.sort((a, b) => a[11] - b[11]);
 //         // I. 가장 많이 차이나는 점수의 화살 개수 추출
 //         let maxDiff = result[result.length - 1][11];

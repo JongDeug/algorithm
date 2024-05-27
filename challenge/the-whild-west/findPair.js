@@ -14,7 +14,7 @@
 //     let i = 0;
 //     let j = 1;
 //
-//     // 배열 정렬
+//     // 배열 sort
 //     arr.sort((a, b) => a - b);
 //
 //     // 반복문
@@ -39,7 +39,7 @@ function findPair(arr, n) {
     let i = 0;
     let j = 1;
 
-    // 배열 정렬
+    // 배열 sort
     arr.sort((a, b) => a - b);
 
     // 반복문
