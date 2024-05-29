@@ -60,3 +60,4 @@ Javascript를 사용하여 공부하고 있습니다.
 2. [에디터](challenge/boj/linked-list/에디터%201회차%20못품.js) (다중 연결 리스트로 해결해봐야(키로거랑 비슷할듯), 스택)
 3. [후위 표기식](challenge/boj/stack/후위%20표기식.js) (해결하긴 했는데 알고리즘 책 살펴보기, 재귀로 풀었던 기억이 남)
 4. [방 배정하기](challenge/boj/brute-force/방%20배정하기.js) (왜왜오애왜오애 => 분석 결과 메모리 때문임 ..)
+5. [퇴사](challenge/boj/dynamic-programming/퇴사.js) (다이내믹) || [퇴사](challenge/boj/brute-force/퇴사.js) (브루트 포스)
