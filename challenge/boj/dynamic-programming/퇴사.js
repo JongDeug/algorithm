@@ -23,30 +23,25 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 // 1. brute force 로 다 돌기
 // 2. dynamic programming 사용하기
 
-// [문제 세분화] : brute force 재귀로 구현
+// [문제 세분화] : 다이나믹 프로그래밍으로 풀기
 let n = Number(input[0]);
 let arr = input.slice(1).map(x => x.split(" ").map(Number));
 
 function solution(n, arr) {
-    let ans = [];
-    // M. 헬퍼 함수 구현
-    const helper = (depth, sum, prevPrice) => {
-        // I. Base Case : depth 가 n을 넘지 않아야 함.
-        if (depth >= n) {
-            if (depth === n) ans.push(sum);
-            else ans.push(sum - prevPrice);
-            return;
-        }
+    let memo = new Array(n + 1).fill(0);
 
-        // I. 기본 로직 => for 문으로 바꾸면 can control ??
-        for (let i = depth; i < n; i++) {
-            let [t, p] = arr[i];
-            helper(i + t, sum + p, p);
+    for (let i = 0; i < n; i++) {
+        let [t, p] = arr[i];
+        // I. 다 처리하고 넣는게 아니고, 해당 일자가 딱 됐을 때의 sum 값임
+        for (let j = i + t; j < n+1; j++) {
+            if (memo[j] < memo[i] + p) {
+                memo[j] = memo[i] + p;
+            }
         }
-    };
-    helper(0, 0, 0);
+    }
 
-    return Math.max(...ans);
+    return memo[n];
 }
 
 console.log(solution(n, arr));
+
