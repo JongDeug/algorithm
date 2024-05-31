@@ -32,12 +32,10 @@ function solution(input) {
     let answer = "";
     // M. 테스트 케이스 수
     let t = input[0];
-
-    // M. 순열 구하는 함수
-    const permutation = (n, x, y, arr) => {
-        // I. BASE CASE
-
-        // I. Logic
+    // M. 인덱스 조정 함수
+    const reArrange = (idx, length) => {
+        if (length - idx <= 0) return idx % length;
+        return idx;
     };
 
     // I. 테스트 케이스를 받아 돌리기
@@ -46,8 +44,20 @@ function solution(input) {
         let x = Number(input[i * 4 + 2].join(""));
         let y = Number(input[i * 4 + 3].join(""));
         let arr = input[i * 4 + 4].map(Number);
+        let count = 0;
         // I. 로직 실행
-        permutation(n, x, y, arr);
+        for (let idx = 0; idx < n; idx++) {
+            let compare = "";
+            // I. 인덱스에서 m 자릿수까지의 숫자 구함
+            for (let j = 0; j < m; j++) {
+                compare += arr[reArrange(idx + j, n)];
+            }
+
+            // I. compare 이 X Y 사이에 있는지
+            compare = Number(compare);
+            if (compare >= x && compare <= y) count++;
+        }
+        ans.push(count);
     }
 
     ans.forEach(x => answer += `${x}\n`);
