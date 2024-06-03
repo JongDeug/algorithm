@@ -44,3 +44,8 @@ const permutation = (tmp) => {
 
 permutation([]);
 console.log(ans);
+
+
+// depth 로 관리하는 거 하나 더 작성하기
+// 그리고 combination 하나 더 작성!
+
