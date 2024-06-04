@@ -62,3 +62,4 @@ Javascript를 사용하여 공부하고 있습니다.
 4. [방 배정하기](challenge/boj/brute-force/방%20배정하기.js) (왜왜오애왜오애 => 분석 결과 메모리 때문임 ..)
 5. [퇴사](challenge/boj/dynamic-programming/퇴사.js) (다이내믹) || [퇴사](challenge/boj/brute-force/퇴사.js) (브루트 포스)
 6. [문서 검색](challenge/boj/brute-force/문서%20검색.js) (후,,,, 쉬운건뎅)
+7. [전투의 신](challenge/boj/brute-force/전투의%20신.js) (다시!!)
