@@ -63,3 +63,4 @@ Javascript를 사용하여 공부하고 있습니다.
 5. [퇴사](challenge/boj/dynamic-programming/퇴사.js) (다이내믹) || [퇴사](challenge/boj/brute-force/퇴사.js) (브루트 포스)
 6. [문서 검색](challenge/boj/brute-force/문서%20검색.js) (후,,,, 쉬운건뎅)
 7. [전투의 신](challenge/boj/brute-force/전투의%20신.js) (다시!!)
+8. [양팔저울](challenge/boj/brute-force/양팔저울.js)
