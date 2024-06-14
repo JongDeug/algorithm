@@ -34,6 +34,6 @@ const combinationWithoutFor = (depth, tmp) => {
     combinationWithoutFor(depth + 1, tmp);
 };
 
-// combinationWithTmp(0, []);
-combinationWithoutFor(0, []);
+combinationWithTmp(0, []);
+// combinationWithoutFor(0, []);
 console.log(ans);
