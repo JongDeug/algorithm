@@ -65,4 +65,4 @@ Javascript를 사용하여 공부하고 있습니다.
 7. [전투의 신](challenge/boj/brute-force/전투의%20신.js) (다시!!)
 8. [양팔저울](challenge/boj/brute-force/양팔저울.js)
 9. [양치기 꿍](challenge/boj/brute-force/bfs/양치기%20꿍.js) (BFS)
-10. 
+10. [치킨치킨치킨](challenge/boj/brute-force/치킨치킨치킨.js) (좀 더 효율적으로 생각!)
