@@ -70,7 +70,7 @@ function solution(n, arrC, arrS) {
     };
 
     permutation([]);
-    return Math.min(...ans)
+    return Math.min(...ans);
 }
 
 console.log(solution(n, arrC, arrS));
