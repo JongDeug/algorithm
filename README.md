@@ -67,3 +67,4 @@ Javascript를 사용하여 공부하고 있습니다.
 9. [양치기 꿍](challenge/boj/brute-force/bfs-and-dfs/양치기%20꿍.js) (BFS)
 10. [치킨치킨치킨](challenge/boj/brute-force/치킨치킨치킨.js) (좀 더 효율적으로 생각!)
 11. [바이러스](challenge/boj/brute-force/bfs-and-dfs/바이러스.js) (obj에 익숙하지 않아 좀 더 공부, obj <=> map)
+12. [효율적인 해킹](challenge/boj/brute-force/bfs-and-dfs/효율적인%20해킹.js) (시간초과로 못풀긴했는데 구현을 한 번더 해보는 것도 좋아서 넣었음)
