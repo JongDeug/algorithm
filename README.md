@@ -68,3 +68,4 @@ Javascript를 사용하여 공부하고 있습니다.
 10. [치킨치킨치킨](challenge/boj/brute-force/치킨치킨치킨.js) (좀 더 효율적으로 생각!)
 11. [바이러스](challenge/boj/brute-force/bfs-and-dfs/바이러스.js) (obj에 익숙하지 않아 좀 더 공부, obj <=> map)
 12. [효율적인 해킹](challenge/boj/brute-force/bfs-and-dfs/효율적인%20해킹.js) (시간초과로 못풀긴했는데 구현을 한 번더 해보는 것도 좋아서 넣었음)
+13. [집합의 표현](challenge/boj/union-find/집합의%20표현.js) (union-find => 서로소 집합 disjointset => 1. 그래프 사이클 판별, 2. 최소 신장 트리(MST):크루스칼(Kruskal)의 알고리즘에서 사용)
