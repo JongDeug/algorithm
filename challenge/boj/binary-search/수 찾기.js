@@ -31,25 +31,38 @@ function solution() {
     let ans = [];
     let { arrN, arrM } = parseInput(input);
 
-    // M. 이분 탐색 함수 구현 (반복문으로 구현)
-    const binarySearch = (num) => {
-        let [left, right] = [0, arrN.length - 1];
-        // I. arrN.length - 1 을 하지 않으면 left 랑 right 랑 계속 같아지니까 무한 루프에 걸림, right 는 인덱스를 뜻하는 거임
+    // M. 이분 탐색 구현 => 재귀로 구현해보기
+    const binarySearch = (arr, start, end, num) => {
+        let middle = Math.floor((start + end) / 2);
+        // I. Base Case : start, end 넘어서면 종료
+        if (start > end) return 0;
 
-        while (left <= right) {
-            let middle = Math.floor((left + right) / 2);
-
-            if (arrN[middle] === num) return 1;
-            else if (arrN[middle] > num) right = middle - 1;
-            else if (arrN[middle] < num) left = middle + 1;
-        }
-
-        return 0;
+        // I. main
+        if (arr[middle] === num) return 1;
+        else if (arr[middle] > num) return binarySearch(arr, start, middle - 1, num);
+        else return binarySearch(arr, middle + 1, end, num);
     };
+
+    // M. 이분 탐색 함수 구현 (반복문으로 구현)
+    // const binarySearch = (num) => {
+    //     let [left, right] = [0, arrN.length - 1];
+    //     // I. arrN.length - 1 을 하지 않으면 left 랑 right 랑 계속 같아지니까 무한 루프에 걸림, right 는 인덱스를 뜻하는 거임
+    //
+    //     while (left <= right) {
+    //         let middle = Math.floor((left + right) / 2);
+    //
+    //         if (arrN[middle] === num) return 1;
+    //         else if (arrN[middle] > num) right = middle - 1;
+    //         else if (arrN[middle] < num) left = middle + 1;
+    //     }
+    //
+    //     return 0;
+    // };
 
     // I. main logic => O(N * logN)
     arrM.forEach(x => {
-        ans.push(binarySearch(x));
+        // ans.push(binarySearch(x));
+        ans.push(binarySearch(arrN, 0, arrN.length-1, x))
     });
 
     return ans.join("\n");
