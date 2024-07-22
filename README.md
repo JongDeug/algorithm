@@ -71,3 +71,4 @@ Javascript를 사용하여 공부하고 있습니다.
 13. [집합의 표현](challenge/boj/graph/union-find/집합의%20표현.js) (union-find => 서로소 집합 disjoint set => 1. 그래프 사이클 판별, 2. 최소 신장 트리(MST):크루스칼(Kruskal)의 알고리즘에서 사용)
 14. [사이클 게임](challenge/boj/graph/union-find/사이클%20게임.js) (사이클 판단 방법을 몰랐음!!)
 15. [친구 네트워크](challenge/boj/graph/union-find/친구%20네트워크.js) (응용)
+16. [랜선 자르기](challenge/boj/binary-search/랜선%20자르기.js) (큰 로직은 품, 디테일한 부분을 잡지 못함)
