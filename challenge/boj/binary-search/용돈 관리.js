@@ -20,6 +20,11 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 // ==> 이것 때문에 많이 고민했음
 // ==> 해결 : 일부러 M번 맞추기 위해 저금통에 넣어도 그보다 작은 최소가 존재하기 때문에 걱정할 필요 없음.
 
+// [*******************핵심*********************]
+// 이분 탐색으로 구현할 때
+// 최대를 구하는 경우, left 가 right 로 이동하면서 left 를 사용해서 반환하면 됨.
+// 최소를 구하는 경우, right 가 left 로 이동하면서 right 를 사용해서 반환하면 됨.
+
 // [구체적인 예시]
 /**
  * 7 6
@@ -56,8 +61,9 @@ function solution() {
 
             //  I. 임의 값(middle)으로 인출 count 구하기
             let withdrawal = middle;
+            let pass = false;
             let count = arrN.reduce((acc, v) => {
-                if (v > middle) return NaN; // 크기 늘려야 함
+                if (v > middle) pass = true; // I. 생활비가 인출비보다 더 크면 ?? 인출 크기를 늘려야 (left)
 
                 if (withdrawal < v) {
                     withdrawal = middle;
@@ -66,12 +72,13 @@ function solution() {
                 withdrawal -= v;
                 return acc;
             }, 1);
-            //      i. count 가 M 보다 작으면 => 금액이 크다는 뜻, 크기를 줄여야 (right)
-            if (count < M) right = middle - 1;
-            //      i. count 가 M 보다 크거나 같으면 => 금액이 작다는 뜻, 크기를 늘려야 (left)
-            else left = middle + 1;
+
+            //      i. count 가 M 보다 크거나 pass 가 true 인 경우 => 금액이 작다는 뜻, 크기를 늘려야 (left)
+            if (count > M || pass) left = middle + 1;
+            //      i. count 가 M 보다 같거나 작으면 => 금액이 크다는 뜻, 크기를 줄여야 (right)
+            else right = middle - 1;
         }
-        return left - 1;
+        return right + 1;
     };
 
     return binarySearch();
