@@ -73,3 +73,5 @@ Javascript를 사용하여 공부하고 있습니다.
 15. [친구 네트워크](challenge/boj/graph/union-find/친구%20네트워크.js) (응용)
 16. [랜선 자르기](challenge/boj/binary-search/랜선%20자르기.js) (큰 로직은 품, 디테일한 부분을 잡지 못함)
 17. [용돈 관리](challenge/boj/binary-search/용돈%20관리.js) (내가 집은 문제의 핵심을 아직도 모호하게 알고 있달까.. 여러번 풀어야 함)
+18. [가장 긴 증가하는 부분 수열](challenge/boj/dynamic-programming/가장%20긴%20증가하는%20부분%20수열.js) (해결법이 생각 안났음)
+19. 
