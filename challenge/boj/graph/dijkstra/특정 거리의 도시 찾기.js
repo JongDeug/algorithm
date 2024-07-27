@@ -143,7 +143,7 @@ console.log(solution());
 //
 //             if (rightChildIdx < this.values.length) {
 //                 rightChildEl = this.values[rightChildIdx].priority;
-//                 if ((swapIdx && rightChildEl < leftChildEl) || (!swapIdx && currentEl < rightChildEl)) {
+//                 if ((swapIdx && rightChildEl < leftChildEl) || (!swapIdx && currentEl > rightChildEl)) {
 //                     swapIdx = rightChildIdx;
 //                 }
 //             }
