@@ -78,3 +78,4 @@ Javascript를 사용하여 공부하고 있습니다.
 19. [가장 긴 증가하는 부분 수열 3](challenge/boj/binary-search/가장%20긴%20증가하는%20부분%20수열%203.js) (오호,, 직관적인 방법)
 20. [반도체 설계](challenge/boj/binary-search/반도체%20설계.js) (Longest Increasing Subsequence, 문제 분석을 잘못했음)
 21. [특정 거리의 도시 찾기](challenge/boj/graph/dijkstra/특정%20거리의%20도시%20찾기.js) (다익스트라로 풀어봤음, 그냥 BFS 로도 풀어보자)
+22. [숨바꼭질 3](challenge/boj/graph/dijkstra/숨바꼭질%203.js) (다익스트라, 덱 사용하는 방법 2가지 숙지)
