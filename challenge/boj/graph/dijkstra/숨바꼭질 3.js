@@ -24,6 +24,10 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 // 핵심)
 // 1. Dijkstra, PriorityQueue(heap)
 
+// 틀림)
+// 1. 그래프 초기화를 잘못했음. 시간 복잡도를 줄이기 위해 범위를 start, end 로 설정했는데 XX
+// 2. 1 부터 100,000 까지 가 맞고 어차피 O(VlogV) 복잡도이기 때문에 걱정 x
+
 // [구체적인 예시 찾기]
 /**
  * 1 7
@@ -33,16 +37,14 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 // [문제 세분화]
 function parseInput(input) {
     let [start, end] = input[0].split(" ").map(Number);
-    let graph = {};
-    let distances = new Array(100000 + 1).fill(Infinity);
-    let previous = new Array(100000 + 1).fill(null);
-    for (let i = start; i <= end + 1; i++) {
+    const MAX = 100000;
+    let graph = Array.from({ length: MAX + 1 }, () => []);
+    let distances = Array.from({ length: MAX + 1 }, () => Infinity);
+    let previous = Array.from({ length: MAX + 1 }, () => null);
+    for (let i = 0; i <= MAX; i++) {
         let next = (i + 1) !== 100000 ? i + 1 : 100000;
         let prev = (i - 1) !== -1 ? i - 1 : 0;
         let multiple = i * 2;
-        if (!graph[i]) graph[i] = [];
-        if (!distances[i]) distances[i] = Infinity;
-        if (!previous[i]) previous[i] = null;
         graph[i].push(next);
         graph[i].push(prev);
         graph[i].push(multiple);
