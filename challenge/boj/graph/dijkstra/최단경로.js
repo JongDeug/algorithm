@@ -148,7 +148,6 @@ function solution() {
             if (v === Infinity) ans.push("INF");
             else ans.push(v);
         }
-
     });
     return ans.join("\n");
 }
