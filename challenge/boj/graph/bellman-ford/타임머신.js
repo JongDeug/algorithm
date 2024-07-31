@@ -46,6 +46,7 @@ function solution() {
             // I. 모든 간선의 가중치 확인
             for (const edge of edges) {
                 let [u, v, w] = edge;
+                // Q. 의문점 : distances[u] !== Infinity 이게 과연 필요할까? => 사실상 필요없지
                 if (distances[u] !== Infinity && distances[u] + w < distances[v]) {
                     distances[v] = distances[u] + w;
                     // I. 만약 N번 실행되면 음의 순환이 있는 것임. (0부터 시작이니까 N-1이 N번 실행된거임)
@@ -68,6 +69,7 @@ function solution() {
         });
     }
 
+    // console.log(distances)
     return ans.join("\n");
 }
 

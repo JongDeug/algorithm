@@ -36,13 +36,13 @@ function solution() {
     for (let i = 0; i < T; i++) {
         let [N, M, W] = input.splice(0, 1).toString().split(" ").map(Number);
         let edges = [];
-        // I. arrM
+        // I. arrM, 도로 양방향
         input.splice(0, M).forEach(edge => {
             let [u, v, w] = edge.split(" ").map(Number);
             edges.push([u, v, w]);
             edges.push([v, u, w]);
         });
-        // I. arrW
+        // I. arrW, 웜홀 단방향
         input.splice(0, W).forEach(edge => {
             let [u, v, w] = edge.split(" ").map(Number);
             edges.push([u, v, -w]);
@@ -51,39 +51,30 @@ function solution() {
         // I. 벨만포드 구현
         const bellmanford = (start) => {
             // I. 초기화
-            let distances = new Array(N + 1).fill(Infinity);
+            const INF = 1e9;
+            let distances = Array.from({ length: N + 1 }, () => INF);
             distances[start] = 0;
 
             // I. N 만큼 실행
             for (let j = 0; j < N; j++) {
-                let isUpdated = false;
-                // I. 도로
                 for (const edge of edges) {
                     let [u, v, w] = edge;
 
-                    if (distances[u] !== Infinity && distances[u] + w < distances[v]) {
+                    // I. 다른점 distances[u] !== Infinity(INF) 가 없음
+                    if (distances[u] + w < distances[v]) {
                         distances[v] = distances[u] + w;
                         if (j === N - 1) return true;
-                        isUpdated = true;
                     }
                 }
-                // I. 이번 회차에 갱신되지 않으면 다음 회차에도 갱신되지 않음
-                if(!isUpdated) return false;
             }
+
+            // console.log(distances)
             return false;
         };
 
-        // I. 초기노드를 1로만 하지말고 모든 노드를 검사해야됨
-        let flag = false;
-        for (let k = N; k >= 1; k--) {
-            if (bellmanford(k)) {
-                flag = true;
-                break;
-            }
-        }
-
-        if (flag) ans.push("YES");
+        if (bellmanford(1)) ans.push("YES");
         else ans.push("NO");
+
     }
 
     return ans.join("\n");
