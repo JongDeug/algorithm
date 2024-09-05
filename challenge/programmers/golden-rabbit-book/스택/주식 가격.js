@@ -1,0 +1,51 @@
+// [문제 정의]
+// 문제 정의부터 하자면
+// 9(3초) -> 5(4초) 3초부터 시작이라면 3초~4초 1초동안은 가격을 유지한거다.
+// 만약 5(4초) -> 3(5초) "3초"부터 시작이라면 그냥 떨어진거다
+// 결론: 9(3초) 이놈은 1초동안 가격을 유지한거다.
+
+// ** 틀린 문제, 중요하게 봐야할 것 **
+
+// 시간 복잡도
+// 이중 for 문은 안됨 => O(N^2)
+// 스택으로 푼 문제를 O(N^2) 이라고 생각했음.
+// 하지만 최악의 경우에도 [5,4,3,2,1] , push pop 을 해버리니까
+// 0번 루프 0비교
+// 1번 루프 1비교
+// 2번 루프 2비교
+// 3번 루프 3비교
+// 4번 루프 4비교
+// 결과적으로 0 + 1 + 2 + 3 + 4 = 10번  ==> O(2N) 비교하는 과정을 거치게됨 그래서 O(N) 복잡도를 가지는거임
+
+// 1. 스택으로 풀어보기
+// 2. 이중포인터로 풀어보기
+
+// [문제 세분화]
+function solution(prices) {
+    // I. 스택에는 아직까지 가격이 떨어지지 않는 놈들이 남는거다.
+    let stack = [];
+    let answer = new Array(prices.length).fill(0);
+    // I. n번 반복한다. 0 ~ prices.length - 1
+    for(let i=0; i<prices.length; i++) {
+        // 	i-1. 스택에 인덱스를 넣는다.
+        while(true) {
+            // 	i-2. top 과 들어오는 인덱스의 실제 값이랑 비교한다.
+            const top = stack[stack.length - 1];
+            if(stack.length > 0 && prices[top] > prices[i]) {
+                // 	i-3. 만약 들어오는 인덱스 실제 값이 작다면 인덱스 - top 을 해서 길이를 확정짓는다. pop 한다, 2,3을 반복
+                answer[top] = i - top;
+                stack.pop();
+            } else {
+                // 	i-4. 만약 크다면 스택에 인덱스를 넣는다. (or index가 0일때도)
+                stack.push(i);
+                break;
+            }
+        }
+    }
+
+    stack.forEach(idx => {
+        answer[idx] = prices.length - idx - 1;
+    })
+
+    return answer;
+}
