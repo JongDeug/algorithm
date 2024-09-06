@@ -10708,3 +10708,24 @@ com.intellij.diagnostic.PluginException: `ActionUpdateThread.OLD_EDT` is depreca
 2024-09-05 14:26:10,763 [12783273]   WARN - #c.i.u.i.FilteredIcon - Do not create FilteredIcon for EmptyIcon
 2024-09-05 14:26:49,516 [12822026]   WARN - #org.intellij.plugins.markdown.ui.preview.jcef.impl.JcefBrowserPipeImpl - No subscribers for documentReady!
 Attached data: 
+2024-09-05 15:46:36,556 [17609066]   WARN - #c.i.u.i.FilteredIcon - Do not create FilteredIcon for EmptyIcon
+Warning: Not allowed as a service: java.awt.Window.CustomTitleBarPeer
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+Warning: Service not supported: com.jetbrains.WindowDecorations
+	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)

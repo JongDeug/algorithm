@@ -15,10 +15,15 @@
 // 2번 루프 2비교
 // 3번 루프 3비교
 // 4번 루프 4비교
-// 결과적으로 0 + 1 + 2 + 3 + 4 = 10번  ==> O(2N) 비교하는 과정을 거치게됨 그래서 O(N) 복잡도를 가지는거임
+// 결과적으로 0 + 1 + 2 + 3 + 4 = 10번  ==> O(2N) 비교하는 과정을 거치게됨 그래서 O(N) 복잡도를 가지는거임 ==> 이게 아님 XXX
+// 이렇게 생각한게 틀렸네 자연수의 합 공식으로 n(n+1)/2 가 되면서 이렇게 계산하면 O(N^2)이 됨 O(N)이 아님 ==>> OOO
+
+// 자세히 과정을 풀어보면 O(N)이 맞네.. 무조건 while 안에 있다고 N^2이라고 생각하면 안되구나
+
+
 
 // 1. 스택으로 풀어보기
-// 2. 이중포인터로 풀어보기
+// 2. 이중포인터로 풀어보기 => 예시 좋은거 있더라
 
 // [문제 세분화]
 function solution(prices) {
@@ -46,6 +51,30 @@ function solution(prices) {
     stack.forEach(idx => {
         answer[idx] = prices.length - idx - 1;
     })
+
+    return answer;
+}
+
+function solution(prices) {
+    const n = prices.length;
+    const answer = new Array(n).fill(0); // ➊ 가격이 떨어지지 않은 기간을 저장할 배열
+
+    // 스택(stack)을 사용해 이전 가격과 현재 가격을 비교
+    const stack = [0]; // ➋ 스택 초기화
+    for (let i = 1; i < n; i++) {
+        while (stack.length > 0 && prices[i] < prices[stack[stack.length - 1]]) {
+            // ➌ 가격이 떨어졌으므로 이전 가격의 기간을 계산
+            const j = stack.pop();
+            answer[j] = i - j;
+        }
+        stack.push(i);
+    }
+
+    // ➍ 스택에 남아 있는 가격들은 가격이 떨어지지 않은 경우
+    while (stack.length > 0) {
+        const j = stack.pop();
+        answer[j] = n - 1 - j;
+    }
 
     return answer;
 }
