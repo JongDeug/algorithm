@@ -299,79 +299,127 @@
 // 원하는 인덱스를 push, pop 하려면 O(1)으로 만들어야 함.
 
 // [문제 세분화]
+// function solution(n, k, cmd) {
+//     let stack = [];
+//     let startIdx = k;
+//     let change = Array.from({ length: n }, (_, i) => {
+//         if (i === 0) return { prev: null, next: i + 1 };
+//         else if (i === n - 1) return { prev: i - 1, next: null };
+//         return { prev: i - 1, next: i + 1 };
+//     });
+//     let deleted = Array.from({ length: n }, () => false);
+//
+//     // I. cmd 명령어 돌기
+//     for (const command of cmd) {
+//         if (command.startsWith("U")) {
+//             let x = Number(command.split(" ")[1]);
+//             for (let i = 0; i < x && change[startIdx].prev !== null; i++) {
+//                 startIdx = change[startIdx].prev;
+//             }
+//         } else if (command.startsWith("D")) {
+//             let x = Number(command.split(" ")[1]);
+//             for (let i = 0; i < x && change[startIdx].next !== null; i++) {
+//                 startIdx = change[startIdx].next;
+//             }
+//         } else if (command.startsWith("C")) { // 삭제
+//             const removed = change[startIdx];
+//             deleted[startIdx] = true;
+//             stack.push(startIdx);
+//
+//             // 케이스 1: 현재 노드가 리스트의 중간에 있는 경우
+//             if (removed.prev !== null && removed.next !== null) {
+//                 change[removed.prev].next = removed.next;
+//                 change[removed.next].prev = removed.prev;
+//                 startIdx = removed.next;
+//             }
+//             // 케이스 2: 현재 노드가 리스트의 첫 번째 노드인 경우
+//             else if (removed.prev === null && removed.next !== null) {
+//                 change[removed.next].prev = null;
+//                 startIdx = removed.next;
+//             }
+//             // 케이스 3: 현재 노드가 리스트의 마지막 노드인 경우
+//             else if (removed.prev !== null && removed.next === null) {
+//                 change[removed.prev].next = null;
+//                 startIdx = removed.prev;
+//             }
+//
+//         } else {
+//             const restoredIdx = stack.pop();
+//             const restored = change[restoredIdx];
+//             deleted[restoredIdx] = false;
+//
+//             // I. 이전 값이 null 이 아니면 초기화
+//             if (restored.prev !== null) {
+//                 change[restored.prev].next = restoredIdx;
+//             }
+//
+//             // I. 이후 값이 null 이 아니면 초기화
+//             if (restored.next !== null) {
+//                 change[restored.next].prev = restoredIdx;
+//             }
+//
+//             // if (restoredIdx === n - 1) {
+//             //     change[restored.prev].next = restoredIdx;
+//             // } else if (restoredIdx === 0) {
+//             //     change[restored.next].prev = restoredIdx;
+//             // } else {
+//             //     change[restored.prev].next = restoredIdx;
+//             //     change[restored.next].prev = restoredIdx;
+//             // }
+//
+//         }
+//     }
+//
+//     return deleted.map(e => e === true ? "X" : "O").join("");
+// }
+//
+// const a = solution(8, 2, ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"]);
+// console.log(a);
+
+// [문제 세분화] => 이게 젤 깔끔하다. n+2 로 배열을 만드는 이유는 해당 인덱스에 진입했을 때 해당 인덱스가 없다고 에러 뜨는거 방지하기 위해서임
 function solution(n, k, cmd) {
     let stack = [];
-    let startIdx = k;
-    let change = Array.from({ length: n }, (_, i) => {
-        if (i === 0) return { prev: null, next: i + 1 };
-        else if (i === n - 1) return { prev: i - 1, next: null };
-        return { prev: i - 1, next: i + 1 };
-    });
-    let deleted = Array.from({ length: n }, () => false);
+    let current = k+1;
+    let direction = Array.from({length: n+2}, (_, i) => [i-1, i+1]);
 
-    // I. cmd 명령어 돌기
-    for (const command of cmd) {
-        if (command.startsWith("U")) {
-            let x = Number(command.split(" ")[1]);
-            for (let i = 0; i < x && change[startIdx].prev !== null; i++) {
-                startIdx = change[startIdx].prev;
-            }
-        } else if (command.startsWith("D")) {
-            let x = Number(command.split(" ")[1]);
-            for (let i = 0; i < x && change[startIdx].next !== null; i++) {
-                startIdx = change[startIdx].next;
-            }
-        } else if (command.startsWith("C")) { // 삭제
-            const removed = change[startIdx];
-            deleted[startIdx] = true;
-            stack.push(startIdx);
+    // I. cmd
+    for(const command of cmd) {
+        if(command.startsWith("D") || command.startsWith("U")) {
+            let [chr, times] = command.split(' ');
+            times = parseInt(times);
 
-            // 케이스 1: 현재 노드가 리스트의 중간에 있는 경우
-            if (removed.prev !== null && removed.next !== null) {
-                change[removed.prev].next = removed.next;
-                change[removed.next].prev = removed.prev;
-                startIdx = removed.next;
+            // I. down
+            if(chr === "D") {
+                for(let i=0; i<times; i++){
+                    current = direction[current][1];
+                }
             }
-            // 케이스 2: 현재 노드가 리스트의 첫 번째 노드인 경우
-            else if (removed.prev === null && removed.next !== null) {
-                change[removed.next].prev = null;
-                startIdx = removed.next;
+            // I. up
+            else {
+                for(let i=0; i<times; i++) {
+                    current = direction[current][0];
+                }
             }
-            // 케이스 3: 현재 노드가 리스트의 마지막 노드인 경우
-            else if (removed.prev !== null && removed.next === null) {
-                change[removed.prev].next = null;
-                startIdx = removed.prev;
-            }
+        } else if(command.startsWith("C")) {
+            stack.push(current);
+            const [up,down] = direction[current];
+            direction[up][1] = down; // current.up의 down에 current.down;
+            direction[down][0] = up; // current.down의 up에 current.up;
 
-        } else {
-            const restoredIdx = stack.pop();
-            const restored = change[restoredIdx];
-            deleted[restoredIdx] = false;
-
-            // I. 이전 값이 null 이 아니면 초기화
-            if (restored.prev !== null) {
-                change[restored.prev].next = restoredIdx;
-            }
-
-            // I. 이후 값이 null 이 아니면 초기화
-            if (restored.next !== null) {
-                change[restored.next].prev = restoredIdx;
-            }
-
-            // if (restoredIdx === n - 1) {
-            //     change[restored.prev].next = restoredIdx;
-            // } else if (restoredIdx === 0) {
-            //     change[restored.next].prev = restoredIdx;
-            // } else {
-            //     change[restored.prev].next = restoredIdx;
-            //     change[restored.next].prev = restoredIdx;
-            // }
-
+            // i. 현재 인덱스 조정 (마지막 요소 지울 때만 위로감)
+            // i. 0은 왜 처리안해? 가상 배열을 쓰면 0 쪽으로는 갈 일이 없음
+            current = n < down ? up : down;
+        } else if(command.startsWith("Z")) {
+            const restored = stack.pop();
+            const [up, down] = direction[restored];
+            direction[up][1] = restored;
+            direction[down][0] = restored;
         }
     }
 
-    return deleted.map(e => e === true ? "X" : "O").join("");
+    const answer = new Array(n).fill("O");
+    for(const item of stack) {
+        answer[item - 1] = "X"; // 가상 요소 사용했으니까 item - 1
+    }
+    return answer.join("");
 }
-
-const a = solution(8, 2, ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"]);
-console.log(a);

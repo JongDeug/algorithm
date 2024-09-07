@@ -5,7 +5,7 @@
 
 import { Node } from '../singly-linked-list/singly-linked-list.js';
 
-class Queue {
+class QueueLinkedList {
     constructor() {
         this.first = null;
         this.last = null;

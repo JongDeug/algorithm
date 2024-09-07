@@ -87,3 +87,4 @@ Javascript를 사용하여 공부하고 있습니다.
 2. [괄호 회전하기](challenge/programmers/golden-rabbit-book/스택/괄호%20회전하기.js)
 3. [주식 가격](challenge/programmers/golden-rabbit-book/스택/주식%20가격.js)
 4. [표 편집](challenge/programmers/golden-rabbit-book/스택/표%20편집.js)
+5. [두 개의 수로 특정 값 만들기](challenge/programmers/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)
