@@ -3,7 +3,7 @@ function solution(arr, target) {
 
     // I. dict 만들기
     for (const item of arr) {
-        dictionary[item] = (dictionary[item] + 1) || 1;
+        dictionary[item] = dictionary[item] + 1 || 1;
     }
 
     // I. 임의의 배열 아이템을 가지고 dict 이랑 비교해서 확인하기
