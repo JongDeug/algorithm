@@ -9,29 +9,33 @@
 
 // [문제 세분화]
 function solution(record) {
-    let answer = [];
-    let nameObj = {};
-    let obj = {};
+  let answer = [];
+  let nameObj = {};
+  let obj = {};
 
-    // I. record 순회해서 먼저 이름 Change 대한 obj 초기화
-    record.forEach((str) => {
-        let [command, key, name] = str.split(" ");
-        if (command === "Enter") {
-            nameObj[key] = name;
-        } else if (command === "Change") {
-            nameObj[key] = name;
-        }
-    });
+  // I. record 순회해서 먼저 이름 Change 대한 obj 초기화
+  record.forEach((str) => {
+    let [command, key, name] = str.split(" ");
 
-    // I. record 순회해서 출력을 위한 obj 생성
-    record.forEach((str) => {
-        let [command, key, name] = str.split(" ");
-        if (command === "Enter") {
-            answer.push(`${nameObj[key]}님이 들어왔습니다.`);
-        } else if (command === "Leave") {
-            answer.push(`${nameObj[key]}님이 나갔습니다.`);
-        }
-    });
+    if (command !== "Change") {
+      nameObj[key] = name;
+    }
+    // if (command === "Enter") {
+    //     nameObj[key] = name;
+    // } else if (command === "Change") {
+    //     nameObj[key] = name;
+    // }
+  });
 
-    return answer;
+  // I. record 순회해서 출력을 위한 obj 생성
+  record.forEach((str) => {
+    let [command, key, name] = str.split(" ");
+    if (command === "Enter") {
+      answer.push(`${nameObj[key]}님이 들어왔습니다.`);
+    } else if (command === "Leave") {
+      answer.push(`${nameObj[key]}님이 나갔습니다.`);
+    }
+  });
+
+  return answer;
 }
