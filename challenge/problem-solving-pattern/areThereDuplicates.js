@@ -25,26 +25,25 @@
 // 여러 인자를 받아서 동일하면 true, 그렇지 않다면 false를 반환하는 함수 작성
 
 function areThereDuplicates(...args) {
-    // ...args를 object로 변환
-    let myList = args
-    let myListFrequency = {}
+  // ...args를 object로 변환
+  let myList = args;
+  let myListFrequency = {};
 
+  for (const key of myList) {
+    myListFrequency[key] = (myListFrequency[key] || 0) + 1;
+  }
 
-    for (const key of myList) {
-        myListFrequency[key] = (myListFrequency[key] || 0) + 1
-    }
+  // 빈 입력 값
+  if ("" in myListFrequency) return false;
 
-    // 빈 입력 값
-    if ('' in myListFrequency) return false
+  // loop에서 2이상 이면 true 반환
+  for (const key in myListFrequency) {
+    if (myListFrequency[key] >= 2) return true;
+  }
 
-    // loop에서 2이상 이면 true 반환
-    for (const key in myListFrequency){
-        if (myListFrequency[key] >= 2) return true
-    }
-
-    return false
+  return false;
 }
 
-console.log(areThereDuplicates(1,2,2))
-console.log(areThereDuplicates('', ''))
-console.log(areThereDuplicates('a', 'b', 'c', 'a'))
+console.log(areThereDuplicates(1, 2, 2));
+console.log(areThereDuplicates("", ""));
+console.log(areThereDuplicates("a", "b", "c", "a"));
