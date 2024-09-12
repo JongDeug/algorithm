@@ -90,4 +90,4 @@ Javascript를 사용하여 공부하고 있습니다.
 5. [두 개의 수로 특정 값 만들기](challenge/programmers/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)
 6. [베스트앨범](challenge/programmers/golden-rabbit-book/해시/베스트앨범.js)
 7. [메뉴 리뉴얼](challenge/programmers/golden-rabbit-book/해시/메뉴%20리뉴얼.js)
-
+8. [다단계 칫솔 판매](challenge/programmers/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
