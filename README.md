@@ -91,3 +91,5 @@ Javascript를 사용하여 공부하고 있습니다.
 6. [베스트앨범](challenge/programmers/golden-rabbit-book/해시/베스트앨범.js)
 7. [메뉴 리뉴얼](challenge/programmers/golden-rabbit-book/해시/메뉴%20리뉴얼.js)
 8. [다단계 칫솔 판매](challenge/programmers/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
+9. [미로 찾기](challenge/programmers/golden-rabbit-book/트리/미로%20찾기.js) (방식은 맞았는데 한 번더)
+10. [양과 늑대](challenge/programmers/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)
