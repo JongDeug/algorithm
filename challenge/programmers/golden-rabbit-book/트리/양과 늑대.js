@@ -14,7 +14,6 @@ function solution(info, edges) {
     adjacencyList[from].push(to);
   }
 
-  console.log(adjacencyList);
   // I. (현위치, 양, 늑대, 방문할 탐색 리스트)
   const queue = [[0, 1, 0, new Set()]];
 
