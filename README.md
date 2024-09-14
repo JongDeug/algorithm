@@ -93,3 +93,5 @@ Javascript를 사용하여 공부하고 있습니다.
 8. [다단계 칫솔 판매](challenge/programmers/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
 9. [미로 찾기](challenge/programmers/golden-rabbit-book/트리/미로%20찾기.js) (방식은 맞았는데 한 번더)
 10. [양과 늑대](challenge/programmers/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)
+11. [길 찾기 게임](challenge/programmers/golden-rabbit-book/트리/길%20찾기%20게임.js) (잘 풀었음. 근데 구현 방식만, 배열 or 포인터 좀 더 다듬자)
+12. [간단한 유니온-파인드 알고리즘 구현하기](challenge/programmers/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)
