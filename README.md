@@ -83,15 +83,16 @@ Javascript를 사용하여 공부하고 있습니다.
 
 ## 코딩 테스트 합격자 되기 (복습 큐)
 
-1. ~~[모의고사](challenge/programmers/golden-rabbit-book/배열/모의고사.js)~~
-2. [괄호 회전하기](challenge/programmers/golden-rabbit-book/스택/괄호%20회전하기.js)
-3. [주식 가격](challenge/programmers/golden-rabbit-book/스택/주식%20가격.js)
-4. [표 편집](challenge/programmers/golden-rabbit-book/스택/표%20편집.js)
-5. [두 개의 수로 특정 값 만들기](challenge/programmers/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)
-6. [베스트앨범](challenge/programmers/golden-rabbit-book/해시/베스트앨범.js)
-7. [메뉴 리뉴얼](challenge/programmers/golden-rabbit-book/해시/메뉴%20리뉴얼.js)
-8. [다단계 칫솔 판매](challenge/programmers/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
-9. [미로 찾기](challenge/programmers/golden-rabbit-book/트리/미로%20찾기.js) (방식은 맞았는데 한 번더)
-10. [양과 늑대](challenge/programmers/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)
-11. [길 찾기 게임](challenge/programmers/golden-rabbit-book/트리/길%20찾기%20게임.js) (잘 풀었음. 근데 구현 방식만, 배열 or 포인터 좀 더 다듬자)
-12. [간단한 유니온-파인드 알고리즘 구현하기](challenge/programmers/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)
+* ~~[모의고사](challenge/programmers/golden-rabbit-book/배열/모의고사.js)~~
+* ~~[괄호 회전하기](challenge/programmers/golden-rabbit-book/스택/괄호%20회전하기.js)~~
+* [표 편집](challenge/programmers/golden-rabbit-book/스택/표%20편집.js)
+* [두 개의 수로 특정 값 만들기](challenge/programmers/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)
+* [베스트앨범](challenge/programmers/golden-rabbit-book/해시/베스트앨범.js)
+* [메뉴 리뉴얼](challenge/programmers/golden-rabbit-book/해시/메뉴%20리뉴얼.js)
+* [다단계 칫솔 판매](challenge/programmers/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
+* [미로 찾기](challenge/programmers/golden-rabbit-book/트리/미로%20찾기.js) (방식은 맞았는데 한 번더)
+* [양과 늑대](challenge/programmers/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)
+* [길 찾기 게임](challenge/programmers/golden-rabbit-book/트리/길%20찾기%20게임.js) (잘 풀었음. 근데 구현 방식만, 배열 or 포인터 좀 더 다듬자)
+* [간단한 유니온-파인드 알고리즘 구현하기](challenge/let answer = [ false, false, true, false, true, false ];programmers/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)
+* [주식 가격](challenge/programmers/golden-rabbit-book/스택/주식%20가격.js)
+
