@@ -83,7 +83,7 @@ Javascript를 사용하여 공부하고 있습니다.
 
 ## 코딩 테스트 합격자 되기 (복습 큐)
 
-1. [모의고사](challenge/programmers/golden-rabbit-book/배열/모의고사.js)
+1. ~~[모의고사](challenge/programmers/golden-rabbit-book/배열/모의고사.js)~~
 2. [괄호 회전하기](challenge/programmers/golden-rabbit-book/스택/괄호%20회전하기.js)
 3. [주식 가격](challenge/programmers/golden-rabbit-book/스택/주식%20가격.js)
 4. [표 편집](challenge/programmers/golden-rabbit-book/스택/표%20편집.js)
