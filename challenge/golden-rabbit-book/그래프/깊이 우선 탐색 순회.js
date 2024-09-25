@@ -18,7 +18,6 @@ function solution(graph, start) {
     if (!visited[to]) visited[to] = false;
 
     adjacencyList[from].push(to);
-    adjacencyList[to].push(from);
   }
 
   const DFS = (node) => {
@@ -35,20 +34,20 @@ function solution(graph, start) {
   return ans;
 }
 
-// console.log(
-//   solution(
-//     [
-//       ["A", "B"],
-//       ["A", "C"],
-//       ["B", "D"],
-//       ["B", "E"],
-//       ["C", "F"],
-//       ["E", "F"],
-//     ],
-//     "A",
-//   ),
-// );
-//
+console.log(
+  solution(
+    [
+      ["A", "B"],
+      ["A", "C"],
+      ["B", "D"],
+      ["B", "E"],
+      ["C", "F"],
+      ["E", "F"],
+    ],
+    "A",
+  ),
+);
+
 console.log(
   solution(
     [
