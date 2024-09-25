@@ -49,6 +49,7 @@ function solution(graph, start) {
     // if (node !== undefined) {
     ans.push(node);
     for (const neighbor of adjList[node] || []) {
+      // => 와 쩐다 || 이렇게도 됨 ㄷㄷ
       if (!visited.has(neighbor)) {
         visited.add(neighbor);
         queue.enqueue(neighbor);
