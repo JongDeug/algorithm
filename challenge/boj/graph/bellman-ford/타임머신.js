@@ -6,7 +6,10 @@ const __dirname = import.meta.dirname;
 
 const path = require("path");
 const fs = require("fs");
-const filepath = process.env.USERNAME !== "jongdeug" ? "/dev/stdin" : path.join(__dirname, "testcase.txt");
+const filepath =
+  process.env.USERNAME !== "jongdeug"
+    ? "/dev/stdin"
+    : path.join(__dirname, "testcase.txt");
 const input = fs.readFileSync(filepath).toString().trim().split("\n");
 
 // [문제 이해하기]
@@ -24,53 +27,54 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 
 // [문제 세분화]
 function parseInput(input) {
-    let [first, ...edges] = input;
-    let [N, M] = first.split(" ").map(Number);
-    edges = edges.map(edge => edge.split(" ").map(Number));
-    return { N, edges };
+  let [first, ...edges] = input;
+  let [N, M] = first.split(" ").map(Number);
+  edges = edges.map((edge) => edge.split(" ").map(Number));
+  return { N, edges };
 }
 
 function solution() {
-    // I. 입력 받기
-    let { N, edges } = parseInput(input);
-    let distances = Array.from({ length: N + 1 }, () => Infinity);
-    let ans = [];
+  // I. 입력 받기
+  let { N, edges } = parseInput(input);
+  let distances = Array.from({ length: N + 1 }, () => Infinity);
+  let ans = [];
 
-    // M. 벨만포드 알고리즘 구현
-    const bellmanford = () => {
-        // I. 초기화
-        distances[1] = 0;
+  // M. 벨만포드 알고리즘 구현
+  const bellmanford = () => {
+    // I. 초기화
+    distances[1] = 0;
 
-        // I. N번 실행(노드 개수만큼 실행)
-        for (let i = 0; i < N; i++) {
-            // I. 모든 간선의 가중치 확인
-            for (const edge of edges) {
-                let [u, v, w] = edge;
-                // Q. 의문점 : distances[u] !== Infinity 이게 과연 필요할까? => 사실상 필요없지
-                if (distances[u] !== Infinity && distances[u] + w < distances[v]) {
-                    distances[v] = distances[u] + w;
-                    // I. 만약 N번 실행되면 음의 순환이 있는 것임. (0부터 시작이니까 N-1이 N번 실행된거임)
-                    if (i === N - 1) return true;
-                }
-            }
+    // I. N번 실행(노드 개수만큼 실행)
+    for (let i = 0; i < N; i++) {
+      // I. 모든 간선의 가중치 확인
+      for (const edge of edges) {
+        let [u, v, w] = edge;
+        // Q. 의문점 : distances[u] !== Infinity 이게 과연 필요할까? => 사실상 필요없지
+        if (distances[u] !== Infinity && distances[u] + w < distances[v]) {
+          distances[v] = distances[u] + w;
+          // I. 만약 N번 실행되면 음의 순환이 있는 것임. (0부터 시작이니까 N-1이 N번 실행된거임)
+          if (i === N - 1) return true;
         }
-        return false;
-    };
-
-    let flag = bellmanford();
-    if (flag) {
-        ans.push(-1);
-    } else {
-        distances.forEach((value, index) => {
-            if (index > 1) {
-                if (value !== Infinity) ans.push(value);
-                else ans.push(-1);
-            }
-        });
+      }
     }
+    return false;
+  };
 
-    // console.log(distances)
-    return ans.join("\n");
+  let flag = bellmanford();
+  if (flag) {
+    ans.push(-1);
+  } else {
+    distances.forEach((value, index) => {
+      if (index > 1) {
+        if (value !== Infinity) ans.push(value);
+        else ans.push(-1);
+      }
+    });
+  }
+
+  // console.log(distances)
+  return ans.join("\n");
 }
 
 console.log(solution());
+
