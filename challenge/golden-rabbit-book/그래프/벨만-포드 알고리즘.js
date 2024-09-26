@@ -2,7 +2,10 @@
 // 벨만 포드 알고리즘 구현해라.
 // 핵심: 우선 순위를 사용하지 않는다 모든 간선을 초기화 함
 //
-// 출력:
+// [시간 복잡도]
+// O(V*E) => O(V^3)
+//
+// [문제 세분화]
 function solution(graph, source) {
   const N = graph.length;
   let flag = false;
@@ -15,7 +18,7 @@ function solution(graph, source) {
 
   // I. for 문 N 만큼 돌고, N째가 돌면 음의 순환이 있는거임 (매 연산마다 최단 경로가 1개씩 확정이니까 원래는 N-1만큼 도는거임)
   for (let i = 1; i <= N; i++) {
-    // I. 간선 수만 큼
+    // I. 간선 수만 큼 => E의 최대 수는 N^2이니까 맞는말임
     for (let e = 0; e < N; e++) {
       for (const [node, weight] of graph[e]) {
         const candidate = distance[e] + weight; // 현재 노드 + 갈 노드
