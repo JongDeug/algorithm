@@ -101,3 +101,6 @@ Javascript를 사용하여 공부하고 있습니다.
 * [네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)
 * [경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)
 * [1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)
+* [스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오)
+* [피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)
+
