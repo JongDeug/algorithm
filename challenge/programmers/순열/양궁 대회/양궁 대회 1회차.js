@@ -13,72 +13,74 @@
 
 // 아주 좋았어!
 function solution(n, info) {
-    let answer;
-    // M. 라이언 배열 생성(info와 비교할 거임)
-    let lion = new Array(11).fill(0);
-    // M. 라이언이 어피치보다 많은 점수를 가지고 있을 때의 화살 개수
-    let result = [];
+  let answer;
+  // M. 라이언 배열 생성(info와 비교할 거임)
+  let lion = new Array(11).fill(0);
+  // M. 라이언이 어피치보다 많은 점수를 가지고 있을 때의 화살 개수
+  let result = [];
 
-    (function rec(depth, sum) {
-        // I. Base Case
-        if (depth === 11) {
-            if (sum === n) {
-                // I. 점수 계산(info, lion 비교)
-                let apeachScore = 0;
-                let lionScore = 0;
-                for (let i = 0; i < 11; i++) {
-                    // I. lion이 많으면 lion 승
-                    if (lion[i] > info[i]) lionScore += (10 - i);
-                    else if ((lion[i] <= info[i]) && info[i]) apeachScore += (10 - i);
-                }
-
-                // I. apeach보다 lion이 점수가 많을 때 + 그 차이를 주입
-                if (lionScore > apeachScore) result.push([...lion, lionScore - apeachScore]);
-            }
-            return;
+  (function rec(depth, sum) {
+    // I. Base Case
+    if (depth === 11) {
+      if (sum === n) {
+        // I. 점수 계산(info, lion 비교)
+        let apeachScore = 0;
+        let lionScore = 0;
+        for (let i = 0; i < 11; i++) {
+          // I. lion이 많으면 lion 승
+          if (lion[i] > info[i]) lionScore += 10 - i;
+          else if (lion[i] <= info[i] && info[i]) apeachScore += 10 - i;
         }
 
-        // I. 핵심 코드
-        for (let i = 0; i <= n; i++) {
-            if (sum + i <= n) { // 합이 n보다 작거나 같은 경우에만 재귀 호출
-                lion[depth] = i;
-                rec(depth + 1, sum + i, lion);
-            }
-        }
-    })(0, 0);
-
-    // I. 예외 조건
-    if (!result.length) return [-1];
-    else {
-        // I. 크기 순으로 sort (오름 차순)
-        result = result.sort((a, b) => a[11] - b[11]);
-        // I. 가장 많이 차이나는 점수의 화살 개수 추출
-        let maxDiff = result[result.length - 1][11];
-        result = result.filter(e => e[11] === maxDiff);
-
-        // I. 여러 가지 방법이 나왔을 경우 가장 작은 점수가 많은 놈을 출력 해야함.
-        while (result.length) {
-            let firstElement = result.pop();
-            answer = firstElement;
-            if (!result.length) {
-                break;
-            }
-            let secondElement = result.pop();
-
-            for (let i = 10; i >= 0; i--) {
-                if (firstElement[i] > secondElement[i]) {
-                    answer = firstElement;
-                    break;
-                } else if (firstElement[i] < secondElement[i]) {
-                    answer = secondElement;
-                    break;
-                }
-                // 같은 경우 루프 계속 돌아야 함.
-            }
-        }
+        // I. apeach보다 lion이 점수가 많을 때 + 그 차이를 주입
+        if (lionScore > apeachScore)
+          result.push([...lion, lionScore - apeachScore]);
+      }
+      return;
     }
-    if (answer.length) answer.pop();
-    return answer;
+
+    // I. 핵심 코드
+    for (let i = 0; i <= n; i++) {
+      if (sum + i <= n) {
+        // 합이 n보다 작거나 같은 경우에만 재귀 호출
+        lion[depth] = i;
+        rec(depth + 1, sum + i, lion);
+      }
+    }
+  })(0, 0);
+
+  // I. 예외 조건
+  if (!result.length) return [-1];
+  else {
+    // I. 크기 순으로 sort (오름 차순)
+    result = result.sort((a, b) => a[11] - b[11]);
+    // I. 가장 많이 차이나는 점수의 화살 개수 추출
+    let maxDiff = result[result.length - 1][11];
+    result = result.filter((e) => e[11] === maxDiff);
+
+    // I. 여러 가지 방법이 나왔을 경우 가장 작은 점수가 많은 놈을 출력 해야함.
+    while (result.length) {
+      let firstElement = result.pop();
+      answer = firstElement;
+      if (!result.length) {
+        break;
+      }
+      let secondElement = result.pop();
+
+      for (let i = 10; i >= 0; i--) {
+        if (firstElement[i] > secondElement[i]) {
+          answer = firstElement;
+          break;
+        } else if (firstElement[i] < secondElement[i]) {
+          answer = secondElement;
+          break;
+        }
+        // 같은 경우 루프 계속 돌아야 함.
+      }
+    }
+  }
+  if (answer.length) answer.pop();
+  return answer;
 }
 
 console.log(solution(5, [2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]));
