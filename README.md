@@ -104,4 +104,4 @@ Javascript를 사용하여 공부하고 있습니다.
 * [스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오)
 * [피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)
 * [N-퀸](challenge/golden-rabbit-book/백트래킹/N-퀸.js) (호오,,,)
-
+* [양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)
