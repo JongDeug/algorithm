@@ -32,6 +32,7 @@ function solution(n, weak, dist) {
   };
 
   const permutations = [];
+  const check = new Array(dist.length).fill(false);
   // I. dist로 순열 구하기
   const permutation = (tmp) => {
     if (tmp.length === dist.length) {
@@ -40,10 +41,14 @@ function solution(n, weak, dist) {
     }
 
     for (let i = 0; i < dist.length; i++) {
-      if (tmp.includes(dist[i])) continue; // 중복 없는 순열
-      tmp.push(dist[i]);
-      permutation(tmp);
-      tmp.pop();
+      if (!check[i]) {
+        // if (tmp.includes(dist[i])) continue; // [1, 1] 이면 될 수가 없구나...
+        check[i] = true;
+        tmp.push(dist[i]);
+        permutation(tmp);
+        tmp.pop();
+        check[i] = false;
+      }
     }
   };
   permutation([]);
@@ -56,10 +61,7 @@ function solution(n, weak, dist) {
 
   // I. weak 지점을 시작으로 탐색 시작
   for (let i = 0; i < originLength; i++) {
-    for (const friends of permutationWithFunctionalProgramming(
-      dist,
-      dist.length,
-    )) {
+    for (const friends of permutations) {
       let count = 1;
       let position = weak[i] + friends[count - 1];
 
