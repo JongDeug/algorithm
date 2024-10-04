@@ -77,10 +77,11 @@ function solution(n, weak, dist) {
       answer = Math.min(answer, count);
     }
   }
-  console.log(permutationWithFunctionalProgramming(dist, dist.length));
-  console.log(permutations);
+  // console.log(permutationWithFunctionalProgramming(dist, dist.length));
+  // console.log(permutations);
   return answer <= dist.length ? answer : -1;
 }
 
-console.log(solution(12, [1, 5, 6, 10], [1, 2, 3, 4]));
-// console.log(solution(12, [1, 5, 6, 10], [1]));
+// console.log(solution(12, [1, 5, 6, 10], [1, 2, 3, 4]));
+
+console.log(solution(12, [1, 5, 8, 10], [1, 1, 1])); // 이렇게 길이가 안되면 count 에서 길이를 넘어버리고 answer 가 처음 그대로 유지되는거임
