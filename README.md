@@ -107,3 +107,4 @@ Javascript를 사용하여 공부하고 있습니다.
 * [양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)
 * [외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨) 
 * [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
+* [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
