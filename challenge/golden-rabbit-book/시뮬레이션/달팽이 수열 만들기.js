@@ -23,13 +23,13 @@ function solution(n) {
 
     answer[y][x] = depth;
 
-    for (let k = 0; k < 4; k++) {
-      let d = (direction + k) % 4; // 시계방향, 미쳤다 ....
-      let ny = dy[d] + y;
-      let nx = dx[d] + x;
+    for (let i = 0; i < 4; i++) {
+      let k = (direction + i) % 4; // 시계방향, 미쳤다 ....
+      let ny = dy[k] + y;
+      let nx = dx[k] + x;
       // I. 유효, 방문하지 않았어야
       if (isValid(nx, ny) && !answer[ny][nx]) {
-        DFS(depth + 1, d, nx, ny);
+        DFS(depth + 1, k, nx, ny);
       }
     }
   };
@@ -40,6 +40,6 @@ function solution(n) {
 }
 
 // console.log(solution(3));
-for (const v of solution(5)) {
+for (const v of solution(4)) {
   console.log(v);
 }
