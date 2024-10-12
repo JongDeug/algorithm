@@ -111,3 +111,4 @@ Javascript를 사용하여 공부하고 있습니다.
 * [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
 * [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
 * [달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js) (DFS 로 풀어보고 싶었음)
+* [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
