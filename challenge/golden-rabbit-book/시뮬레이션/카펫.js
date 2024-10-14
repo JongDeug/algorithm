@@ -17,7 +17,7 @@ function solution(brown, yellow) {
   let total = brown + yellow;
 
   // for (let h = Math.ceil((brown + 4) / 4); h >= 3; h--) {
-  for (let h = 3; h <= brown + yellow; h++) {
+  for (let h = 3; h <= Math.sqrt(total); h++) {
     let w = Math.floor(total / h);
     if ((w - 2) * (h - 2) === yellow) return [w, h];
   }
