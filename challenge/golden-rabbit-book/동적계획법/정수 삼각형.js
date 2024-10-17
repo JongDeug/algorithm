@@ -29,3 +29,5 @@ function solution(triangle) {
 
   return Math.max(...dp[rowLen - 1]);
 }
+
+// [피드백] => 아래에서 꼭대기로 가는 형태로도 구현 가능하고 더 깔끔해짐
