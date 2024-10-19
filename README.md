@@ -115,3 +115,4 @@ Javascript를 사용하여 공부하고 있습니다.
 * [카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js) 
 * [LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js) (풀었지만 다시)
 * [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
+* [땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)
