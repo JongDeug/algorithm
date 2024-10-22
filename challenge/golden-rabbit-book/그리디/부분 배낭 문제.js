@@ -24,7 +24,7 @@ function solution(items, weight_limit) {
       // 만약 무게가 넘치면 ?  아이템 가치 / 아이템 무게 측정 후
       // 남은 무게만큼 넣어주면 됨
       ans += (v / w) * weight_limit;
-      weight_limit = 0;
+      break;
     }
   }
 
