@@ -119,3 +119,4 @@ Javascript를 사용하여 공부하고 있습니다.
 * [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
 * [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
 * [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
+* [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
