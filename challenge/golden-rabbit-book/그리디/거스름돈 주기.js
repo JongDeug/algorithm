@@ -1,5 +1,7 @@
 // [문제 이해하기]
 // 최소한의 화폐수로 거스름돈을 받는 방법
+// 거스름돈 추가 하기
+
 function solution(amount) {
   let ans = [];
   let returnMoney = [100, 50, 10, 1];
@@ -9,6 +11,8 @@ function solution(amount) {
 
     let count = Math.floor(amount / returnMoney[idx]);
     let remain = amount % returnMoney[idx];
+
+
     for (let i = 0; i < count; i++) {
       ans.push(returnMoney[idx]);
     }
