@@ -1,240 +1,63 @@
-// [문제 이해하기]
-// 모든 명령어를 수행한 후 표의 상태와 처음 주어진 표의 상태를 비교해서 삭제되지 않은 행 O, X 표시 해서 문자열로 return
-
-// [시간 복잡도 예상]
+// [문제 풀이 기록]
 // 이거 C, Z 명령어 때문에 스택을 연결리스트로 만들어야 한다.
 // 원하는 인덱스를 push, pop 하려면 O(1)으로 만들어야 함.
 
-// [문제 세분화] ==> 이중 연결 리스트로 풀어보려 했으나
-// ==> 예상 못한 시간 복잡도가 있었음. 1,000,000 - 1 인덱스에서 연속해서 C로 삭제했다고 처보자 remove 의 get 때문에 1,000,000 - 1 까지
-// 찾을 수 밖에 없음 망한다..
+// 1.
+// ==> 이중 연결 리스트로 풀어보려 했으나
+// ==> 예상 못한 시간 복잡도가 있었음. 1,000,000 - 1 인덱스에서 연속해서 C로 삭제했다고 쳐보자
+// ==> 연결리스트 remove 의 get 때문에 1,000,000 - 1 까지 찾을 수 밖에 없음
 
-// // I. 이중 연결 리스트 구현해보자!
-// class Node {
-//     constructor(value) {
-//         this.prev = null;
-//         this.next = null;
-//         this.value = value;
-//     }
-// }
-//
-// class DoublyLinkedList {
-//     constructor() {
-//         this.head = null;
-//         this.tail = null;
-//         this.length = 0;
-//     }
-//
-//     // Abstract Data Type
-//     // - push
-//     // - pop
-//     // - shift
-//     // - unshift
-//     // - get
-//     // - set
-//     // - insert ??
-//     // - remove ??
-//     push(value) {
-//         let node = new Node(value);
-//         // I. 노드가 없을 때
-//         if(!this.head) {
-//             this.head = node;
-//             this.tail = node;
-//         }
-//         // I. 노드가 있을 때
-//         else {
-//             node.prev = this.tail;
-//             this.tail.next = node;
-//             this.tail = node;
-//         }
-//         this.length++;
-//     }
-//
-//     pop() {
-//         let removed = null;
-//         // I. 비어 있을 때
-//         if(this.length <= 0) return removed;
-//         // I. 한 개 있을 때
-//         if(this.length === 1) {
-//             removed = this.head;
-//             removed.next = null;
-//             removed.prev = null;
-//             this.head = null;
-//             this.tail = null;
-//         }
-//         // I. 여러 개 있을 때
-//         else {
-//             removed = this.tail;
-//             this.tail = removed.prev;
-//             this.tail.next = null;
-//             removed.prev = null;
-//         }
-//         this.length--;
-//         return removed;
-//     }
-//
-//     unshift(value) {
-//         let node = new Node(value);
-//         // I. 노드가 없을 때
-//         if(!this.head) {
-//             this.head = node;
-//             this.tail = node;
-//         }
-//         // I. 노드가 여러 개 있을 때
-//         else {
-//             node.next = this.head;
-//             this.head.prev = node;
-//             this.head = node;
-//         }
-//         this.length++;
-//     }
-//
-//     shift() {
-//         let removed = null;
-//         // I. 노드가 비어 있을 때
-//         if(!this.head) return removed;
-//         // I. 노드가 한 개 있을 때
-//         if(this.length === 1) {
-//             removed = this.head;
-//             this.head = null;
-//             this.tail = null;
-//             removed.prev = null;
-//             removed.next = null;
-//         }
-//         // I. 노드가 여러 개 있을 때
-//         else {
-//             removed = this.head;
-//             this.head = removed.next;
-//             this.head.prev = null;
-//             removed.next = null;
-//             removed.prev = null;
-//         }
-//         this.length--;
-//         return removed;
-//     }
-//
-//     get(idx) {
-//         if(idx < 0 || idx >= this.length) return null;
-//
-//         // I. 최적화 가능하지만 일단 head에서 시작
-//         let current = this.head;
-//         let count = 0;
-//
-//         while(current) {
-//             if(count === idx) return current;
-//             current = current.next;
-//             count++;
-//         }
-//     }
-//
-//     insert(idx, value){
-//         // I. 끝, 시작 둘 다 넣을 수도 있음
-//         if(idx < 0 || idx > this.length) return null;
-//         // I. 끝, 시작
-//         if(idx === 0) this.unshift(value);
-//         else if(idx === this.length) this.push(value);
-//         // I. 중간
-//         else {
-//             let node = new Node(value);
-//             let prev = this.get(idx - 1);
-//             let next = prev.next;
-//             node.prev = prev;
-//             prev.next = node;
-//             node.next = next;
-//             next.prev = node;
-//             this.length++;
-//         }
-//     }
-//
-//     remove(idx) {
-//         // I. insert 랑 다름, 빼는거니까
-//         if(idx < 0 || idx >= this.length) return null;
-//
-//         if(idx === 0) return this.shift();
-//         else if(idx === this.length - 1) return this.pop();
-//         else {
-//             let removed = this.get(idx);
-//             let prev = removed.prev;
-//             let next = removed.next;
-//             prev.next = next;
-//             next.prev = prev;
-//             removed.next = null;
-//             removed.prev = null;
-//             this.length--;
-//             return removed;
-//         }
-//     }
-//
-// }
+// 2. 복습 큐
+// ==> 표를 stack으로 만들고 이걸로 관리하면 시간초과
+// ==> 안빼고 인덱스로 관리하면 됨, 삭제했을 때는 stack에 담는다
+// ==> 그럼 인덱스는 어떻게 관리?
+// ==> while 문
+
+// 2-1. [코드] => 효율성에서 틀림
 // function solution(n, k, cmd) {
-//     let startIdx = k;
-//     let stack = [];
-//     let list = new DoublyLinkedList();
-//     let origin = new DoublyLinkedList();
-//
-//     // I. 연결 리스트 생성
-//     for(let i=0; i<n; i++) {
-//         list.push(i); // 인덱스 번호가 이름으로 침
-//         origin.push(i);
-//     }
-//
-//     // I. cmd 돌자~
-//     for(const command of cmd){
-//         if(command.startsWith("U")) {
-//             let x = Number(command.split(" ")[1]);
-//             startIdx = Math.max(0, startIdx - x);
-//             // startIdx = startIdx - x;
-//             // if(startIdx < 0) startIdx = 0;
-//         }else if(command.startsWith("D")) {
-//             let x = Number(command.split(" ")[1]);
-//             startIdx = Math.min(list.length - 1, startIdx + x);
-//             // startIdx = startIdx + x;
-//             // if(startIdx >= n) startIdx = n - 1;
-//         }else if(command.startsWith("C")){
-//             const node = list.remove(startIdx)
-//             if(!node) continue;
-//             stack.push([startIdx, node]);
-//             if(startIdx === list.length) startIdx--;
-//             // stack.push([startIdx, node]);
-//             // if(startIdx === n-1) startIdx--;
-//             // else startIdx++;
-//         }else {
-//             const removed = stack.pop();
-//             if(!removed) continue;
-//             list.insert(removed[0], removed[1].value);
-//             if(removed[0] <= startIdx) startIdx++;
-//         }
-//     }
-//
+//     // M. stack
+//     const stack = [0, n+1];
 //     let answer = "";
-//     let currentOrigin = origin.head;
-//     let currentList = list.head;
-//     while(currentOrigin) {
-//         if(currentList && currentOrigin.value === currentList.value) {
-//             answer += "O";
-//             currentList = currentList.next;
-//         }else {
-//             answer += "X";
+//     k += 1;
+
+//     const move = (direction, x) => {
+//         let i = k, j = k;
+//         // i는 범위, x는 이동 횟수
+//         while(x > 0 && i >= 1 && i <= n) {
+//             if(direction === "U") i--;
+//             else if(direction === "D") i++;
+
+//             if(stack.includes(i)) continue; // 0, n+1 이 포함되어 있기에 continue
+//             j = i;
+//             x--;
 //         }
-//         currentOrigin = currentOrigin.next;
+//         return j;
 //     }
-//
-//
+
+// 	for(const str of cmd) {
+//         const [c, x] = str.split(" ");
+//         if(c === "U" || c === "D") {
+//         	k = move(c, +x);
+//         }else if(c === "Z") {
+//             stack.pop();
+//         }else if(c === "C") {
+//             let tmp = k;
+//             stack.push(k);
+//             k = move("D", 1);
+//             // k가 그대로면 마지막행이라는 뜻
+//             if(tmp === k) k = move("U", 1);
+//         }
+//     }
+
+//     for(let i=1; i<=n; i++) {
+//         if(stack.includes(i)) answer += "X";
+//         else answer += "O";
+//     }
 //     return answer;
 // }
-//
-// const a = solution(8, 2, ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"])
-// console.log(a)
 
-// [문제 세분화]
-// [문제 이해하기]
-// 모든 명령어를 수행한 후 표의 상태와 처음 주어진 표의 상태를 비교해서 삭제되지 않은 행 O, X 표시 해서 문자열로 return
-
-// [시간 복잡도 예상]
-// 이거 C, Z 명령어 때문에 스택을 연결리스트로 만들어야 한다.
-// 원하는 인덱스를 push, pop 하려면 O(1)으로 만들어야 함.
-
-// // [문제 세분화]
+// 3. 정답 코드
+// [코드]
 // function solution(n, k, cmd) {
 //     let stack = [];
 //     let startIdx = k;
@@ -291,14 +114,6 @@
 //     return answer;
 // }
 
-// [문제 이해하기]
-// 모든 명령어를 수행한 후 표의 상태와 처음 주어진 표의 상태를 비교해서 삭제되지 않은 행 O, X 표시 해서 문자열로 return
-
-// [시간 복잡도 예상]
-// 이거 C, Z 명령어 때문에 스택을 연결리스트로 만들어야 한다.
-// 원하는 인덱스를 push, pop 하려면 O(1)으로 만들어야 함.
-
-// [문제 세분화]
 // function solution(n, k, cmd) {
 //     let stack = [];
 //     let startIdx = k;
@@ -376,50 +191,40 @@
 // const a = solution(8, 2, ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"]);
 // console.log(a);
 
-// [문제 세분화] => 이게 젤 깔끔하다. n+2 로 배열을 만드는 이유는 해당 인덱스에 진입했을 때 해당 인덱스가 없다고 에러 뜨는거 방지하기 위해서임
+// [피드백]
+// while 문 이동은 아무래도 O(n) 이동 시간이 걸리므로 무리가 있음
+// => O(1) 로 개선하기 위해서 up down 인덱스를 저장하면 됨
+// => while 문 작성 중 stack에 [0, n+1] 을 넣어 처리했듯이 direction을 n+2 로 관리
 function solution(n, k, cmd) {
-    let stack = [];
-    let current = k+1;
-    let direction = Array.from({length: n+2}, (_, i) => [i-1, i+1]);
+  let stack = [];
+  let cursor = k + 1;
+  let direction = Array.from({ length: n + 2 }, (_, i) => [i - 1, i + 1]);
 
-    // I. cmd
-    for(const command of cmd) {
-        if(command.startsWith("D") || command.startsWith("U")) {
-            let [chr, times] = command.split(' ');
-            times = parseInt(times);
+  for (const str of cmd) {
+    const [c, x] = str.split(" ");
+    if (c === "U" || c === "D") {
+      const times = +x;
+      for (let i = 0; i < times; i++) {
+        if (c === "U") cursor = direction[cursor][0];
+        else cursor = direction[cursor][1];
+      }
+    } else if (c === "Z") {
+      let restoreIdx = stack.pop();
+      let [restoreUp, restoreDown] = direction[restoreIdx];
 
-            // I. down
-            if(chr === "D") {
-                for(let i=0; i<times; i++){
-                    current = direction[current][1];
-                }
-            }
-            // I. up
-            else {
-                for(let i=0; i<times; i++) {
-                    current = direction[current][0];
-                }
-            }
-        } else if(command.startsWith("C")) {
-            stack.push(current);
-            const [up,down] = direction[current];
-            direction[up][1] = down; // current.up의 down에 current.down;
-            direction[down][0] = up; // current.down의 up에 current.up;
+      // 복구
+      direction[restoreUp][1] = restoreIdx;
+      direction[restoreDown][0] = restoreIdx;
+    } else if (c === "C") {
+      stack.push(cursor);
+      const [currentUp, currentDown] = direction[cursor];
+      // 수정
+      direction[currentUp][1] = currentDown; // 위(의)[아래]
+      direction[currentDown][0] = currentUp; // 아래(의)[위]
 
-            // i. 현재 인덱스 조정 (마지막 요소 지울 때만 위로감)
-            // i. 0은 왜 처리안해? 가상 배열을 쓰면 0 쪽으로는 갈 일이 없음
-            current = n < down ? up : down;
-        } else if(command.startsWith("Z")) {
-            const restored = stack.pop();
-            const [up, down] = direction[restored];
-            direction[up][1] = restored;
-            direction[down][0] = restored;
-        }
+      // i. 현재 인덱스 조정 (마지막 요소 지울 때만 위로감)
+      // 마지막 행이면 currentUp, 그게 아니면 아래 행 선택
+      cursor = n < currentDown ? currentUp : currentDown;
     }
-
-    const answer = new Array(n).fill("O");
-    for(const item of stack) {
-        answer[item - 1] = "X"; // 가상 요소 사용했으니까 item - 1
-    }
-    return answer.join("");
+  }
 }
