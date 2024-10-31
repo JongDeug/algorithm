@@ -86,7 +86,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[모의고사](challenge/golden-rabbit-book/배열/모의고사.js)~~
 - ~~[괄호 회전하기](challenge/golden-rabbit-book/스택/괄호%20회전하기.js)~~
 - [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
-- [두 개의 수로 특정 값 만들기](challenge/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)
+- ~~[두 개의 수로 특정 값 만들기](challenge/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)~~
 - ~~[베스트앨범](challenge/golden-rabbit-book/해시/베스트앨범.js)~~
 - [메뉴 리뉴얼](challenge/golden-rabbit-book/해시/메뉴%20리뉴얼.js)
 - [다단계 칫솔 판매](challenge/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)
