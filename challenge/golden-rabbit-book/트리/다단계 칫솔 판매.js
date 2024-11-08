@@ -1,89 +1,82 @@
-// [문제 이해하기]
-// 다단계 레퍼럴 구조인데 각 enroll 의 최종 수익을 배열로 반환하는 함수를 구현해라.
-//
-// [입력]
-// enroll: 모든 판매원
-// referral: 각 판매원에 대한 추천인
-// seller: 판매원
-// amount: 판매원의 판매량
-//
-// [문제 세분화] ==> 아주 틀린 방법으로 접근하고 있었음
-// class Node {
-//   constructor(name) {
-//     this.name = name;
-//     this.value = 0;
-//     this.parent = null;
-//     this.child = new Map(); // I. obj 으로 가자
+// [첫 번째 문제 풀이]
+// - 트리 형태를 구현하려 했음 => 틀린 접근 방법
+
+// [피드백] => 트리 접근이 아니였네 그냥 obj로 참조 가능해!
+// function solution(enroll, referral, seller, amount) {
+//   // I. 부모를 만들자
+//   let parent = {}; // 배열안에 옵젝이 아님
+//   for (let i = 0; i < enroll.length; i++) {
+//     parent[enroll[i]] = referral[i];
 //   }
-// }
-// class Tree {
-//   constructor() {
-//     this.root = new Node("-");
-//     this.current = this.root;
+
+//   // I. 돈 기록하는 옵젝
+//   let total = {};
+//   for (const name of enroll) {
+//     total[name] = 0;
 //   }
-//
-//   // i. insert
-//   // i. update
-//   // i. print
-//
-//   insert(childNode, ref) {
-//     this.current.child.set(childNode.name, childNode);
-//     // I. 레벨이 내려가면 current 변경
-//     if(this.current.name !== ref) {
-//       this.current = this.current.child.get(ref);
+
+//   // I. seller, amount 가지고 기록시작
+//   for (let i = 0; i < seller.length; i++) {
+//     let money = amount[i] * 100; // 100원 * 수량
+//     let currentKey = seller[i];
+
+//     while (currentKey !== "-" && money > 0) {
+//       total[currentKey] += money - Math.floor(money / 10);
+//       currentKey = parent[currentKey]; // 부모로 이동
+
+//       money = Math.floor(money / 10); // 다음으로 넘겨야 함
 //     }
 //   }
-//
-//   update(seller, amount) {}
-//
-//   print() {}
+
+//   return enroll.map((name) => total[name]);
 // }
-// function solution(enroll, referral, seller, amount) {
-//   const tree = new Tree();
-//   const sales = new Map();
-//   // I. enroll, referral 으로 트리를 생성한다.
-//   for (let i = 0; i < enroll.length; i++) {
-//     let childNode = new Node(enroll[i]);
-//     tree.insert(childNode, referral[i]);
-//   }
-//   // I. seller, amount 로 데이터를 판매 데이터를 생성한다.
-//   for (let i = 0; i < seller.length; i++) {
-//     sales.set(seller[i], amount[i]);
-//   }
-//   // I. 판매 데이터를 순회하며 트리의 값을 변화 시킨다. (down => up)
-//   for (const [seller, amount] of sales) {
-//     tree.update(seller, amount);
-//   }
-//
-//   // I. 출력!
-//   return tree.print();
-// }
-// [피드백] => 트리 접근이 아니였네 그냥 obj로 참조 가능해!
+
+// ########################################################################################33
+
+// [문제 이해하기]
+// 다단계 구조인데 판매량을 보고 결과를 반환해라.
+
+// 입력: 자식, 부모, 판매자, 판매량
+// 출력: 소득 결과 반환
+
+// [제약 조건]
+// 발생하는 이익에서 10%을 추천인에게 배분, 반복
+// 단, 10% 계산할 때는 원 단위로 절사 + 1원 미만인 경우 이득 분배 x
+
+// [문제 세분화, 접근법]
+// # 표(enroll, referral)를 해시로 만들어서 바로 접근가능하게 만듦
+// # amount * 100 해서 이익금 산출
+// # 총 소득을 담는 result map (center는 계산하지 않아도 됨)
+
+// 1. 해시로 변환
+// 2. amount 돌면서 표를 사용해 부모참조, 하나씩 해결
+
+// [문제]
+// 테스트 11, 12, 13 => 시간 초과
+// 아! income이 0인 경우 center까지 갈 필요가 없음 => while에 조건 추가해서 해결
 function solution(enroll, referral, seller, amount) {
-  // I. 부모를 만들자
-  let parent = {}; // 배열안에 옵젝이 아님
+  const result = new Map();
+  const map = new Map();
+
   for (let i = 0; i < enroll.length; i++) {
-    parent[enroll[i]] = referral[i];
+    map.set(enroll[i], referral[i]);
+    result.set(enroll[i], 0);
   }
 
-  // I. 돈 기록하는 옵젝
-  let total = {};
-  for (const name of enroll) {
-    total[name] = 0;
-  }
+  for (let i = 0; i < amount.length; i++) {
+    let income = amount[i] * 100;
+    let who = seller[i];
 
-  // I. seller, amount 가지고 기록시작
-  for (let i = 0; i < seller.length; i++) {
-    let money = amount[i] * 100; // 100원 * 수량
-    let currentKey = seller[i];
-
-    while (currentKey !== "-" && money > 0) {
-      total[currentKey] += money - Math.floor(money / 10);
-      currentKey = parent[currentKey]; // 부모로 이동
-
-      money = Math.floor(money / 10); // 다음으로 넘겨야 함
+    // who, income이 계속 변경될거임
+    while (who !== "-" && income !== 0) {
+      // 1원 단위 절삭, 1원 미만 X
+      let fee = income * 0.1 < 1 ? 0 : Math.trunc(income * 0.1);
+      let mine = income - fee;
+      income = fee;
+      result.set(who, result.get(who) + mine);
+      who = map.get(who);
     }
   }
 
-  return enroll.map((name) => total[name]);
+  return [...result.values()];
 }
