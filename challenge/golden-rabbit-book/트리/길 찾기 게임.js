@@ -1,11 +1,12 @@
-// [문제 이해하기]
-// 이진 트리를 전위, 후위 순회해서 배열로 반환하는 로직을 구현해라 .
-//
-// [문제 세분화]
-// nodeinfo.sort() y기준으로 정렬 O(NlogN) => 이진 트리 변환 x기준으로 O(N)
-// 주어진 배열 i+1 을 노드 값으로 설정
-// 순회 => O(N)
+// [문제 풀이 기록]
+// 이진 트리 삽입 시)
+// 평균: O(NlogN)
+// 최악: O(N^2)
+
 // 시간 초과남 어디서 문제일까
+// 배열, 포인터 두 가지 방식이 있음
+// 배열의 인덱스로 구현하면 시간 초과가 남.
+
 // class Node {
 //   constructor(value, x) {
 //     this.value = value;
@@ -104,6 +105,102 @@
 // 하지만 배열의 크기가 커질 때 발생할 수 있는 성능 문제는
 // 배열 크기가 커질 때의 메모리 재할당 때문일 수 있습니다.
 
+// class Node {
+//   constructor(value, x) {
+//     this.value = value;
+//     this.x = x;
+//     this.left = null;
+//     this.right = null;
+//   }
+// }
+// class BinararyTree {
+//   constructor() {
+//     this.root = null;
+//   }
+
+//   // I. insert
+//   // I. preorder
+//   // I. postorder
+
+//   insert(node) {
+//     // I. 배열에 값이 없을 때
+//     if (!this.root) {
+//       this.root = node;
+//       return;
+//     }
+
+//     let current = this.root;
+
+//     while (true) {
+//       // I. 값이 작냐
+//       if (node.x < current.x) {
+//         if (!current.left) {
+//           current.left = node;
+//           break;
+//         }
+//         current = current.left;
+//       } else if (node.x > current.x) {
+//         if (!current.right) {
+//           current.right = node;
+//           break;
+//         }
+//         current = current.right;
+//       }
+//     }
+//   }
+
+//   preorder(tmp, current) {
+//     if (!current) return;
+
+//     tmp.push(current.value);
+//     this.preorder(tmp, current.left);
+//     this.preorder(tmp, current.right);
+
+//     return tmp;
+//   }
+
+//   postorder(tmp, current) {
+//     if (!current) return;
+
+//     this.postorder(tmp, current.left);
+//     this.postorder(tmp, current.right);
+//     tmp.push(current.value);
+
+//     return tmp;
+//   }
+// }
+// function solution(nodeinfo) {
+//   // I. nodeinfo index 정보 추가
+//   nodeinfo = nodeinfo.map((v, i) => [...v, i + 1]);
+//   // I. nodeinfo 정렬
+//   nodeinfo.sort((a, b) => b[1] - a[1]);
+//   console.log(nodeinfo);
+//   // I. binararyTree 생성
+//   const btree = new BinararyTree();
+//   // O(N^2)
+//   for (const item of nodeinfo) {
+//     let node = new Node(item[2], item[0]);
+//     btree.insert(node);
+//   }
+
+//   // I. 순회
+//   return [btree.preorder([], btree.root), btree.postorder([], btree.root)];
+// }
+
+// [문제 이해하기]
+// 이진트리를 생성해, 전위 and 후위 순회한 결과를 return 해라.
+
+// 입력: nodeinfo 노드들의 좌표가 담긴 배열 [[x, y]]
+// 출력: 이차원 배열, [전위 후위] 순회한 결과
+
+// [접근법]
+// 이진 트리 구현 (배열 or 포인터)
+// preorder, postorder 구현
+// 시간 복잡도 문제 없음
+
+// [문제 세분화]
+// x, y, i까지 다 필요하네..
+// x는 노드 비교, y는 넣는 순서, i는 node 번호
 class Node {
   constructor(value, x) {
     this.value = value;
@@ -112,33 +209,36 @@ class Node {
     this.right = null;
   }
 }
-class BinararyTree {
+
+class BST {
   constructor() {
     this.root = null;
   }
 
-  // I. insert
-  // I. preorder
-  // I. postorder
+  // push
+  // preorder
+  // postorder
 
-  insert(node) {
-    // I. 배열에 값이 없을 때
-    if (!this.root) {
+  push(value, x) {
+    let node = new Node(value, x);
+    let current = this.root;
+
+    if (!current) {
       this.root = node;
       return;
     }
 
-    let current = this.root;
-
-    while (true) {
-      // I. 값이 작냐
+    // current 가 null 이면 그만
+    while (current) {
       if (node.x < current.x) {
+        // 왼쪽에 자식이 없으면
         if (!current.left) {
           current.left = node;
           break;
         }
+        // 왼쪽에 자식이 있으면
         current = current.left;
-      } else if (node.x > current.x) {
+      } else {
         if (!current.right) {
           current.right = node;
           break;
@@ -148,42 +248,49 @@ class BinararyTree {
     }
   }
 
-  preorder(tmp, current) {
-    if (!current) return;
+  preorder() {
+    const arr = [];
 
-    tmp.push(current.value);
-    this.preorder(tmp, current.left);
-    this.preorder(tmp, current.right);
+    const pre = (node) => {
+      if (!node) return;
 
-    return tmp;
+      arr.push(node.value);
+      pre(node.left);
+      pre(node.right);
+    };
+    pre(this.root);
+
+    return arr;
   }
 
-  postorder(tmp, current) {
-    if (!current) return;
+  postorder() {
+    const arr = [];
 
-    this.postorder(tmp, current.left);
-    this.postorder(tmp, current.right);
-    tmp.push(current.value);
+    const post = (node) => {
+      if (!node) return;
 
-    return tmp;
+      post(node.left);
+      post(node.right);
+      arr.push(node.value);
+    };
+    post(this.root);
+
+    return arr;
   }
 }
-function solution(nodeinfo) {
-  // I. nodeinfo index 정보 추가
-  nodeinfo = nodeinfo.map((v, i) => [...v, i + 1]);
-  // I. nodeinfo 정렬
-  nodeinfo.sort((a, b) => b[1] - a[1]);
-  console.log(nodeinfo);
-  // I. binararyTree 생성
-  const btree = new BinararyTree();
-  // O(N^2)
-  for (const item of nodeinfo) {
-    let node = new Node(item[2], item[0]);
-    btree.insert(node);
-  }
 
-  // I. 순회
-  return [btree.preorder([], btree.root), btree.postorder([], btree.root)];
+function solution(nodeinfo) {
+  const bst = new BST();
+  nodeinfo = nodeinfo.map((value, idx) => [...value, idx]);
+  nodeinfo.sort((a, b) => b[1] - a[1]); // 내림차순 정렬
+
+  // bst 초기화
+  nodeinfo.forEach((arr) => {
+    const [x, y, i] = arr;
+    bst.push(i + 1, x);
+  });
+
+  return [bst.preorder(), bst.postorder()];
 }
 
 console.log(
@@ -197,5 +304,5 @@ console.log(
     [8, 6],
     [7, 2],
     [2, 2],
-  ]),
+  ])
 );
