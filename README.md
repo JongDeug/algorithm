@@ -96,7 +96,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[간단한 유니온-파인드 알고리즘 구현하기](challenge/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)~~
 - ~~[주식 가격](challenge/golden-rabbit-book/스택/주식%20가격.js)~~
 - ~~[섬 연결하기](challenge/golden-rabbit-book/집합/섬%20연결하기.js)~~
-- [다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)
+- [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
 - [벨만-포드 알고리즘](challenge/golden-rabbit-book/그래프/벨만-포드%20알고리즘.js)
 - [네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)
 - [경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)
@@ -120,4 +120,4 @@ Javascript를 사용하여 공부하고 있습니다.
 - [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
 - [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
 - [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
-- [우선 순위 큐 구현]
+- [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
