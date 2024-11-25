@@ -108,5 +108,18 @@ function solution(graph, start) {
   return [distance, paths];
 }
 
-console.log(solution({ A: { B: 9, C: 3 }, B: { A: 5 }, C: { B: 1 } }, "A"));
-console.log(solution({ A: { B: 1 }, B: { C: 5 }, C: { D: 1 }, D: {} }, "A"));
+console.log(
+  solution(
+    {
+      A: { B: 3, C: 4, D: 5 },
+      B: { C: 2, D: 1 },
+      C: { E: 2 },
+      D: { C: 1, E: 1 },
+      E: {},
+    },
+    "A"
+  )
+);
+
+// console.log(solution({ A: { B: 9, C: 3 }, B: { A: 5 }, C: { B: 1 } }, "A"));
+// console.log(solution({ A: { B: 1 }, B: { C: 5 }, C: { D: 1 }, D: {} }, "A"));
