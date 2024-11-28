@@ -348,7 +348,7 @@
 // 왜 코스트 값을 [상,하,좌,우] 로 해야함?
 // 사방 팔방에서 노드에 진입하기 때문에 지금 최솟값이라 해서 그게 나중에 최소 경로가 된다는 보장이 없음
 // 한개의 값으로 많은 경로를 판단할 수 없기 때문에 [상, 하, 좌, 우] 사용함
-// https://school.programmers.co.kr/questions/30355
+// 보셈 중요함 : https://school.programmers.co.kr/questions/30355
 
 // function solution(board) {
 //   const dy = [-1, 1, 0, 0]; // 상하좌우
