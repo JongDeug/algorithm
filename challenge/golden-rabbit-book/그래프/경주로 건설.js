@@ -333,7 +333,7 @@
 //   ])
 // );
 
-// [실험용]
+// [실험용] *******************************************************************************************************************
 // 알겠다.
 // straight, corner 계속 최소를 선택하면 경로가 안맞아;;;;
 // 최소 거리로 엔드포인트까지 가는데 corner는 그게 아닐 수 있음
@@ -343,6 +343,12 @@
 // 이게 코너나 직선 거리 기준으로 한다는게 웃긴거였네. 합으로써 동작해야했는데
 
 // 입출력 예제 4번을 보셈. 나는 붉은색 코너 + 파란색 직선 거리를 사용하고 있는거임 ***************************************************************************
+
+// [한가지 의문점]
+// 왜 코스트 값을 [상,하,좌,우] 로 해야함?
+// 사방 팔방에서 노드에 진입하기 때문에 지금 최솟값이라 해서 그게 나중에 최소 경로가 된다는 보장이 없음
+// 한개의 값으로 많은 경로를 판단할 수 없기 때문에 [상, 하, 좌, 우] 사용함
+// https://school.programmers.co.kr/questions/30355
 
 // function solution(board) {
 //   const dy = [-1, 1, 0, 0]; // 상하좌우
@@ -395,6 +401,53 @@
 //   console.log(straight, corner);
 //   return straight * 100 + corner * 500;
 // }
+
+function solution(board) {
+  const dy = [-1, 1, 0, 0]; // 상하좌우
+  const dx = [0, 0, -1, 1];
+  const rowLen = board.length;
+  const colLen = board[0].length;
+
+  const costs = board.map((x) =>
+    Array.from({ length: x.length }, () => Infinity)
+  );
+
+  const isInvalid = (x, y) => {
+    return x >= 0 && x < colLen && y >= 0 && y < rowLen && !board[y][x];
+  };
+
+  const queue = [[0, 0, 0, -1]];
+  costs[0][0] = 0;
+
+  while (queue.length) {
+    let [x, y, cost, prevK] = queue.shift();
+
+    // 0, 1 상하 => 0
+    // 2, 3 좌우 => 1
+    for (let k = 0; k < 4; k++) {
+      const nx = dx[k] + x;
+      const ny = dy[k] + y;
+
+      if (isInvalid(nx, ny)) {
+        const prev = [0, 1].includes(prevK) ? 0 : 1;
+        const cur = [0, 1].includes(k) ? 0 : 1;
+
+        let newCost = cost + 100;
+        if (prevK !== -1 || prev !== cur) {
+          newCost += 500;
+        }
+
+        if (newCost < costs[ny][nx]) {
+          costs[ny][nx] = newCost;
+          queue.push([nx, ny, newCost, k]);
+        }
+      }
+    }
+  }
+
+  console.log(costs);
+  return costs[rowLen - 1][colLen - 1];
+}
 
 console.log(
   solution([
