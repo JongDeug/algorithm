@@ -85,10 +85,8 @@ Javascript를 사용하여 공부하고 있습니다.
 
 - ~~[모의고사](challenge/golden-rabbit-book/배열/모의고사.js)~~
 - ~~[괄호 회전하기](challenge/golden-rabbit-book/스택/괄호%20회전하기.js)~~
-- [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
 - ~~[두 개의 수로 특정 값 만들기](challenge/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)~~
 - ~~[베스트앨범](challenge/golden-rabbit-book/해시/베스트앨범.js)~~
-- [다시] ~~[메뉴 리뉴얼](challenge/golden-rabbit-book/해시/메뉴%20리뉴얼.js)~~
 - ~~[다단계 칫솔 판매](challenge/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)~~
 - ~~[미로 탈출](challenge/golden-rabbit-book/트리/미로%20탈출.js) (방식은 맞았는데 한 번더)~~
 - ~~[양과 늑대](challenge/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)~~
@@ -96,10 +94,8 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[간단한 유니온-파인드 알고리즘 구현하기](challenge/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)~~
 - ~~[주식 가격](challenge/golden-rabbit-book/스택/주식%20가격.js)~~
 - ~~[섬 연결하기](challenge/golden-rabbit-book/집합/섬%20연결하기.js)~~
-- [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
 - ~~[벨만-포드 알고리즘](challenge/golden-rabbit-book/그래프/벨만-포드%20알고리즘.js)~~
 - ~~[네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)~~
-- [아니 몇몇 테스트 케이스가 성공하지 않아] ~~[경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)~~
 - [1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)
 - [스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오)
 - [피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)
@@ -121,3 +117,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
 - [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
 - [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
+- [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
+- [다시] ~~[메뉴 리뉴얼](challenge/golden-rabbit-book/해시/메뉴%20리뉴얼.js)~~
+- [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
+- [이거는 BFS랑 dp 섞은 문제임] ~~[경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)~~

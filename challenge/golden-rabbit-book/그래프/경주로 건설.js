@@ -64,10 +64,6 @@
 //   while (!queue.isEmpty()) {
 //     const [x, y, prevDirection, cost] = queue.dequeue();
 
-//     if (x === colLen - 1 && y === rowLen - 1) {
-//       continue; // 야 목표 지점에 도착해도 더 진행해야 함 // 가능성이 있으니까
-//     }
-
 //     for (let k = 1; k <= 4; k++) {
 //       const nx = dx[k] + x;
 //       const ny = dy[k] + y;
@@ -207,6 +203,8 @@
 // }
 
 // [두 번째 풀이] => 테스트 케이스 10, 11 안풀림
+// 최솟값으로 모두 선택했기 때문에
+// 아마 직선 거리 개수랑, 코너 거리 개수랑 매치되지 않는 길 인듯.
 // function solution(board) {
 //   const dy = [-1, 1, 0, 0]; // 상하좌우
 //   const dx = [0, 0, -1, 1];
@@ -278,51 +276,52 @@
 //   ])
 // );
 
-function solution(board) {
-  const dy = [-1, 1, 0, 0]; // 상하좌우
-  const dx = [0, 0, -1, 1];
-  const rowLen = board.length;
-  const colLen = board[0].length;
+// [끝]
+// function solution(board) {
+//   const dy = [-1, 1, 0, 0]; // 상하좌우
+//   const dx = [0, 0, -1, 1];
+//   const rowLen = board.length;
+//   const colLen = board[0].length;
 
-  const costs = board.map((x) =>
-    Array.from({ length: x.length }, () => Array(4).fill(Infinity))
-  );
+//   const costs = board.map((x) =>
+//     Array.from({ length: x.length }, () => Array(4).fill(Infinity))
+//   );
 
-  const isInvalid = (x, y) => {
-    return x >= 0 && x < colLen && y >= 0 && y < rowLen && !board[y][x];
-  };
+//   const isInvalid = (x, y) => {
+//     return x >= 0 && x < colLen && y >= 0 && y < rowLen && !board[y][x];
+//   };
 
-  const queue = [[0, 0, 0, -1]];
-  costs[0][0] = [0, 0, 0, 0];
+//   const queue = [[0, 0, 0, -1]];
+//   costs[0][0] = [0, 0, 0, 0];
 
-  while (queue.length) {
-    let [x, y, cost, prevK] = queue.shift();
+//   while (queue.length) {
+//     let [x, y, cost, prevK] = queue.shift();
 
-    // 0, 1 상하 => 0
-    // 2, 3 좌우 => 1
-    for (let k = 0; k < 4; k++) {
-      const nx = dx[k] + x;
-      const ny = dy[k] + y;
+//     // 0, 1 상하 => 0
+//     // 2, 3 좌우 => 1
+//     for (let k = 0; k < 4; k++) {
+//       const nx = dx[k] + x;
+//       const ny = dy[k] + y;
 
-      if (isInvalid(nx, ny)) {
-        const prev = [0, 1].includes(prevK) ? 0 : 1;
-        const cur = [0, 1].includes(k) ? 0 : 1;
+//       if (isInvalid(nx, ny)) {
+//         const prev = [0, 1].includes(prevK) ? 0 : 1;
+//         const cur = [0, 1].includes(k) ? 0 : 1;
 
-        let newCost = cost + 100;
-        if (prevK !== -1 || prev !== cur) {
-          newCost += 500;
-        }
+//         let newCost = cost + 100;
+//         if (prevK !== -1 || prev !== cur) {
+//           newCost += 500;
+//         }
 
-        if (newCost < costs[ny][nx][k]) {
-          costs[ny][nx][k] = newCost;
-          queue.push([nx, ny, newCost, k]);
-        }
-      }
-    }
-  }
+//         if (newCost < costs[ny][nx][k]) {
+//           costs[ny][nx][k] = newCost;
+//           queue.push([nx, ny, newCost, k]);
+//         }
+//       }
+//     }
+//   }
 
-  return Math.min(...costs[rowLen - 1][colLen - 1]);
-}
+//   return Math.min(...costs[rowLen - 1][colLen - 1]);
+// }
 
 // console.log(
 //   solution([
@@ -334,6 +333,69 @@ function solution(board) {
 //   ])
 // );
 
+// [실험용]
+// 알겠다.
+// straight, corner 계속 최소를 선택하면 경로가 안맞아;;;;
+// 최소 거리로 엔드포인트까지 가는데 corner는 그게 아닐 수 있음
+// 코너가 최소여도 최소 직전 거리(straight)랑 맞지 않는 길일 수 있기 때문에 비용의 합으로 구해야됨;;;
+// 즉 이 문제는 비용으로 해결해야 한다.
+
+// 이게 코너나 직선 거리 기준으로 한다는게 웃긴거였네. 합으로써 동작해야했는데
+
+// 입출력 예제 4번을 보셈. 나는 붉은색 코너 + 파란색 직선 거리를 사용하고 있는거임 ***************************************************************************
+
+// function solution(board) {
+//   const dy = [-1, 1, 0, 0]; // 상하좌우
+//   const dx = [0, 0, -1, 1];
+//   const rowLen = board.length;
+//   const colLen = board[0].length;
+
+//   const cor = board.map((x) =>
+//     Array.from({ length: x.length }, () => Array(4).fill(Infinity))
+//   );
+
+//   const st = [];
+
+//   const isInvalid = (x, y) => {
+//     return x >= 0 && x < colLen && y >= 0 && y < rowLen && !board[y][x];
+//   };
+
+//   const queue = [[0, 0, -1, 0]];
+//   cor[0][0] = [0, 0, 0, 0]; // 코너 -1 초기화
+
+//   while (queue.length) {
+//     let [x, y, prevK, straight] = queue.shift();
+
+//     if (x === colLen - 1 && y === rowLen - 1) {
+//       st.push(straight);
+//     }
+
+//     for (let k = 0; k < 4; k++) {
+//       const nx = dx[k] + x;
+//       const ny = dy[k] + y;
+
+//       if (isInvalid(nx, ny)) {
+//         const corner = prevK < 0 ? 0 : cor[y][x][prevK];
+
+//         if (corner < cor[ny][nx][k]) {
+//           if (prevK !== -1 && prevK !== k) {
+//             cor[ny][nx][k] = corner + 1;
+//           } else {
+//             cor[ny][nx][k] = corner;
+//           }
+//           queue.push([nx, ny, k, straight + 1]);
+//         }
+//       }
+//     }
+//   }
+
+//   const corner = Math.min(...cor[rowLen - 1][colLen - 1]);
+//   const straight = Math.min(...st);
+//   // console.log(st[rowLen - 1][colLen - 1]);
+//   console.log(straight, corner);
+//   return straight * 100 + corner * 500;
+// }
+
 console.log(
   solution([
     [0, 0, 1],
@@ -345,41 +407,62 @@ console.log(
 
 console.log(
   solution([
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0],
+    [0, 0, 1, 0, 0],
+    [1, 0, 0, 0, 1],
+    [1, 1, 1, 0, 0],
   ])
 );
 
 console.log(
   solution([
-    [0, 0, 0, 0, 0, 0, 0, 1],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 1, 0, 0],
-    [0, 0, 0, 0, 1, 0, 0, 0],
-    [0, 0, 0, 1, 0, 0, 0, 1],
-    [0, 0, 1, 0, 0, 0, 1, 0],
-    [0, 1, 0, 0, 0, 1, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 1, 0],
+    [0, 0, 1, 0, 0, 0],
+    [1, 0, 0, 1, 0, 1],
+    [0, 1, 0, 0, 0, 1],
+    [0, 0, 0, 0, 0, 0],
   ])
 );
 
-console.log(
-  solution([
-    [0, 0, 1],
-    [0, 0, 0],
-    [0, 0, 0],
-    [1, 0, 0],
-  ])
-);
+// console.log(
+//   solution([
+//     [0, 0, 0],
+//     [0, 0, 0],
+//     [0, 0, 0],
+//   ])
+// );
 
-console.log(
-  solution([
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0],
-  ])
-);
+// console.log(
+//   solution([
+//     [0, 0, 0, 0, 0, 0, 0, 1],
+//     [0, 0, 0, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 1, 0, 0],
+//     [0, 0, 0, 0, 1, 0, 0, 0],
+//     [0, 0, 0, 1, 0, 0, 0, 1],
+//     [0, 0, 1, 0, 0, 0, 1, 0],
+//     [0, 1, 0, 0, 0, 1, 0, 0],
+//     [1, 0, 0, 0, 0, 0, 0, 0],
+//   ])
+// );
+
+// console.log(
+//   solution([
+//     [0, 0, 1],
+//     [0, 0, 0],
+//     [0, 0, 0],
+//     [1, 0, 0],
+//   ])
+// );
+
+// console.log(
+//   solution([
+//     [0, 0, 0],
+//     [0, 0, 0],
+//     [0, 0, 0],
+//   ])
+// );
 
 console.log(
   solution([
