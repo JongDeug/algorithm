@@ -20,6 +20,47 @@ Javascript를 사용하여 공부하고 있습니다.
 | O(2^n)      | 약 20번        |
 | O(n!)       | 10번           |
 
+## 코딩 테스트 합격자 되기 (복습 큐)
+
+- ~~[모의고사](challenge/golden-rabbit-book/배열/모의고사.js)~~
+- ~~[괄호 회전하기](challenge/golden-rabbit-book/스택/괄호%20회전하기.js)~~
+- ~~[두 개의 수로 특정 값 만들기](challenge/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)~~
+- ~~[베스트앨범](challenge/golden-rabbit-book/해시/베스트앨범.js)~~
+- ~~[다단계 칫솔 판매](challenge/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)~~
+- ~~[미로 탈출](challenge/golden-rabbit-book/트리/미로%20탈출.js) (방식은 맞았는데 한 번더)~~
+- ~~[양과 늑대](challenge/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)~~
+- ~~[길 찾기 게임](challenge/golden-rabbit-book/트리/길%20찾기%20게임.js) (잘 풀었음. 근데 구현 방식만, 배열 or 포인터 좀 더 다듬자)~~
+- ~~[간단한 유니온-파인드 알고리즘 구현하기](challenge/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)~~
+- ~~[주식 가격](challenge/golden-rabbit-book/스택/주식%20가격.js)~~
+- ~~[섬 연결하기](challenge/golden-rabbit-book/집합/섬%20연결하기.js)~~
+- ~~[벨만-포드 알고리즘](challenge/golden-rabbit-book/그래프/벨만-포드%20알고리즘.js)~~
+- ~~[네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)~~
+- [1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)
+- [스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오)
+- [피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)
+- [N-퀸](challenge/golden-rabbit-book/백트래킹/N-퀸.js) (호오,,,)
+- [양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)
+- [외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)
+- [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
+- [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
+- [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
+- [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
+- [달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js) (DFS 로 풀어보고 싶었음)
+- [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
+- [카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js)
+- [LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js) (풀었지만 다시)
+- [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
+- [땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)
+- [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
+- [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
+- [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
+- [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
+- [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
+- [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
+- [다시] ~~[메뉴 리뉴얼](challenge/golden-rabbit-book/해시/메뉴%20리뉴얼.js)~~
+- [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
+- [이거는 BFS랑 dp 섞은 문제임] ~~[경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)~~
+
 ## 복습 큐
 
 - [minSubArrayLen](challenge/problem-solving-pattern/minSubArrayLen/minSubArrayLen.js) (상)
@@ -80,44 +121,3 @@ Javascript를 사용하여 공부하고 있습니다.
 21. [특정 거리의 도시 찾기](challenge/boj/graph/dijkstra/특정%20거리의%20도시%20찾기.js) (다익스트라로 풀어봤음, 그냥 BFS 로도 풀어보자)
 22. [숨바꼭질 3](challenge/boj/graph/dijkstra/숨바꼭질%203.js) (다익스트라, 덱 사용하는 방법 2가지 숙지)
 23. [웜홀](challenge/boj/graph/bellman-ford/웜홀.js) (벨만포드, 다시풀어보자 최적화)
-
-## 코딩 테스트 합격자 되기 (복습 큐)
-
-- ~~[모의고사](challenge/golden-rabbit-book/배열/모의고사.js)~~
-- ~~[괄호 회전하기](challenge/golden-rabbit-book/스택/괄호%20회전하기.js)~~
-- ~~[두 개의 수로 특정 값 만들기](challenge/golden-rabbit-book/해시/두%20개의%20수로%20특정%20값%20만들기.js)~~
-- ~~[베스트앨범](challenge/golden-rabbit-book/해시/베스트앨범.js)~~
-- ~~[다단계 칫솔 판매](challenge/golden-rabbit-book/트리/다단계%20칫솔%20판매.js)~~
-- ~~[미로 탈출](challenge/golden-rabbit-book/트리/미로%20탈출.js) (방식은 맞았는데 한 번더)~~
-- ~~[양과 늑대](challenge/golden-rabbit-book/트리/양과%20늑대.js) (생전 처음 보는 BFS 문제 뇌의 확장!)~~
-- ~~[길 찾기 게임](challenge/golden-rabbit-book/트리/길%20찾기%20게임.js) (잘 풀었음. 근데 구현 방식만, 배열 or 포인터 좀 더 다듬자)~~
-- ~~[간단한 유니온-파인드 알고리즘 구현하기](challenge/golden-rabbit-book/집합/간단한%20유니온-파인드%20알고리즘%20구현하기.js) (경로 압축만)~~
-- ~~[주식 가격](challenge/golden-rabbit-book/스택/주식%20가격.js)~~
-- ~~[섬 연결하기](challenge/golden-rabbit-book/집합/섬%20연결하기.js)~~
-- ~~[벨만-포드 알고리즘](challenge/golden-rabbit-book/그래프/벨만-포드%20알고리즘.js)~~
-- ~~[네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)~~
-- [1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)
-- [스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오)
-- [피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)
-- [N-퀸](challenge/golden-rabbit-book/백트래킹/N-퀸.js) (호오,,,)
-- [양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)
-- [외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)
-- [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
-- [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
-- [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
-- [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
-- [달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js) (DFS 로 풀어보고 싶었음)
-- [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
-- [카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js)
-- [LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js) (풀었지만 다시)
-- [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
-- [땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)
-- [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
-- [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
-- [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
-- [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
-- [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
-- [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
-- [다시] ~~[메뉴 리뉴얼](challenge/golden-rabbit-book/해시/메뉴%20리뉴얼.js)~~
-- [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
-- [이거는 BFS랑 dp 섞은 문제임] ~~[경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)~~
