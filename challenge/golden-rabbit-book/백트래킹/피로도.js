@@ -43,23 +43,61 @@
 // }
 
 // [피드백] => 백트래킹 적용
+// function solution(k, dungeons) {
+//   const visited = new Set();
+//   // DFS 는 중첩 반복문이라 생각하면 편함
+//   const dfs = (K, count) => {
+//     let maxCount = count;
+
+//     for (let i = 0; i < dungeons.length; i++) {
+//       const [minPirodo, burnPirodo] = dungeons[i];
+//       if (K >= minPirodo && !visited.has(i)) {
+//         visited.add(i);
+//         // I. 지렸다
+//         maxCount = Math.max(maxCount, dfs(K - burnPirodo, count + 1));
+//         visited.delete(i);
+//       }
+//     }
+
+//     return maxCount;
+//   };
+//   return dfs(k, 0);
+// }
+
+// [복습]
+// 백트래킹이란,,, 엄청나군
+// 어차피 max count 를 구하는 거니까. 진입이 가능하면 max count가 올라가고
+// 처음부터 끝까지 진입하는거지
+// 순열도 백트래킹이라 할 수 있구만
 function solution(k, dungeons) {
-  const visited = new Set();
-  // DFS 는 중첩 반복문이라 생각하면 편함
-  const dfs = (K, count) => {
+  // set이 없으면 안됨. dungeons[0]이 작다고 가정하면 [0, 0, 0]일 경우 maxCount가 3으로 나옴
+  let visited = new Set();
+
+  const dfs = (currentPirodo, count) => {
     let maxCount = count;
 
     for (let i = 0; i < dungeons.length; i++) {
       const [minPirodo, burnPirodo] = dungeons[i];
-      if (K >= minPirodo && !visited.has(i)) {
+      if (currentPirodo >= minPirodo && !visited.has(i)) {
         visited.add(i);
-        // I. 지렸다
-        maxCount = Math.max(maxCount, dfs(K - burnPirodo, count + 1));
+        maxCount = Math.max(
+          maxCount,
+          dfs(currentPirodo - burnPirodo, count + 1)
+        );
         visited.delete(i);
       }
     }
 
     return maxCount;
   };
+
   return dfs(k, 0);
 }
+
+console.log(
+  solution(80, [
+    [80, 20],
+    [50, 40],
+    [30, 10],
+  ])
+);
