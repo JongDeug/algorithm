@@ -217,6 +217,7 @@ function solution(board) {
   const col = Array.from({ length: board.length }, () => new Set());
   const pow3 = Array.from({ length: board.length }, () => new Set());
   const calPowIdx = (i, j) => Math.floor(i / 3) * 3 + Math.floor(j / 3);
+  const zeroElements = [];
 
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board.length; j++) {
@@ -224,42 +225,35 @@ function solution(board) {
         row[i].add(board[i][j]);
         col[j].add(board[i][j]);
         pow3[calPowIdx(i, j)].add(board[i][j]);
-      }
+      } else zeroElements.push([i, j]);
     }
   }
 
-  const recursive = () => {
-    // 여기 이 부분을 백트래킹으로 돌려야 될 것 같음.
-    for (let i = 0; i < board.length; i++) {
-      for (let j = 0; j < board.length; j++) {
-        if (board[i][j] === 0) {
-          for (let k = 1; k <= 9; k++) {
-            if (
-              !row[i].has(k) &&
-              !col[j].has(k) &&
-              !pow3[calPowIdx(i, j)].has(k)
-            ) {
-              board[i][j] = k;
-              row[i].add(k);
-              col[j].add(k);
-              pow3[calPowIdx(i, j)].add(k);
+  const recursive = (index) => {
+    if (index === zeroElements.length) return true;
 
-              if (recursive()) return true;
+    const [i, j] = zeroElements[index];
 
-              board[i][j] = 0;
-              row[i].delete(k);
-              col[j].delete(k);
-              pow3[calPowIdx(i, j)].delete(k);
-            }
-          }
-          return false;
-        }
+    for (let k = 1; k <= 9; k++) {
+      if (!row[i].has(k) && !col[j].has(k) && !pow3[calPowIdx(i, j)].has(k)) {
+        board[i][j] = k;
+        row[i].add(k);
+        col[j].add(k);
+        pow3[calPowIdx(i, j)].add(k);
+
+        if (recursive(index + 1)) return true;
+
+        board[i][j] = 0;
+        row[i].delete(k);
+        col[j].delete(k);
+        pow3[calPowIdx(i, j)].delete(k);
+        // zeroElements.push([i, j]); // 나는 복원해버린다는 느낌으로 push를 한건데 이건 복원이 아님
       }
     }
-    return true; // 이게 없으면 undefined 반환돼서 다 delete 해버림
+    return false;
   };
 
-  recursive();
+  recursive(0);
   return board;
 }
 
