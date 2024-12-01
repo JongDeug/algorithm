@@ -95,6 +95,7 @@ function solution(n) {
       return;
     }
 
+    // 이중 포문 말고 depth로 개선할 수 있음!
     for (let i = count; i < n; i++) {
       for (let j = 0; j < n; j++) {
         if (isValid(i, j)) {
