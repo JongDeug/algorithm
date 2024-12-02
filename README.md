@@ -36,7 +36,6 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[벨만-포드 알고리즘](challenge/golden-rabbit-book/그래프/벨만-포드%20알고리즘.js)~~
 - ~~[네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)~~
 - ~~[1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)~~
-- [양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)
 - [외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)
 - [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
 - [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
@@ -58,6 +57,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [다시] ~~[다익스트라 알고리즘](challenge/golden-rabbit-book/그래프/다익스트라%20알고리즘.js)~~
 - [이거는 BFS랑 dp 섞은 문제임] ~~[경주로 건설](challenge/golden-rabbit-book/그래프/경주로%20건설.js) (마지막 아이디어만 ... 생각할 수 있다면 ...)~~
 - [새로운 풀이 복습] ~~[피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)~~
+- [문제를 잘 읽자, 찐막] ~~[양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)~~
 
 ### 백트래킹 복습 하기
 
