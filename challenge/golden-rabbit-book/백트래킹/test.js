@@ -75,6 +75,8 @@ function solution(n, weak, dist) {
     let j = i;
     let count = 1; // idx로 사용, 이미 1을 정한 시점이잖아.
     let position = newWeak[j] + dist[count - 1]; // 다음 위치
+
+    // j < i + weak.length가 핵심임. ******************************
     while (j < i + weak.length && count <= dist.length) {
       // 적절한 다음 위치를 찾을 때까지
       if (position < newWeak[j]) {
