@@ -48,7 +48,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)
 - [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
 - [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
-- [구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점)
+- ~~[구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점) 문제를 잘 읽읍시다..~~
 - [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
 - [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
 - [다시] ~~[표 편집](challenge/golden-rabbit-book/스택/표%20편집.js)~~
