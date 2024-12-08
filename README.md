@@ -41,7 +41,6 @@ Javascript를 사용하여 공부하고 있습니다.
 - [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
 - [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
 - [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
-- [달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js) (DFS 로 풀어보고 싶었음)
 - [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
 - [LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js) (풀었지만 다시)
 - [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
@@ -58,6 +57,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [새로운 풀이 복습] ~~[피로도](challenge/golden-rabbit-book/백트래킹/피로도.js) (너무 좋아서 다시 풀기)~~
 - [문제를 잘 읽자, 찐막] ~~[양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)~~
 - [다시, 구현만 제대로하면 됨, 아이디어는 굳] ~~[외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)~~
+- [다시, DFS로 풀어보셈] ~~[달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js)~~
 
 ### 백트래킹 복습 하기
 
