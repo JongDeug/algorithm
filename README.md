@@ -38,7 +38,6 @@ Javascript를 사용하여 공부하고 있습니다.
 - ~~[1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)~~
 - ~~[카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js)~~
 - [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
-- [가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)
 - [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
 - [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
 - [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
@@ -58,6 +57,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [문제를 잘 읽자, 찐막] ~~[양궁 대회](challenge/golden-rabbit-book/백트래킹/양궁%20대회.js) (후.. 저번에도 풀었었지만)~~
 - [다시, 구현만 제대로하면 됨, 아이디어는 굳] ~~[외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)~~
 - [다시, DFS로 풀어보셈] ~~[달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js)~~
+- [다시, 그냥 외워버려] ~~[가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)~~
 
 ### 백트래킹 복습 하기
 
