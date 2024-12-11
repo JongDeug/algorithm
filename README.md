@@ -45,7 +45,6 @@ Javascript를 사용하여 공부하고 있습니다.
 - [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
 - ~~[땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)~~
 - [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
-- [가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)
 - ~~[구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점) 문제를 잘 읽읍시다..~~
 - [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
 - [우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)
@@ -58,6 +57,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [다시, 구현만 제대로하면 됨, 아이디어는 굳] ~~[외벽 점검](challenge/golden-rabbit-book/백트래킹/외벽%20점검.js) (반복해야됨)~~
 - [다시, DFS로 풀어보셈] ~~[달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js)~~
 - [다시, 그냥 외워버려] ~~[가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)~~
+- [다시] ~~[가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)~~
 
 ### 백트래킹 복습 하기
 
