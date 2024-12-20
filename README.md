@@ -41,7 +41,6 @@ Javascript를 사용하여 공부하고 있습니다.
 - [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
 - [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
 - [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
-- [LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js) (풀었지만 다시)
 - [LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)
 - ~~[땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)~~
 - [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
@@ -58,6 +57,7 @@ Javascript를 사용하여 공부하고 있습니다.
 - [다시, DFS로 풀어보셈] ~~[달팽이 수열 만들기](challenge/golden-rabbit-book/시뮬레이션/달팽이%20수열%20만들기.js)~~
 - [다시, 그냥 외워버려] ~~[가장 큰 수](challenge/golden-rabbit-book/정렬/가장%20큰%20수.js) (오호)~~
 - [다시] ~~[가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)~~
+- [다시] ~~[LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js)~~
 
 ### 계속 복습해야 할 거
 
