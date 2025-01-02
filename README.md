@@ -158,3 +158,5 @@ const getCombinations = (arr, selectNumber) => {
 
 console.log(getCombinations([1, 2, 3, 4], 3));
 ```
+![image](https://github.com/user-attachments/assets/abb5ecb7-d208-47b7-a956-d7c062e314b6)
+
