@@ -124,8 +124,6 @@
 22. [숨바꼭질 3](challenge/boj/graph/dijkstra/숨바꼭질%203.js) (다익스트라, 덱 사용하는 방법 2가지 숙지)
 23. [웜홀](challenge/boj/graph/bellman-ford/웜홀.js) (벨만포드, 다시풀어보자 최적화)
 
-## 순열
-
 ## Combination 조합
 
 서로 다른 n개의 요소에서 순서와 상관없이 r개를 택한다. `nCr`
@@ -145,7 +143,7 @@ const getCombinations = (arr, selectNumber) => {
     // 전체 배열 중 fixed 이하 요소들을 제외한 나머지
     const rest = arr.slice(index + 1);
 
-    // 나머지 요소들에서 selectNumber - 1개를 선택하는 조합을 구하고
+    // 나머지 요소들에서 selectNumber - 1개만큼 선택해 조합을 구하고
     const combinations = getCombinations(rest, selectNumber - 1);
     // fixed 요소를 앞에 붙임
     const attached = combinations.map((combo) => [fixed, ...combo]);
@@ -158,5 +156,37 @@ const getCombinations = (arr, selectNumber) => {
 
 console.log(getCombinations([1, 2, 3, 4], 3));
 ```
+
 ![image](https://github.com/user-attachments/assets/abb5ecb7-d208-47b7-a956-d7c062e314b6)
 
+## Permutation 순열
+
+```
+입력: [1,2,3], 2
+출력: [ [1,2], [1,3], [2,1], [2,3], [3,1], [3,2] ]
+```
+
+```js
+const getPermutations = (arr, selectNumber) => {
+  // if (selectNumber > arr.length) return [];
+  if (selectNumber === 1) return arr.map((value) => [value]);
+
+  const result = [];
+
+  arr.forEach((fixed, index) => {
+    // 전체 배열 중 fixed 요소를 제외한 나머지
+    const rest = [...arr.slice(0, index), ...arr.slice(index + 1)];
+
+    // 나머지 요소들에서 selectNumber - 1개만큼 선택해 순열을 구하고
+    const permutations = getPermutations(rest, selectNumber - 1);
+    // fixed 요소를 앞에 붙임
+    const attached = permutations.map((perm) => [fixed, ...perm]);
+
+    result.push(...attached);
+  });
+
+  return result;
+};
+
+console.log(getPermutations([1, 2, 3, 4], 3));
+```
