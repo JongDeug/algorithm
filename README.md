@@ -134,32 +134,59 @@
 ```
 
 ```js
-const getCombinations = (arr, selectNumber) => {
+/**
+ * 조합(flatMap 버전)
+ *
+ * @param {*} arr
+ * @param {*} selectNumber
+ * @returns 조합
+ */
+const getCombinationsV2 = (arr, selectNumber) => {
   if (selectNumber === 1) return arr.map((value) => [value]);
 
-  const result = [];
-
-  arr.forEach((fixed, index) => {
-    // 전체 배열 중 fixed 이하 요소들을 제외한 나머지
+  return arr.flatMap((fixed, index) => {
     const rest = arr.slice(index + 1);
 
-    // 나머지 요소들에서 selectNumber - 1개만큼 선택해 조합을 구하고
-    const combinations = getCombinations(rest, selectNumber - 1);
-    // fixed 요소를 앞에 붙임
-    const attached = combinations.map((combo) => [fixed, ...combo]);
-
-    result.push(...attached);
+    return getCombinationsV2(rest, selectNumber - 1).map((comb) => [
+      fixed,
+      ...comb,
+    ]);
   });
-
-  return result;
 };
-
-console.log(getCombinations([1, 2, 3, 4], 3));
+console.log(getCombinationsV2([1, 2, 3, 4], 3));
 ```
+
 ![image](https://github.com/user-attachments/assets/71c43e9f-c46c-47ba-8e0c-0bd319b221cf)
 
+```js
+/**
+ * 중복 조합
+ *
+ * @param {*} arr
+ * @param {*} selectNumber
+ * @returns 조합 + [1,1], [2,2], [3,3]
+ */
+const getCombinationsWithRepetition = (arr, selectNumber) => {
+  if (selectNumber === 1) return arr.map((value) => [value]);
+
+  return arr.flatMap((fixed, index) => {
+    // 전체 배열 중 fixed 미만 요소들을 제외한 나머지
+    const rest = arr.slice(index);
+
+    return getCombinationsWithRepetition(rest, selectNumber - 1).map((comb) => [
+      fixed,
+      ...comb,
+    ]);
+  });
+};
+console.log(getCombinationsWithRepetition([1, 2, 3, 4], 3));
+```
 
 ## Permutation 순열
+
+서로 다른 n개의 요소에서 순서를 고려하면서 r개를 택한다. `nPr`
+
+[1,2] !== [2,1]
 
 ```
 입력: [1,2,3], 2
@@ -167,27 +194,50 @@ console.log(getCombinations([1, 2, 3, 4], 3));
 ```
 
 ```js
-const getPermutations = (arr, selectNumber) => {
-  // if (selectNumber > arr.length) return [];
+/**
+ * 순열(flatMap 버전)
+ *
+ * flatMap은 arr.map(...args).flat()과 동일
+ * @param {*} arr
+ * @param {*} selectNumber
+ * @returns 순열
+ */
+const getPermutationsV2 = (arr, selectNumber) => {
   if (selectNumber === 1) return arr.map((value) => [value]);
 
-  const result = [];
-
-  arr.forEach((fixed, index) => {
-    // 전체 배열 중 fixed 요소를 제외한 나머지
+  return arr.flatMap((fixed, index) => {
+    // 현재 요소를 제외한 나머지
     const rest = [...arr.slice(0, index), ...arr.slice(index + 1)];
 
-    // 나머지 요소들에서 selectNumber - 1개만큼 선택해 순열을 구하고
-    const permutations = getPermutations(rest, selectNumber - 1);
-    // fixed 요소를 앞에 붙임
-    const attached = permutations.map((perm) => [fixed, ...perm]);
-
-    result.push(...attached);
+    // 나머지 요소들로 순열을 만들고 현재 요소를 앞에 붙임
+    return getPermutationsV2(rest, selectNumber - 1).map((perm) => [
+      fixed,
+      ...perm,
+    ]);
   });
-
-  return result;
 };
-
-console.log(getPermutations([1, 2, 3, 4], 3));
+console.log(getPermutationsV2([1, 2, 3, 4], 2));
 ```
+
 ![image](https://github.com/user-attachments/assets/666d7b82-80de-45d4-b48d-2266dcaedc4b)
+
+```js
+/**
+ * 중복 순열
+ *
+ * @param {*} arr
+ * @param {*} selectNumber
+ * @returns 순열 + [1,1], [2,2], [3,3]
+ */
+const getPermutationsWithRepetition = (arr, selectNumber) => {
+  if (selectNumber === 1) return arr.map((value) => [value]);
+
+  return arr.flatMap((fixed) => {
+    return getPermutationsWithRepetition(arr, selectNumber - 1).map((perm) => [
+      fixed,
+      ...perm,
+    ]);
+  });
+};
+console.log(getPermutationsWithRepetition([1, 2, 3, 4], 3));
+```
