@@ -128,10 +128,10 @@
 
 ## Combination 조합
 
-서로 다른 n개의 요소에서 순서와 상관없이 r개를 택한다. (nCr)
+**nCr**, 서로 다른 n개의 요소에서 순서와 상관없이 r개를 택한다.
 
 ```
-입력: [1,2,3]
+입력: [1,2,3,4], 3
 출력: [ [1,2,3], [1,2,4], [1,3,4], [2,3,4] ]
 ```
 
@@ -145,8 +145,9 @@ const getCombinations = (arr, selectNumber) => {
     // 전체 배열 중 fixed 이하 요소들을 제외한 나머지
     const rest = arr.slice(index + 1);
 
-    // 나머지 요소들에서 selectNumber - 1개를 선택하는 조합을 구하고, fixed 요소를 앞에 붙임
+    // 나머지 요소들에서 selectNumber - 1개를 선택하는 조합을 구하고
     const combinations = getCombinations(rest, selectNumber - 1);
+    // fixed 요소를 앞에 붙임
     const attached = combinations.map((combo) => [fixed, ...combo]);
 
     result.push(...attached);

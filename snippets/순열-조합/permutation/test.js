@@ -39,5 +39,5 @@ const getCombinations = (arr, selectNumber) => {
     return result;
 }
 
-// console.log(getCombinations([1, 2, 3, 4], 3));
+console.log(getCombinations([1, 2, 3, 4], 3));
 // console.log(getCombinations([1, 2], 3));
