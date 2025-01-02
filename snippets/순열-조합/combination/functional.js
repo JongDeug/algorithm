@@ -43,6 +43,7 @@ const getCombinationsV2 = (arr, selectNumber) => {
     })
 }
 console.log(getCombinationsV2([1, 2, 3, 4], 3));
+console.log(getCombinationsV2([1, 2, 3], 2));
 
 /**
  * 중복 조합
@@ -62,4 +63,5 @@ const getCombinationsWithRepetition = (arr, selectNumber) => {
             .map(comb => [fixed, ...comb]);
     })
 }
-console.log(getCombinationsWithRepetition([1, 2, 3, 4], 3));
+// console.log(getCombinationsWithRepetition([1, 2, 3, 4], 3));
+console.log(getCombinationsWithRepetition([1, 2, 3], 2));
