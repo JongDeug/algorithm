@@ -156,8 +156,8 @@ const getCombinations = (arr, selectNumber) => {
 
 console.log(getCombinations([1, 2, 3, 4], 3));
 ```
+![image](https://github.com/user-attachments/assets/71c43e9f-c46c-47ba-8e0c-0bd319b221cf)
 
-![image](https://github.com/user-attachments/assets/abb5ecb7-d208-47b7-a956-d7c062e314b6)
 
 ## Permutation 순열
 
@@ -190,3 +190,4 @@ const getPermutations = (arr, selectNumber) => {
 
 console.log(getPermutations([1, 2, 3, 4], 3));
 ```
+![image](https://github.com/user-attachments/assets/666d7b82-80de-45d4-b48d-2266dcaedc4b)
