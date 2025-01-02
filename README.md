@@ -1,16 +1,11 @@
 # 알고리즘 학습
 
 알고리즘 공부 및 코딩 테스트를 준비하는 공간입니다.
-
-## 언어
-
-Javascript를 사용하여 공부하고 있습니다.
+언어는 JavaScript를 사용하고 있습니다.
 
 ## 시간 복잡도, 시간 제한
 
-시간 복잡도와 시간 제한을 고려하며 문제를 푸는 중이었는데, 잘못 알고 있었던 것 같아 정리해봅니다.
-
-- 일반적인 CPU 기반의 PC는 1초에 실행할 수 있는 최대 연산 횟수는 약 100,000,000번
+일반적인 CPU 기반의 PC는 1초에 실행할 수 있는 최대 연산 횟수는 약 100,000,000번
 
 | 시간 복잡도 | 최대 연산 횟수 |
 | ----------- | -------------- |
@@ -128,3 +123,37 @@ Javascript를 사용하여 공부하고 있습니다.
 21. [특정 거리의 도시 찾기](challenge/boj/graph/dijkstra/특정%20거리의%20도시%20찾기.js) (다익스트라로 풀어봤음, 그냥 BFS 로도 풀어보자)
 22. [숨바꼭질 3](challenge/boj/graph/dijkstra/숨바꼭질%203.js) (다익스트라, 덱 사용하는 방법 2가지 숙지)
 23. [웜홀](challenge/boj/graph/bellman-ford/웜홀.js) (벨만포드, 다시풀어보자 최적화)
+
+## 순열
+
+## Combination 조합
+
+서로 다른 n개의 요소에서 순서와 상관없이 r개를 택한다. (nCr)
+
+```
+입력: [1,2,3]
+출력: [ [1,2,3], [1,2,4], [1,3,4], [2,3,4] ]
+```
+
+```js
+const getCombinations = (arr, selectNumber) => {
+  if (selectNumber === 1) return arr.map((value) => [value]);
+
+  const result = [];
+
+  arr.forEach((fixed, index) => {
+    // 전체 배열 중 fixed 이하 요소들을 제외한 나머지
+    const rest = arr.slice(index + 1);
+
+    // 나머지 요소들에서 selectNumber - 1개를 선택하는 조합을 구하고, fixed 요소를 앞에 붙임
+    const combinations = getCombinations(rest, selectNumber - 1);
+    const attached = combinations.map((combo) => [fixed, ...combo]);
+
+    result.push(...attached);
+  });
+
+  return result;
+};
+
+console.log(getCombinations([1, 2, 3, 4], 3));
+```
