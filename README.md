@@ -229,6 +229,8 @@ console.log(getPermutationsWithRepetition([1, 2, 3, 4], 3));
 
 인접 노드(1을 기준으로 [2,3])를 언제 방문할지 모르니 **진입 시 방문 처리**
 
+![image](https://github.com/user-attachments/assets/dcb16b5f-dd21-496c-acf1-529ae8b17510)
+
 ```
 입력: { 1: [2,3], 2: [1,4,5], 3: [1], 4: [2], 5: [2] }, 1
 출력: [ 1, 3, 2, 5, 4 ]
