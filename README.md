@@ -227,20 +227,14 @@ console.log(getPermutationsWithRepetition([1, 2, 3, 4], 3));
 
 ## DFS(Depth First Search) 깊이 우선 탐색
 
-구현 방법: while, stack
+방문 처리 시점: BFS와 달리 인접 노드를 언제 방문할지 모르니까 진입 시 처리
 
-**인접 노드를 언제 방문할지 모르니 진입했을 때 방문 처리**
+```
+입력: { 1: [2,3], 2: [1,4,5], 3: [1], 4: [2], 5: [2] }, 1
+출력: [ 1, 3, 2, 5, 4 ]
+```
 
 ```js
-const graph = {
-  1: [2, 3],
-  2: [1, 4, 5],
-  3: [1],
-  4: [2],
-  5: [2],
-};
-const start = 1;
-
 /**
  * DFS(while)
  *
@@ -271,7 +265,14 @@ const dfsV1 = (graph, start) => {
   return result;
 };
 console.log(dfsV1(graph, start));
+```
 
+```
+입력: { 1: [2,3], 2: [1,4,5], 3: [1], 4: [2], 5: [2] }, 1
+출력: [ 1, 3, 2, 5, 4 ]
+```
+
+```js
 /**
  * DFS(재귀)
  *
