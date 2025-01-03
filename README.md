@@ -53,28 +53,11 @@
 - [다시] ~~[가장 큰 정사작형 찾기](challenge/golden-rabbit-book/동적계획법/가장%20큰%20정사각형%20찾기.js) (생각 확장)~~
 - [다시] ~~[LCS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LCS%20길이%20계산하기.js)~~
 - [다시] ~~[LIS 길이 계산하기](challenge/golden-rabbit-book/동적계획법/LIS%20길이%20계산하기.js) (풀었지만 다시)~~
-
-### 계속 복습해야 할 거
-
 - ~~[우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)~~
-
-### 백트래킹 복습 하기
-
 - [다시] ~~[스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오) (내일 더 개선, 어떻게 백트래킹 구현할지 감이 안왔음)~~
 - [백트래킹은 모아서 다시 풀어보자] ~~[N-퀸](challenge/golden-rabbit-book/백트래킹/N-퀸.js) (호오,,,)~~
 
-## 복습 큐
-
-- [minSubArrayLen](challenge/problem-solving-pattern/minSubArrayLen/minSubArrayLen.js) (상)
-- [sameFrequency](challenge/problem-solving-pattern/findLongestSubstring/findLongestSubstring.js) (상)
-- 단일 연결 리스트 reverse 함수 복습
-- [radix-digitCount](challenge/the-whild-west/radix-sort/radixSort.js) (중)
-- [coinChange](challenge/the-whild-west/coin-change.js) (상)
-- [findPair](challenge/the-whild-west/findPair.js) (중)
-- [binary-search-tree-remove 함수](challenge/the-whild-west/binary-search-tree.js)
-- [trie](challenge/the-whild-west/trie.js) (상)
-
-## 코테 문제 복습 큐(프로그래머스)
+## 프로그래머스 (복습 큐)
 
 1. ~~[하노이 탑](challenge/programmers/recursion/하노이%20탑/하노이%20탑%201회차.js) (재귀인데 풀지도 못함ㅠㅠ)~~
 2. ~~[방문 길이](challenge/programmers/방문%20길이.js) (단순 구현인데 너무 꼬아서 풀었음)~~
@@ -97,7 +80,7 @@
 18. [후보키](challenge/programmers/조합/후보키/후보키%202회차.js) (로직을 외워서 다른 곳에도 써먹자!)
 19. [숫자 카드 나누기](challenge/programmers/최대공배수,%20최대공약수/숫자%20카드%20나누기%202회차.js) (혹시 모르니까 한 번 더, +소수 구하는 법)
 
-## 코테 문제 복습 큐(백준)
+## 백준 (복습 큐)
 
 1. [괄호](challenge/boj/stack/괄호.js) (재귀 + 스택, => 재귀로 풀고 싶었는데 실패)
 2. [에디터](challenge/boj/linked-list/에디터%201회차%20못품.js) (다중 연결 리스트로 해결해봐야(키로거랑 비슷할듯), 스택)
