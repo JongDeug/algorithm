@@ -63,5 +63,5 @@ const getCombinationsWithRepetition = (arr, selectNumber) => {
             .map(comb => [fixed, ...comb]);
     })
 }
-// console.log(getCombinationsWithRepetition([1, 2, 3, 4], 3));
-console.log(getCombinationsWithRepetition([1, 2, 3], 2));
+console.log(getCombinationsWithRepetition([1, 2, 3, 4], 2));
+// console.log(getCombinationsWithRepetition([1, 2, 3], 2));
