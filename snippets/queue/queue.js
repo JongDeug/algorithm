@@ -48,7 +48,7 @@ console.log(queueV2.dequeue());
 /**
  * 단일 연결 리스트를 활용한 큐
  */
-export class Node {
+class Node {
     constructor(value) {
         this.value = value;
         this.next = null;
