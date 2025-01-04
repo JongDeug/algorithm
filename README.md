@@ -8,23 +8,24 @@
 일반적인 CPU 기반의 PC는 1초에 실행할 수 있는 최대 연산 횟수는 약 100,000,000번
 
 | 시간 복잡도 | 최대 연산 횟수 |
-| ----------- | -------------- |
-| O(n)        | 약 1억번       |/**
- * 단일 연결 리스트를 활용한 큐
- */
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.next = null;
-    }
-}
+| ----------- | -------------- | ----- |
+| O(n)        | 약 1억번       | /\*\* |
+
+- 단일 연결 리스트를 활용한 큐
+  \*/
+  class Node {
+  constructor(value) {
+  this.value = value;
+  this.next = null;
+  }
+  }
 
 class QueueV3 {
-    constructor() {
-        this.head = null;
-        this.tail = null;;
-        this.size = 0;
-    }
+constructor() {
+this.head = null;
+this.tail = null;;
+this.size = 0;
+}
 
     enqueue(value) {
         const node = new Node(value);
@@ -54,6 +55,7 @@ class QueueV3 {
 
         return removed.value;
     }
+
 }
 const queueV3 = new QueueV3();
 queueV3.enqueue(1);
@@ -66,10 +68,10 @@ console.log(queueV3.dequeue());
 console.log(queueV3.dequeue());
 console.log(queueV3.dequeue());
 console.log(queueV3.dequeue());
-| O(n^2)      | 약 1만번       |
-| O(n^3)      | 약 500번       |
-| O(2^n)      | 약 20번        |
-| O(n!)       | 10번           |
+| O(n^2) | 약 1만번 |
+| O(n^3) | 약 500번 |
+| O(2^n) | 약 20번 |
+| O(n!) | 10번 |
 
 ## 코딩 테스트 합격자 되기 (복습 큐)
 
@@ -408,9 +410,11 @@ console.log(bfs(graph, start));
 
 ## Queue 큐
 
+배열 활용, O(n)
+
 ```js
 /**
- * 큐
+ * 배열을 활용한 큐
  *
  * 시간 복잡도 O(n)
  */
@@ -418,6 +422,8 @@ const queueV1 = [];
 queueV1.push(1); // enqueue
 queueV1.shift(); // dequeue
 ```
+
+배열 활용, O(1)
 
 ![image](https://github.com/user-attachments/assets/cc842867-9b0c-4b0a-a941-a9ebc753a0c2)
 
@@ -461,11 +467,15 @@ console.log(queueV2.dequeue());
 console.log(queueV2.dequeue());
 ```
 
+단일 연결 리스트 활용, O(1)
+
 ![image](https://github.com/user-attachments/assets/bd502d9b-90c6-4214-8d9f-86c22ce508e4)
 
 ```js
 /**
  * 단일 연결 리스트를 활용한 큐
+ *
+ * 시간 복잡도 O(1)
  */
 class Node {
   constructor(value) {
