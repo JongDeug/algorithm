@@ -352,7 +352,18 @@ console.log(bfs(graph, start));
 
 ## Stack 스택
 
-배열을 활용하면 필요 없음.
+배열 활용, O(1)
+
+```js
+/**
+ * 배열을 활용한 스택
+ *
+ * 시간 복잡도 O(1)
+ */
+const stack = [];
+stack.push(1);
+stack.pop();
+```
 
 ![image](https://github.com/user-attachments/assets/88377cfc-2359-40df-9e8f-2bd40141c8c1)
 
