@@ -8,70 +8,12 @@
 일반적인 CPU 기반의 PC는 1초에 실행할 수 있는 최대 연산 횟수는 약 100,000,000번
 
 | 시간 복잡도 | 최대 연산 횟수 |
-| ----------- | -------------- | ----- |
-| O(n)        | 약 1억번       | /\*\* |
-
-- 단일 연결 리스트를 활용한 큐
-  \*/
-  class Node {
-  constructor(value) {
-  this.value = value;
-  this.next = null;
-  }
-  }
-
-class QueueV3 {
-constructor() {
-this.head = null;
-this.tail = null;;
-this.size = 0;
-}
-
-    enqueue(value) {
-        const node = new Node(value);
-
-        if (!this.head) {
-            this.head = node;
-            this.tail = node;
-        }
-        else {
-            this.tail.next = node; // 현재 tail의 next
-            this.tail = node; // 앞으로의 tail
-        }
-        return ++this.size;
-    }
-
-    dequeue() {
-        if (!this.head) return null;
-
-        const removed = this.head;
-
-        if (this.size === 1) this.head = this.tail = null;
-        else {
-            this.head = removed.next;
-            removed.next = null;
-        }
-        this.size--;
-
-        return removed.value;
-    }
-
-}
-const queueV3 = new QueueV3();
-queueV3.enqueue(1);
-queueV3.enqueue(2);
-queueV3.enqueue(3);
-queueV3.enqueue(4);
-
-console.log(queueV3.dequeue());
-console.log(queueV3.dequeue());
-console.log(queueV3.dequeue());
-console.log(queueV3.dequeue());
-console.log(queueV3.dequeue());
-| O(n^2) | 약 1만번 |
-| O(n^3) | 약 500번 |
-| O(2^n) | 약 20번 |
-| O(n!) | 10번 |
+| ----------- | -------------- |
+| O(n)        | 약 1억번       |
+| O(n^2)      | 약 1만번       |
+| O(n^3)      | 약 500번       |
+| O(2^n)      | 약 20번        |
+| O(n!)       | 10번           |
 
 ## 코딩 테스트 합격자 되기 (복습 큐)
 
