@@ -351,3 +351,5 @@ console.log(bfs(graph, start));
 ```
 
 ## Queue 큐
+
+![image](https://github.com/user-attachments/assets/bd502d9b-90c6-4214-8d9f-86c22ce508e4)
