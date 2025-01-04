@@ -24,3 +24,15 @@ function collectOddValues(arr) {
 }
 
 console.log(collectOddValues([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+// 바텀 업으로 가야한다.
+function collectOddValuesV2(arr) {
+    let newArr = [];
+
+    if (arr.length === 0) return newArr;
+    if (arr[0] % 2 !== 0) newArr.push(arr[0]);
+
+    return [...newArr, ...collectOddValues(arr.slice(1))];
+}
+
+console.log(collectOddValuesV2([1, 2, 3, 4, 5, 6, 7, 8, 9]));
