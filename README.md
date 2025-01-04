@@ -354,38 +354,52 @@ console.log(bfs(graph, start));
 
 ![image](https://github.com/user-attachments/assets/88377cfc-2359-40df-9e8f-2bd40141c8c1)
 
-
 ```js
-        this.tail = null;
-        this.size = 0;
+/**
+ * 단일 연결 리스트를 활용한 스택
+ *
+ * 시간 복잡도 O(1)
+ */
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+class Stack {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+    this.size = 0;
+  }
+
+  push(value) {
+    const node = new Node(value);
+
+    if (!this.head) {
+      this.head = node;
+      this.tail = node;
+    } else {
+      node.next = this.head;
+      this.head = node;
     }
+    this.size++;
+  }
 
-    push(value) {
-        const node = new Node(value);
+  pop() {
+    if (!this.head) return null;
 
-        if (!this.head) {
-            this.head = node;
-            this.tail = node;
-        } else {
-            node.next = this.head;
-            this.head = node;
-        }
-        this.size++;
+    const removed = this.head;
+
+    if (this.size === 1) this.head = this.tail = null;
+    else {
+      this.head = removed.next;
+      removed.next = null;
     }
-
-    pop() {
-        if (!this.head) return null;
-
-        const removed = this.head;
-
-        if (this.size === 1) this.head = this.tail = null;
-        else {
-            this.head = removed.next;
-            removed.next = null;
-        }
-        this.size--;
-        return removed.value;
-    }
+    this.size--;
+    return removed.value;
+  }
 }
 const stack = new Stack();
 stack.push(1);
@@ -462,7 +476,11 @@ console.log(queueV2.dequeue());
 단일 연결 리스트 활용, O(1)
 
 ![image](https://github.com/user-attachments/assets/0f9d6844-0981-402e-a9e1-30a947d8ffb6)
+<<<<<<< HEAD
 
+=======
+
+> > > > > > > a5a4379 (Stack)
 
 ```js
 /**
