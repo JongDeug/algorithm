@@ -30,6 +30,7 @@ class Stack {
         this.size++;
     }
 
+    // tail에서 pop은 양방향 연결 리스트로 구현해야 돼서 복잡해짐
     pop() {
         if (!this.head) return null;
 

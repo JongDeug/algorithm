@@ -352,6 +352,8 @@ console.log(bfs(graph, start));
 
 ## Stack 스택
 
+배열을 활용하면 필요 없음.
+
 ![image](https://github.com/user-attachments/assets/88377cfc-2359-40df-9e8f-2bd40141c8c1)
 
 ```js
@@ -387,6 +389,7 @@ class Stack {
     this.size++;
   }
 
+  // tail에서 pop은 양방향 연결 리스트로 구현해야 돼서 복잡해짐
   pop() {
     if (!this.head) return null;
 
@@ -476,11 +479,6 @@ console.log(queueV2.dequeue());
 단일 연결 리스트 활용, O(1)
 
 ![image](https://github.com/user-attachments/assets/0f9d6844-0981-402e-a9e1-30a947d8ffb6)
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > a5a4379 (Stack)
 
 ```js
 /**
