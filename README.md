@@ -228,6 +228,7 @@ console.log(getPermutationsWithRepetition([1, 2, 3, 4], 3));
 ## DFS(Depth First Search) 깊이 우선 탐색
 
 인접 노드(1을 기준으로 [2,3])를 언제 방문할지 모르니 **진입 시 방문 처리**
+
 즉, 스택에 푸시할 노드는 방문 '예정'인 노드이므로 팝해서 방문 처리를 해야 함.
 
 ![image](https://github.com/user-attachments/assets/dcb16b5f-dd21-496c-acf1-529ae8b17510)
