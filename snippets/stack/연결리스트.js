@@ -3,7 +3,7 @@
 
 // 2번 구현
 
-import { Node } from '../singly-linked-list/singly-linked-list.js';
+import { Node } from '../data-structure/singly-linked-list/singly-linked-list.js';
 
 class Stack {
     constructor() {

@@ -350,6 +350,53 @@ const bfs = (graph, start) => {
 console.log(bfs(graph, start));
 ```
 
+## Stack 스택
+
+```js
+        this.tail = null;
+        this.size = 0;
+    }
+
+    push(value) {
+        const node = new Node(value);
+
+        if (!this.head) {
+            this.head = node;
+            this.tail = node;
+        } else {
+            node.next = this.head;
+            this.head = node;
+        }
+        this.size++;
+    }
+
+    pop() {
+        if (!this.head) return null;
+
+        const removed = this.head;
+
+        if (this.size === 1) this.head = this.tail = null;
+        else {
+            this.head = removed.next;
+            removed.next = null;
+        }
+        this.size--;
+        return removed.value;
+    }
+}
+const stack = new Stack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+```
+
 ## Queue 큐
 
 배열 활용, O(n)
