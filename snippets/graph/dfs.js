@@ -50,7 +50,7 @@ const dfsV2 = (graph, start) => {
     const result = [];
     const visited = new Set();
 
-    const recursive = (node) => {
+    const dfsHelper = (node) => {
         if (visited.size === graph.length) return;
 
         if (!visited.has(node)) {
@@ -59,13 +59,13 @@ const dfsV2 = (graph, start) => {
 
             for (const neighbor of graph[node]) {
                 if (!visited.has(neighbor)) {
-                    recursive(neighbor);
+                    dfsHelper(neighbor);
                 }
             }
         }
 
     }
-    recursive(start);
+    dfsHelper(start);
 
     return result;
 }

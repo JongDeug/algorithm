@@ -286,7 +286,7 @@ const dfsV2 = (graph, start) => {
   const result = [];
   const visited = new Set();
 
-  const recursive = (node) => {
+  const dfsHelper = (node) => {
     if (visited.size === graph.length) return;
 
     if (!visited.has(node)) {
@@ -295,14 +295,51 @@ const dfsV2 = (graph, start) => {
 
       for (const neighbor of graph[node]) {
         if (!visited.has(neighbor)) {
-          recursive(neighbor);
+          dfsHelper(neighbor);
         }
       }
     }
   };
-  recursive(start);
+  dfsHelper(start);
 
   return result;
 };
 console.log(dfsV2(graph, start));
+```
+
+## BFS(Breadth First Search), 너비 우선 탐색
+
+```
+입력: { 1: [2,3], 2: [1,4,5], 3: [1], 4: [2], 5: [2] }, 1
+출력: [ 1, 2, 3, 4, 5 ]
+```
+
+```js
+/**
+ * BFS(while)
+ *
+ * @param {*} graph
+ * @param {*} start
+ * @returns
+ */
+const bfs = (graph, start) => {
+  const queue = [start];
+  const result = [];
+  const visited = new Set([start]);
+
+  while (queue.length) {
+    const node = queue.shift();
+    result.push(node);
+
+    for (const neighbor of graph[node]) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push(neighbor);
+      }
+    }
+  }
+
+  return result;
+};
+console.log(bfs(graph, start));
 ```
