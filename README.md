@@ -352,6 +352,9 @@ console.log(bfs(graph, start));
 
 ## Stack 스택
 
+![image](https://github.com/user-attachments/assets/88377cfc-2359-40df-9e8f-2bd40141c8c1)
+
+
 ```js
         this.tail = null;
         this.size = 0;
@@ -458,7 +461,8 @@ console.log(queueV2.dequeue());
 
 단일 연결 리스트 활용, O(1)
 
-![image](https://github.com/user-attachments/assets/bd502d9b-90c6-4214-8d9f-86c22ce508e4)
+![image](https://github.com/user-attachments/assets/0f9d6844-0981-402e-a9e1-30a947d8ffb6)
+
 
 ```js
 /**
