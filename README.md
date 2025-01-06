@@ -645,3 +645,37 @@ const selectionSort = (arr) => {
 };
 console.log(selectionSort([8, 3, 1, 5, 6, 7]));
 ```
+
+## Insertion Sort, 삽입 정렬
+
+배열을 정렬된 부분과 정렬되지 않은 부분으로 나누고,
+정렬되지 않은 부분의 원소를 하나씩 적절한 위치에 삽입하면서 정렬하는 방법(반드시 두 번재 요소부터 시작)
+
+- **Inner Loop**: 특정 요소를 정렬된 부분의 적절한 위치에 삽입
+- **Outer Loop**: 이 과정을 반복
+
+```js
+const swap = (arr, i, j) => {
+  return ([arr[i], arr[j]] = [arr[j], arr[i]]);
+};
+
+/**
+ * 삽입 정렬
+ *
+ * 최악 O(n^2)
+ * @param {*} arr
+ * @returns
+ */
+const insertionSort = (arr) => {
+  // Outer Loop : 배열의 크기 - 1 만큼
+  for (let i = 1; i < arr.length; i++) {
+    // Inner loop : 2번째 요소부터 시작해 left side에 적절한 위치를 찾는다.
+    for (let j = i; j >= 0; j--) {
+      if (arr[j] < arr[j - 1]) swap(arr, j, j - 1);
+      else break;
+    }
+  }
+  return arr;
+};
+console.log(insertionSort([8, 3, 1, 5, 6, 7]));
+```
