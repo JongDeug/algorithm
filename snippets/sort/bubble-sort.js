@@ -39,5 +39,6 @@ const bubbleSortV2 = (arr) => {
         // swap이 한 번도 이뤄지지 않았따면 종료
         if (noSwap) break;
     }
+    return arr;
 }
-console.log(bubbleSortV2(arr, i, j));
+console.log(bubbleSortV2([8, 3, 1, 5, 6, 7]));
