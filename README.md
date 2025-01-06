@@ -654,6 +654,10 @@ console.log(selectionSort([8, 3, 1, 5, 6, 7]));
 - **Inner Loop**: 특정 요소를 정렬된 부분의 적절한 위치에 삽입
 - **Outer Loop**: 이 과정을 반복
 
+![Pasted image 20240314185519](https://github.com/user-attachments/assets/b51b3a85-a06c-4a04-b90b-2ee8330867c2)
+![Pasted image 20240318172232](https://github.com/user-attachments/assets/c73e88fe-1076-48fa-9a84-f4d28e4866b8)
+
+
 ```js
 const swap = (arr, i, j) => {
   return ([arr[i], arr[j]] = [arr[j], arr[i]]);
