@@ -10,7 +10,9 @@ const swap = (arr, i, j) => {
  * @returns 
  */
 const bubbleSortV1 = (arr) => {
+    // Outer Loop : 배열의 크기 - 1 만큼
     for (let i = arr.length - 1; i > 0; i--) {
+        // Inner Loop : 인접한 요소끼리 비교 후 swap
         for (let j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 swap(arr, j, j + 1);
@@ -36,7 +38,7 @@ const bubbleSortV2 = (arr) => {
                 noSwap = false;
             }
         }
-        // swap이 한 번도 이뤄지지 않았따면 종료
+        // swap이 한 번도 이뤄지지 않았다면 종료
         if (noSwap) break;
     }
     return arr;

@@ -574,7 +574,9 @@ const swap = (arr, i, j) => {
  * @returns
  */
 const bubbleSortV1 = (arr) => {
+  // Outer Loop : 배열의 크기 - 1 만큼
   for (let i = arr.length - 1; i > 0; i--) {
+    // Inner Loop : 인접한 요소끼리 비교 후 swap
     for (let j = 0; j < i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
         swap(arr, j, j + 1);
@@ -600,10 +602,43 @@ const bubbleSortV2 = (arr) => {
         noSwap = false;
       }
     }
-    // swap이 한 번도 이뤄지지 않았따면 종료
+    // swap이 한 번도 이뤄지지 않았다면 종료
     if (noSwap) break;
   }
   return arr;
 };
 console.log(bubbleSortV2([8, 3, 1, 5, 6, 7]));
+```
+
+## Selection Sort, 선택 정렬
+
+오름차순일 경우 가작 작은 요소를 찾아 배열의 처음부터 순서대로 쌓아가며 정렬하는 방법
+
+- Inner Loop: 배열에서 가장 작은 값의 Index를 찾음
+- Outer Loop: 정렬되지 않은 배열에서 가장 처음 요소와 minIdx값을 swap, 이 과정을 반복
+
+```js
+const swap = (arr, i, j) => {
+  return ([arr[i], arr[j]] = [arr[j], arr[i]]);
+};
+
+/**
+ * 선택 정렬
+ *
+ * @param {*} arr
+ * @returns
+ */
+const selectionSort = (arr) => {
+  // Outer Loop : 배열의 크기 - 1 만큼
+  for (let i = 0; i < arr.length - 1; i++) {
+    let minIdx = i;
+    // Inner Loop: 가장 작은 값의 인덱스를 찾는다.
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[j] < arr[minIdx]) minIdx = j;
+    }
+    if (minIdx !== i) swap(arr, i, minIdx);
+  }
+  return arr;
+};
+console.log(selectionSort([8, 3, 1, 5, 6, 7]));
 ```
