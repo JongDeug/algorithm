@@ -614,11 +614,10 @@ console.log(bubbleSortV2([8, 3, 1, 5, 6, 7]));
 
 오름차순일 경우 가작 작은 요소를 찾아 배열의 처음부터 순서대로 쌓아가며 정렬하는 방법
 
-- Inner Loop: 배열에서 가장 작은 값의 Index를 찾음
-- Outer Loop: 정렬되지 않은 배열에서 가장 처음 요소와 minIdx값을 swap, 이 과정을 반복
+- **Inner Loop**: 배열에서 가장 작은 값의 Index를 찾음
+- **Outer Loop**: 정렬되지 않은 배열에서 가장 처음 요소와 minIdx값을 swap, 이 과정을 반복
 
 ![Pasted image 20240314185519](https://github.com/user-attachments/assets/98d3b6af-9d1f-4463-80e2-947c63637352)
-
 
 ```js
 const swap = (arr, i, j) => {
@@ -628,6 +627,7 @@ const swap = (arr, i, j) => {
 /**
  * 선택 정렬
  *
+ * 최악 O(n^2)
  * @param {*} arr
  * @returns
  */
