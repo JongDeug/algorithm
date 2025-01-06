@@ -5,7 +5,7 @@ const swap = (arr, i, j) => {
 /**
  * 버블 정렬 
  * 
- * 최적화 x, O(n^2)
+ * 최적화 x, 최악 O(n^2)
  * @param {*} arr 
  * @returns 
  */

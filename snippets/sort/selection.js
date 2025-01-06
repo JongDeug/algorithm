@@ -5,6 +5,7 @@ const swap = (arr, i, j) => {
 /**
  * 선택 정렬
  * 
+ * 최악 O(n^2)
  * @param {*} arr 
  * @returns 
  */
