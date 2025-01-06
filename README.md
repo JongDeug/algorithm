@@ -556,9 +556,8 @@ console.log(queueV3.dequeue());
 
 인접한 요소 쌍끼리 비교해 조건에 맞게 정렬하는 방법
 
-Inner Loop: 배열의 첫 번째 인덱스부터 차례대로 인접한 요소끼리 비교해 swap
-
-Outer Loop: 정렬된 요소를 제외하고 반복
+- **Inner Loop**: 배열의 첫 번째 인덱스부터 차례대로 인접한 요소끼리 비교해 swap
+- **Outer Loop**: 정렬된 요소를 제외하고 반복
 
 ![Pasted image 20240312185339](https://github.com/user-attachments/assets/cca73087-1806-4a7e-a1f2-3e64ab57769c)
 
