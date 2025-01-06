@@ -670,7 +670,7 @@ const swap = (arr, i, j) => {
  * @param {*} arr
  * @returns
  */
-const insertionSort = (arr) => {
+const insertionSortV1 = (arr) => {
   // Outer Loop : 배열의 크기 - 1 만큼
   for (let i = 1; i < arr.length; i++) {
     // Inner loop : 2번째 요소부터 시작해 left side에 적절한 위치를 찾는다.
@@ -681,5 +681,5 @@ const insertionSort = (arr) => {
   }
   return arr;
 };
-console.log(insertionSort([8, 3, 1, 5, 6, 7]));
+console.log(insertionSortV1([8, 3, 1, 5, 6, 7]));
 ```
