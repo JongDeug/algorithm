@@ -551,3 +551,7 @@ console.log(queueV3.dequeue());
 console.log(queueV3.dequeue());
 console.log(queueV3.dequeue());
 ```
+
+## Bubble Sort, 버블 정렬
+
+![Pasted image 20240312185339](https://github.com/user-attachments/assets/cca73087-1806-4a7e-a1f2-3e64ab57769c)
