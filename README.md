@@ -651,12 +651,12 @@ console.log(selectionSort([8, 3, 1, 5, 6, 7]));
 배열을 정렬된 부분과 정렬되지 않은 부분으로 나누고,
 정렬되지 않은 부분의 원소를 하나씩 적절한 위치에 삽입하면서 정렬하는 방법
 
+![Pasted image 20240315185444](https://github.com/user-attachments/assets/0beba147-80d7-44e1-b42c-28c04cc3432a)
+
 - **Inner Loop**: 특정 요소를 정렬된 부분의 적절한 위치에 삽입
 - **Outer Loop**: 이 과정을 반복
 
-![Pasted image 20240315185444](https://github.com/user-attachments/assets/0beba147-80d7-44e1-b42c-28c04cc3432a)
 ![Pasted image 20240318172232](https://github.com/user-attachments/assets/c73e88fe-1076-48fa-9a84-f4d28e4866b8)
-
 
 ```js
 const swap = (arr, i, j) => {
