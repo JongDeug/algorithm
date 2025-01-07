@@ -19,7 +19,6 @@ JavaScript를 사용해 알고리즘을 학습하고 코딩 테스트를 준비�
 - ~~[네트워크](challenge/golden-rabbit-book/그래프/네트워크.js) (풀긴 했는데 DFS 로 풀지 않음)~~
 - ~~[1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)~~
 - ~~[카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js)~~
-- [사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)
 - [지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)
 - [배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)
 - [롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)
@@ -43,6 +42,7 @@ JavaScript를 사용해 알고리즘을 학습하고 코딩 테스트를 준비�
 - ~~[우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)~~
 - [다시] ~~[스도쿠 퍼즐](challenge/golden-rabbit-book/백트래킹/스도쿠%20퍼즐.js) (호오) (내일 더 개선, 어떻게 백트래킹 구현할지 감이 안왔음)~~
 - [백트래킹은 모아서 다시 풀어보자] ~~[N-퀸](challenge/golden-rabbit-book/백트래킹/N-퀸.js) (호오,,,)~~
+- [다시] ~~[사라지는 발판](challenge/golden-rabbit-book/백트래킹/사라지는%20발판.js) (완벽하게 이해못함... 어렵)~~
 
 ## 시간 복잡도, 시간 제한
 
