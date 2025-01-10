@@ -49,8 +49,12 @@ function validAnagram(str1, str2) {
         else lookup[key] -= 1;
     }
 
-    for (let key in lookup) {
-        if (lookup[key] !== 0) return false;
+    // 위랑 아래 둘다 같은 구문 => {} 보다 Map으로 구현하는게 좋겠지?
+    // for (let key in lookup) {
+    // if (lookup[key] !== 0) return false;
+    // }
+    for (const val of Object.values(lookup)) {
+        if (val !== 0) return false;
     }
     return true;
 }
