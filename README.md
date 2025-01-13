@@ -20,7 +20,6 @@ JavaScript를 사용해 알고리즘을 학습하고 코딩 테스트를 준비�
 - ~~[1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](challenge/golden-rabbit-book/백트래킹/1부터%20N까지%20숫자%20중%20합이%2010이%20되는%20조합%20구하기.js) (좀만 더 숙달)~~
 - ~~[카펫](challenge/golden-rabbit-book/시뮬레이션/카펫.js)~~
 - ~~[땅따먹기](challenge/golden-rabbit-book/동적계획법/땅따먹기.js) (풀었지만 다시!)~~
-- [도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)
 - ~~[구명보트](challenge/golden-rabbit-book/그리디/구명보트.js) (.......... 점점점점점) 문제를 잘 읽읍시다..~~
 - [기지국 설치](challenge/golden-rabbit-book/그리디/기지국%20설치.js) (음.. 나한텐 어려웠음)
 - ~~[우선 순위 큐 구현](snippets/data-structure/queue/priority-queue/priority-queue-heap-upgrade.js) (복습)~~
@@ -43,6 +42,7 @@ JavaScript를 사용해 알고리즘을 학습하고 코딩 테스트를 준비�
 - [다시] ~~[지형 이동](challenge/golden-rabbit-book/정렬/지형%20이동.js) (막혀도 몰입해서 끝까지 풀기)~~
 - [다시] ~~[배열 회전하기](challenge/golden-rabbit-book/시뮬레이션/배열%20회전하기.js) (공식)~~
 - [다시] ~~[롤케이크 자르기](challenge/golden-rabbit-book/시뮬레이션/롤케이크%20자르기.js) (호오..)~~
+- [다시] ~~[도둑질](challenge/golden-rabbit-book/동적계획법/도둑질.js) (어려움)~~
 
 ## 시간 복잡도, 시간 제한
 
