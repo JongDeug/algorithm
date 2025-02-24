@@ -96,7 +96,7 @@ const getCombinationsV2 = (arr, selectNumber) => {
 console.log(getCombinationsV2([1, 2, 3, 4], 3));
 ```
 
-![image](https://github.com/user-attachments/assets/71c43e9f-c46c-47ba-8e0c-0bd319b221cf)
+![image](https://github.com/user-attachments/assets/9164f508-5488-426c-90e0-f00423fc64d4)
 
 ```js
 /**
