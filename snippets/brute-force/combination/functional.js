@@ -19,10 +19,10 @@ const getCombinationsV1 = (arr, selectNumber) => {
         const attached = combinations.map(comb => [fixed, ...comb]);
 
         result.push(...attached);
-    })
+    });
 
     return result;
-}
+};
 console.log(getCombinationsV1([1, 2, 3, 4], 3));
 
 /**
@@ -40,10 +40,10 @@ const getCombinationsV2 = (arr, selectNumber) => {
 
         return getCombinationsV2(rest, selectNumber - 1)
             .map(comb => [fixed, ...comb]);
-    })
-}
+    });
+};
 console.log(getCombinationsV2([1, 2, 3, 4], 3));
-console.log(getCombinationsV2([1, 2, 3], 2));
+// console.log(getCombinationsV2([1, 2, 3], 2));
 
 /**
  * 중복 조합
@@ -61,7 +61,7 @@ const getCombinationsWithRepetition = (arr, selectNumber) => {
 
         return getCombinationsWithRepetition(rest, selectNumber - 1)
             .map(comb => [fixed, ...comb]);
-    })
-}
-console.log(getCombinationsWithRepetition([1, 2, 3, 4], 2));
+    });
+};
+console.log(getCombinationsWithRepetition([1, 2, 3, 4], 3));
 // console.log(getCombinationsWithRepetition([1, 2, 3], 2));
