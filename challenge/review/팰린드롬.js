@@ -1,4 +1,5 @@
-
+// [문제 이해하기]
+// 회문을 판단하시오
 
 function solution(str) {
     const raw = [...str].filter(v => 'a' <= v.toLowerCase() && v.toLowerCase() <= 'z');
